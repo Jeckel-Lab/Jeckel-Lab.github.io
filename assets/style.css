@@ -1,0 +1,224 @@
+/**
+CSS Units: https://www.w3schools.com/CSSref/css_units.asp
+Animation: https://www.w3schools.com/css/css3_animations.asp
+Icons:
+    - https://ionic.io/ionicons/v4
+    - https://fontawesome.com/icons/code?s=solid
+**/
+:root {
+    --page-width: 100ch;
+    --clr: #222327;
+    --global-line-height: 1.4em;
+
+    /*
+        Dracula theme
+        https://github.com/dracula/dracula-theme
+    */
+    --background-color: #282a36;
+    --current-line-color: #44475a;
+    --selection-color: #44475a;
+    --foreground-color: #f8f8f2;
+    --comment-color: #6272a4;
+    --cyan-color: #8be9fd;
+    --green-color: #50fa7b;
+    --orange-color: #ffb86c;
+    --pink-color: #ff79c6;
+    --purple-color: #bd93f9;
+    --red-color: #ff5555;
+    --yellow-color: #f1fa8c;
+
+    --success-color: var(--green-color);
+    --font-color: var(--foreground-color);
+    --link-color: var(--comment-color);
+    --border-color: var(--selection-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas, monospace;
+}
+body {
+    background-color: var(--background-color);
+    line-height: var(--global-line-height);
+    color: var(--font-color);
+}
+body>div.content {
+    max-width: var(--page-width);
+    margin: auto;
+}
+a {
+    font-weight: bold;
+    color: var(--link-color);
+    text-decoration-style: dotted;
+}
+
+
+/*
+    HTML 5 Elements:
+    https://www.w3docs.com/learn-html/html5-elements-reference.html
+ */
+header, main, footer {
+}
+header {
+    border-color: var(--border-color);
+    display: flex;
+    /*flex-direction: row;*/
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+}
+
+.card {
+    padding: calc(var(--global-line-height) * 0.5) 0.5ch;
+    margin: calc(var(--global-line-height) * 0.5) 0.5ch var(--global-line-height);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--card-color);
+    width: calc(100% - 1ch);
+    position: relative;
+}
+
+.card .card-title {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    /*left: 5ch;*/
+    left: 1.5ch;
+    top: calc(var(--global-line-height) * -0.5);
+    padding-inline-start: 1ch;
+    padding-inline-end: 1ch;
+    display: table;
+    background-color: var(--background-color);
+    color: var(--card-color);
+}
+.card .card-footer {
+    position: absolute;
+    bottom: calc(var(--global-line-height) * -0.5);
+    right: 1.5ch;
+    padding-inline-start: 1ch;
+    padding-inline-end: 1ch;
+    background-color: var(--background-color);
+    color: var(--card-color);
+}
+
+/*----- Navigation menu Start -----*/
+.terminal-menu {
+    width: 100%;
+}
+.terminal-menu ul {
+    display: flex;
+    float: right;
+}
+.terminal-menu ul li {
+    position: relative;
+    list-style: none;
+}
+.terminal-menu ul li a {
+    padding: 0 1ch;
+}
+.terminal-menu a::before, .terminal-menu a::after {
+    color: transparent;
+    font-weight: normal;
+    transition: all 0.2s;
+}
+.terminal-menu a:hover::before, .terminal-menu a:hover::after {
+    color: var(--success-color);
+}
+.terminal-menu a.active::before, .terminal-menu a.active::after {
+    color: var(--font-color);
+}
+.terminal-menu a::before {
+    content: "[";
+}
+.terminal-menu a::after {
+    content: "]";
+}
+/*----- Navigation menu End -----*/
+
+
+/*--- Terminal Prompt Start ---*/
+.terminal-prompt {
+    white-space: nowrap;
+}
+.terminal-prompt::before {
+    content: "$> ";
+    font-weight: bold;
+}
+.terminal-prompt::after {
+    content: "";
+    -webkit-animation: cursor .8s infinite;
+    animation: cursor .8s infinite;
+    background: var(--font-color);
+    border-radius: 0;
+    display: inline-block;
+    height: 1em;
+    margin-left: 0.2em;
+    width: 3px;
+    bottom: -2px;
+    position: relative;
+}
+@keyframes cursor {
+    from {background-color: var(--font-color);}
+    to {background-color: transparent;}
+}
+/*--- Terminal Prompt End ---*/
+
+/*--- Loader Spinner Start ---*/
+.spinner:before {
+    content: "-";
+    margin-right: 1ch;
+    animation: spinner 0.3s infinite;
+    animation-timing-function: linear;
+}
+@keyframes spinner {
+    0% { content: '-'; }
+    25% { content: '/'; }
+    50% { content: '|'; }
+    75% { content: '\\'; }
+}
+/*--- Loader spinner End ---*/
+
+main p {
+    margin: 0;
+    text-indent: 3ch;
+}
+main ul li {
+    list-style-type: '-';
+    margin-left: 1ch;
+    padding-left: 1ch;
+}
+
+.message {
+    background-color: var(--success-color);
+    color: var(--background-color);
+    padding: var(--global-line-height) 1ch;
+    margin-bottom: var(--global-line-height);
+}
+.message:before {
+    content: '[OK] ';
+    font-weight: bold;
+}
+
+form input[type=email] {
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    color: var(--form-color);
+    border: 0;
+    border-bottom: 1px solid var(--form-color);
+    font-size: 1em;
+    line-height: var(--global-line-height);
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding-bottom: 2px;
+    margin-bottom: -2px;
+}
+
+form input[type=email]:active, form input[type=email]:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    /*border: 1px solid var(--font-color);*/
+}
