@@ -14,10 +14,13 @@ Icons:
         Dracula theme
         https://github.com/dracula/dracula-theme
     */
-    --background-color: #282a36;
+    /* --background-color: #282a36; */
+    --background-color: #181920;
     --current-line-color: #44475a;
     --selection-color: #44475a;
-    --foreground-color: #f8f8f2;
+    /* --foreground-color: #f8f8f2; */
+    --title-color: #f8f8f2;
+    --foreground-color: #b4b4b4;
     --comment-color: #6272a4;
     --cyan-color: #8be9fd;
     --green-color: #50fa7b;
@@ -31,6 +34,10 @@ Icons:
     --font-color: var(--foreground-color);
     --link-color: var(--comment-color);
     --border-color: var(--selection-color);
+
+    --code-border-color: var(--selection-color);
+    --code-color: var(--cyan-color);
+    --code-background-color: rgba(0, 0, 0, 0.4);
 }
 
 * {
@@ -71,7 +78,7 @@ header a {
     text-decoration: none;
 }
 
-.card {
+.card, code.hljs {
     padding: calc(var(--global-line-height) * 0.5) 0.5ch;
     margin: calc(var(--global-line-height) * 0.5) 0.5ch var(--global-line-height);
     border-width: 1px;
@@ -103,6 +110,10 @@ header a {
     padding-inline-end: 1ch;
     background-color: var(--background-color);
     color: var(--card-color);
+}
+code.hljs {
+    border-color: var(--code-border-color);
+    background-color: var(--code-background-color);
 }
 
 /*----- Navigation menu Start -----*/
@@ -221,4 +232,51 @@ form input[type=email]:active, form input[type=email]:focus {
     outline: 0;
     -webkit-appearance: none;
     /*border: 1px solid var(--font-color);*/
+}
+
+section.post h2, section.post h3 {
+    font-size: 1em;
+    position: relative;
+    display: table-cell;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3ch;
+    overflow: hidden;
+    font-weight: 600;
+    color: var(--title-color);
+}
+section.post h2::after, section.post h3::after {
+    content: "====================================================================================================";
+    position: absolute;
+    bottom: 0.6em;
+    left: 0;
+    padding-left: 3ch;
+    display: block;
+}
+section.post h3 {
+    padding-left: 6ch;
+}
+section.post h3::after {
+    content: "____________________________________________________________________________________________________";
+    bottom: 1.4em;
+    padding-left: 6ch;
+}
+
+code.language-plaintext {
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    font-style: italic;
+}
+
+section.post {
+    padding-top: 1em;
+}
+section.post ol, section.post ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 6ch;
+}
+section.post ol li, section.post ul li {
+    margin-left: 0ch;
+    padding-left: 1ch;
 }

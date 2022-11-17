@@ -30,16 +30,21 @@
   </div>
 </header>
 -->
+{% if page.menu_item %}
+{% assign currentItem = page.menu_item %}
+{% elsif layout.menu_item %}
+{% assign currentItem = layout.menu_item %}
+{% endif %}
 <header class="card" style="--card-color: var(--border-color)">
   <div class="terminal-logo">
       <div class="logo terminal-prompt"><a href="/" class="no-style">Jeckel-Lab</a></div>
   </div>
   <nav class="terminal-menu">
       <ul>
-          <li><a href="/" class="menu-item active"><span>Home</span></a><meta property="position"></li>
-          <li><a href="/blog" property="item" typeof="WebPage" class="menu-item "><span property="name">Blog</span></a><meta property="position" content="1"></li>
-          <li><a href="/cv" property="item" typeof="WebPage" class="menu-item "><span property="name">CV</span></a><meta property="position" content="2"></li>
-          <li><a href="/contact" property="item" typeof="WebPage" class="menu-item "><span property="name">Contact</span></a><meta property="position" content="3"></li>
+          <li><a href="/" class="{%- if currentItem == 'home' -%}menu-item active{%- else -%}menu-item{%- endif -%}"><span>Home</span></a><meta property="position"></li>
+          <li><a href="/blog" property="item" typeof="WebPage" class="{%- if currentItem == 'blog' -%}menu-item active{%- else -%}menu-item{%- endif -%}"><span property="name">Blog</span></a><meta property="position" content="1"></li>
+          <li><a href="/cv" property="item" typeof="WebPage" class="{%- if currentItem == 'cv' -%}menu-item active{%- else -%}menu-item{%- endif -%}"><span property="name">CV</span></a><meta property="position" content="2"></li>
+          <li><a href="/contact" property="item" typeof="WebPage" class="{%- if currentItem == 'contact' -%}menu-item active{%- else -%}menu-item{%- endif -%}"><span property="name">Contact</span></a><meta property="position" content="3"></li>
       </ul>
   </nav>
 </header>

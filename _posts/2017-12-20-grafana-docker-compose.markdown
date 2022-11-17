@@ -1,7 +1,8 @@
 ---
-layout: jeckel-lab
+layout: post
 title: Pré-configurer Grafana avec Docker-Compose
 tags: [docker-compose, docker, grafana]
+has_code: true
 ---
 [Grafana](https://grafana.com/) est un excellent outil permettant de créer facilement des dashboards de monitoring en se branchant sur différentes sources de données. Ce projet est [open-source](https://github.com/grafana/grafana) et disponible sous la forme d’un [conteneur docker](https://hub.docker.com/r/grafana/grafana/), ce qui lui permet d’être intégré directement dans d’autres projets de plus grande envergure. C’est par exemple ce que j’ai fait avec [Omeglast](https://www.jeckel-lab.fr/omeglast/).  
 Pour facilité son inclusion dans un projet, il est nécessaire d’avoir une solution pour initialiser Grafana directement avec une configuration propre à notre projet (accès aux sources de données, dashboards initialisés, etc.)  

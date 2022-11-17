@@ -2,9 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: jeckel-lab
+layout: post
 title: 8 Conseils pour faire votre conteneur docker NodeJs de production
 tags: [nodejs, docker]
+has_code: true
 ---
 Entre le développement et la production, on oublie trop souvent qu’il y a un gap à franchir. L’application sur laquelle on développe, même si l’on développe directement dans un conteneur docker ne peut être livrée telle quelle en production. Voici donc quelques conseils pour réussir un conteneur « production ready » en NodeJS.  
 
@@ -13,7 +14,7 @@ Entre le développement et la production, on oublie trop souvent qu’il y a un 
 C’est une mauvaise pratique hélas assez courante en développement, avoir une variable d’environnement ou de configuration « `Environnement` » et tester ensuite dans le code si `Environnement = "PROD"` alors…  
 Il faut au contraire multiplier les options de configuration pour ajuster chacun des cas en fonction de l’environnement. Cela vous permet d’une part d’avoir un code plus proche de la production et d’autre part de pouvoir activer / désactiver les fonctionnalités. Vous pouvez aussi multiplier les environnements à l’infini (pas de liste fini d’environnement, mais une liste infinie de combinaison de configuration possible).
 
-### 2. Injecter des variables d’environnement pour rendre la configuration plus dynamique
+## 2. Injecter des variables d’environnement pour rendre la configuration plus dynamique
 
 Ok, maintenant que vous avez pleins d’options de configurations, il s’agit maintenant de pouvoir ajuster ces options sans avoir à reconstruire votre image à chaque fois. Docker permet d’injecter des variables d’environnement au moment d’instancier un nouveau conteneur depuis une image. Cela vous permet donc d’ajuster la configuration par rapport à chacun de vos besoins.  
 Pour ma part, j’utilise dans chacun de mes projets un fichier `settings.js` qui ressemble à ça :
@@ -41,31 +42,36 @@ Pour chaque option de configuration, il y a une variable d’environnement corre
 
 ## 3. Baser l’image sur Alpine
 
-Lorsque l’on construit un image Docker il est préférable de ne pas s’encombrer de choses inutiles qui pourraient alourdir ou ralentir le conteneur, voir y insérer des failles de sécurité.  
+Lorsque l’on construit un image Docker il est préférable de ne pas s’encombrer de choses inutiles qui pourraient alourdir ou ralentir le conteneur, voir y insérer des failles de sécurité.
+
 Dans cette optique, je vous conseille, **dans la mesure du possible**, de baser votre image sur Alpine (_une version de linux extrêmement légère et réduite au minimum_) plutôt que sur Debian, cela permet d’éviter d’embarquer des applications/librairies inutiles et d’obtenir une image beaucoup inutilement alourdie.
 
 ## 4. Babel, Webpack, Grunt… importer le code final et non le code source
 
 Si vous utilisez une librairie pour compiler/transpiler/packager votre code, il faut alors prévoir une étape de **build** du code lors de la création de l’image et ensuite supprimer le code source pour ne garder que le code de sortie du build.  
+
 De même, si vous utilisez des watchers qui recompile votre code à chaque modification (de type `nodemon`)**,** ceux-ci doivent être exclu de votre image. En effet ce type d’outils n’a d’utilité qu’en développement.
 
-### 5. Utiliser le fichier .dockerignore
+## 5. Utiliser le fichier .dockerignore
 
 Lors de la création de l’image, le fichier `.dockerignore` permet d’exclure automatiquement des fichiers des images Docker, c’est à dire que lors de l’utilisation d’instruction `ADD` ou `COPY` dans le `Dockerfile`, les fichiers spécifiés dans le fichier `.dockerignore` seront exclus de la copie.  
+
 On peut déjà y mettre systématiquement le dossier `node_modules` ainsi que tous les fichiers de tests, linter, etc..
 
-### 6. Supprimer les tests et les sources
+## 6. Supprimer les tests et les sources
 
 Si vous utiliser une librairie pour packager votre application, supprimer les fichiers source une fois le code compilé, ça allègera votre image en évitant encore d’embarquer du code inutile.  
+
 Idem pour les fichiers de tests, surtout quand dans de nombreux cas (celons comment sont fait vos tests), on ne souhaite pas du tout que ceux-ci s’exécutent en production.
 
-### 7. Supprimer les packages systèmes obsolètes
+## 7. Supprimer les packages systèmes obsolètes
 
 Certaines librairies nodejs nécessitent d’installer des packages systèmes supplémentaires, dans certains cas, ces packages ne servent qu’à l’installation (compilation) de la librairie, ou au build de votre application. Vérifiez si vous en avez encore besoin ou pas une fois votre application fonctionnelle. S’ils ne sont plus requis, on supprime.
 
-### 8. Pas d’image pour le front (React / Angular / Etc.)
+## 8. Pas d’image pour le front (React / Angular / Etc.)
 
 Enfin, ça peut sembler une évidence, mais même si en développement, il est souvent pratique d’avoir un nodejs qui tourne en continue avec un watcher qui va mettre à jour le script en front à chaque update du code… En production, vous ne devriez avoir que des fichiers statiques. Et dans ce cas, vous n’avez pas besoin de Node du tout pour les servir au navigateur.  
+
 Préférer une application plus adaptée pour servir des fichiers statiques comme NGinx ou Apache, ce sera plus performant, et bien plus adapté.
 
 ### Conclusion et bonus
