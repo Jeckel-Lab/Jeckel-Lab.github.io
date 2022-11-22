@@ -2,10 +2,23 @@
 layout: default
 menu_item: blog
 ---
+{% capture currentDate %}
+{{ 'now' | date: '%s'}}
+{% endcapture %}
+{% assign currentYear = site.time | date: "%Y" | to_integer | minus: 2 %}
+{% assign postYear = page.date | date: "%Y" | to_integer %}
 <div class="card" style="--card-color: var(--purple-color)">
   <h1 class="card-title">{{ page.title }}</h1>
-  <p>{{ page.date }}</p>
+  {%- if currentYear > postYear -%}
+    <div class="card warning" style="">
+      <h1 class="card-title">Article ancien</h1>
+      <p><strong>Attention :</strong> cet article a été rédigé il y a plus de 2 ans, certaines informations peuvent être obsolètes.</p>
+    </div>
+  {%- endif -%}
+{% comment %}
+  <p>{{ page.date }} - {{ site.time }} - {{ currentDate }}</p>
   <p>{%- for tag in page.tags -%}[{{ tag }}] {%- endfor -%}</p>
+{% endcomment %}
   <section class="post">
     {{ content }}
   </section>

@@ -116,6 +116,24 @@ code.hljs {
     background-color: var(--code-background-color);
 }
 
+.card .card {
+    margin-top: 2em;
+    margin-left: 1.5ch;
+    margin-right: 1.5ch;
+    width: calc(100% - 3ch);
+}
+.card.warning {
+    --card-color: var(--orange-color)
+}
+.card.warning .card-title:before {
+    content: '/!\\ '
+}
+.card.warning .card-title:after {
+    content: ' /!\\';
+    position: relative;
+}
+
+
 /*----- Navigation menu Start -----*/
 .terminal-menu {
     width: 100%;
