@@ -34,6 +34,19 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
 
+
+collections:
+  tags:
+    output: true
+    permalink: tag/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: tags
+    values:
+      layout: tag
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

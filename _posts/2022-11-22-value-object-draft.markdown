@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Value object
-tags: [nginx, nodejs]
+tags: [value object]
 has_code: true
 ---
 

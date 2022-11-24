@@ -1,0 +1,37 @@
+---
+layout: default
+menu_item: blog
+---
+{% assign number_of_posts = 0 %}
+{% for post in site.posts %}
+    {% if post.tags contains page.name or page.name == post.tags %}
+        {% assign number_of_posts = number_of_posts | plus: 1 %}
+    {% endif %}
+{% endfor %}
+{% comment %}
+    {% if number_of_posts == 0 %}No posts{% elsif number_of_posts == 1 %}1 post{% else %}{{ number_of_posts }} posts{% endif %}
+{% endcomment %}
+
+{%- if number_of_posts > 0 -%}
+<div class="card" style="--card-color: var(--purple-color)">
+    <h2 class="card-title">
+        {% if number_of_posts == 1 %}
+            Article avec le tag "{{ page.name }}"
+        {% else %}
+            {{ number_of_posts }} articles avec le tag "{{ page.name }}"
+        {% endif %}
+    </h2>
+    <ul>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- for post in site.posts -%}
+        {% if post.tags contains page.name or page.name == post.tags %}
+            <li>{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+        {% endif %}
+        {%- endfor -%}
+    </ul>
+</div>
+{%- endif -%}
+
+{% comment %}
+{{ content }}
+{% endcomment %}
