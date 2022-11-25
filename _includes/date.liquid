@@ -1,0 +1,8 @@
+{% if include.format == "long" %}
+    {{ include.date | date: "%-d" }}
+    {% assign m = include.date | date: "%-m" | minus: 1 %}
+    {{ site.data.fr.months[m] }}
+    {{ include.date | date: "%Y" }}
+{% else %}
+    {{ include.date | date: '%d/%m/%Y' }}
+{% endif %}

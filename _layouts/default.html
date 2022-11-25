@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {%- include head.html -%}
-
   <body>
-
     <div class="content">
       {%- include header.html -%}
       <main>
         {{ content }}
       </main>
     </div>
-
-    {% comment %}
     {%- include footer.html -%}
-    {% endcomment %}
-
   </body>
-
 </html>

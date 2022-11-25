@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /blog
+menu_item: blog
+title: Articles du blog
+---
+{%- if site.posts.size > 0 -%}
+<div class="card" style="--card-color: var(--purple-color)">
+    <h1 class="card-title">Derniers articles</h1>
+    {% include post_list.liquid posts=site.posts %}
+    <div class="card-footer">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></div>
+</div>
+{%- endif -%}

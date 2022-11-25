@@ -298,3 +298,13 @@ section.post ol li, section.post ul li {
     margin-left: 0ch;
     padding-left: 1ch;
 }
+
+.post-meta {
+    text-align: right;
+}
+.post-tag:before {
+    content: '[';
+}
+.post-tag:after {
+    content: ']';
+}

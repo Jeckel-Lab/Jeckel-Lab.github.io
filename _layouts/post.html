@@ -2,6 +2,7 @@
 layout: default
 menu_item: blog
 ---
+
 {% capture currentDate %}
 {{ 'now' | date: '%s'}}
 {% endcapture %}
@@ -11,22 +12,24 @@ menu_item: blog
   <h1 class="card-title">{{ page.title }}</h1>
   {%- if currentYear > postYear -%}
     <div class="card warning" style="">
-      <h1 class="card-title">Article ancien</h1>
+      <div class="card-title">Article ancien</div>
       <p><strong>Attention :</strong> cet article a été rédigé il y a plus de 2 ans, certaines informations peuvent être obsolètes.</p>
     </div>
   {%- endif -%}
 
-  <p>{% for tag in site.tags %}
-    {% if page.tags contains tag.name or tag.name == page.tags %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ tag.url }}">{{ tag.name }}</a>
-    {% endif %}
-    {% endfor %}
-  </p>
-{% comment %}
-  <p>{{ page.date }} - {{ site.time }} - {{ currentDate }}</p>
-  <p>{%- for tag in page.tags -%}[{{ tag }}] {%- endfor -%}</p>
-{% endcomment %}
   <section class="post">
     {{ content }}
   </section>
+  <div class="card post-meta" style="--card-color: var(--green-color)">
+    <div class="card-title">Metas...</div>
+    <p class="">Publié le: {% include date.liquid date=page.date format="long" %}</p>
+    <p class="post-tags">Tags: {% for tag in site.tags %}
+      {% if page.tags contains tag.name or tag.name == page.tags %}
+      <span class="post-tag"><a href="{{ site.url }}{{ site.baseurl }}{{ tag.url }}">{{ tag.name }}</a></span>
+      {% endif %}
+      {% endfor %}
+    </p>
+    {% include next_prev_post.liquid posts=site.posts %}
+  </div>
+
 </div>

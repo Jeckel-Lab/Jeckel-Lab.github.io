@@ -1,0 +1,26 @@
+{% for post in include.posts %}
+    {% if post.url == page.url %}
+        {%- assign currIndex = forloop.index0 -%}
+        {%- assign prevIndex = currIndex | plus: 1 -%}
+        {%- assign nextIndex = currIndex | minus: 1 -%}
+        {%- assign articleIndexLength = forloop.length | minus: 1 -%}
+        {%- if currIndex == articleIndexLength -%}
+            {%- assign next_post = include.posts[nextIndex] -%}
+        {%- endif -%}
+
+        {%- if currIndex < articleIndexLength and currIndex != 0 -%}
+            {%- assign prev_post = include.posts[prevIndex] -%}
+            {%- assign next_post = include.posts[nextIndex] -%}
+        {%- endif -%}
+
+        {%- if currIndex == 0 -%}
+            {%- assign prev_post = include.posts[prevIndex] -%}
+        {%- endif -%}
+    {% endif %}
+{% endfor %}
+{% if prev_post %}
+<p>Prev: <a href="{{ prev_post.url }}">{{ prev_post.title }}</a></p>
+{% endif %}
+{% if next_post %}
+<p>Next: <a href="{{ next_post.url }}">{{ next_post.title }}</a></p>
+{% endif %}
