@@ -1,3 +1,4 @@
+{% comment %}
 {% for post in include.posts %}
     {% if post.url == page.url %}
         {%- assign currIndex = forloop.index0 -%}
@@ -7,20 +8,26 @@
         {%- if currIndex == articleIndexLength -%}
             {%- assign next_post = include.posts[nextIndex] -%}
         {%- endif -%}
-
         {%- if currIndex < articleIndexLength and currIndex != 0 -%}
             {%- assign prev_post = include.posts[prevIndex] -%}
             {%- assign next_post = include.posts[nextIndex] -%}
         {%- endif -%}
-
         {%- if currIndex == 0 -%}
             {%- assign prev_post = include.posts[prevIndex] -%}
         {%- endif -%}
     {% endif %}
 {% endfor %}
 {% if prev_post %}
-<p>Prev: <a href="{{ prev_post.url }}">{{ prev_post.title }}</a></p>
+<p>Article précédent&nbsp;: <a href="{{ prev_post.url }}">{{ prev_post.title }}</a></p>
 {% endif %}
 {% if next_post %}
-<p>Next: <a href="{{ next_post.url }}">{{ next_post.title }}</a></p>
+<p>Article suivant&nbsp;: <a href="{{ next_post.url }}">{{ next_post.title }}</a></p>
 {% endif %}
+{% endcomment %}
+{% if page.previous %}
+<p>Article précédent&nbsp;: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+{% endif %}
+{% if page.next %}
+<p>Article suivant&nbsp;: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
+{% endif %}
+

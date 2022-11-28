@@ -129,7 +129,7 @@ CMD npm start
 
 -   Le fichier `.dockeringore` :
 
-```c
+```config
 # Ignore all .* files except the ones required for build
 
 .*

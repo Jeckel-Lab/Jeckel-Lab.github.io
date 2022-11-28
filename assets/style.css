@@ -280,10 +280,14 @@ section.post h3::after {
     padding-left: 6ch;
 }
 
+/* Code */
 code.language-plaintext {
     background-color: var(--code-background-color);
     color: var(--code-color);
     font-style: italic;
+}
+pre code.hljs {
+    tab-size: 4;
 }
 
 section.post {
@@ -307,4 +311,24 @@ section.post ol li, section.post ul li {
 }
 .post-tag:after {
     content: ']';
+}
+.post-author {
+    display: none;
+}
+
+.footer {
+
+}
+.footer ul {
+    display: flex;
+    float: right;
+}
+.footer ul li {
+    position: relative;
+    list-style: none;
+}
+.footer svg {
+    height: 1em;
+    width: 2ch;
+    /*display: none; */
 }

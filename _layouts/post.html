@@ -8,8 +8,11 @@ menu_item: blog
 {% endcapture %}
 {% assign currentYear = site.time | date: "%Y" | to_integer | minus: 2 %}
 {% assign postYear = page.date | date: "%Y" | to_integer %}
-<div class="card" style="--card-color: var(--purple-color)">
-  <h1 class="card-title">{{ page.title }}</h1>
+<article class="card" style="--card-color: var(--purple-color)" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 class="card-title" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+
   {%- if currentYear > postYear -%}
     <div class="card warning" style="">
       <div class="card-title">Article ancien</div>
@@ -17,19 +20,21 @@ menu_item: blog
     </div>
   {%- endif -%}
 
-  <section class="post">
+  <section class="post" itemprop="articleBody">
     {{ content }}
   </section>
-  <div class="card post-meta" style="--card-color: var(--green-color)">
-    <div class="card-title">Metas...</div>
-    <p class="">Publié le: {% include date.liquid date=page.date format="long" %}</p>
-    <p class="post-tags">Tags: {% for tag in site.tags %}
-      {% if page.tags contains tag.name or tag.name == page.tags %}
-      <span class="post-tag"><a href="{{ site.url }}{{ site.baseurl }}{{ tag.url }}">{{ tag.name }}</a></span>
-      {% endif %}
-      {% endfor %}
-    </p>
-    {% include next_prev_post.liquid posts=site.posts %}
-  </div>
 
-</div>
+  <footer class="card post-meta" style="--card-color: var(--green-color)">
+    <div class="card-title">Metas...</div>
+    <p class="">Publié le&nbsp;:
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% include date.liquid date=page.date format="long" %}
+      </time>
+    </p>
+    {% include post_tags.liquid tags=page.tags %}
+    {% include post_next_prev.liquid posts=site.posts %}
+    {%- if site.author -%}
+      <p class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></p>
+    {%- endif -%}
+  </footer>
+</article>

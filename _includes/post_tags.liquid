@@ -1,0 +1,21 @@
+{% if site.show_drafts %}
+    <p class="post-tags">Tags&nbsp;:
+    {% for tag in include.tags %}
+        {% assign tagFound=false %}
+        {% for siteTag in site.tags %}
+            {% if siteTag.name == tag %}{% assign tagFound=siteTag %}{% endif %}
+        {% endfor %}
+        {% if tagFound != false %}
+            <span class="post-tag"><a href="{{ site.url }}{{ site.baseurl }}{{ tagFound.url }}">{{ tagFound.name }}</a></span>
+        {% else %}
+            <span class="post-tag">{{ tag }}</span>
+        {% endif %}
+    {% endfor %}
+{% else %}
+    <p class="post-tags">Tags&nbsp;: {% for tag in site.tags %}
+            {% if page.tags contains tag.name or tag.name == page.tags %}
+                <span class="post-tag"><a href="{{ site.url }}{{ site.baseurl }}{{ tag.url }}">{{ tag.name }}</a></span>
+            {% endif %}
+        {% endfor %}
+    </p>
+{% endif %}
