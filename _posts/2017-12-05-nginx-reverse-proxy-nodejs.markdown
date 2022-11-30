@@ -3,6 +3,7 @@ layout: post
 title: Configurer NGinx en "reverse-proxy" devant NodeJS
 tags: [nginx, nodejs]
 has_code: true
+category: devops
 ---
 Dans de nombreux projets en NodeJS, on utilise un server web (comme express par exemple) qui permet de servir les pages html/javascript/css etc… aussi bien qu’un Apache ou un NGinx.  
 Aussi bien ? pas tout à fait, en réalité NodeJS sera très bien pour tout ce qui est dynamique, mais ne sera jamais aussi performant pour distribuer des fichiers statiques. D’autre part, de nombreuses fonctionnalités disponible nativement sur un serveur web dédié ne seront pas a re-développer sur une application NodeJS.  

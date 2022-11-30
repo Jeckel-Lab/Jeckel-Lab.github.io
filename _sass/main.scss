@@ -134,39 +134,8 @@ code.hljs {
 }
 
 
-/*----- Navigation menu Start -----*/
-.terminal-menu {
-    width: 100%;
-}
-.terminal-menu ul {
-    display: flex;
-    float: right;
-}
-.terminal-menu ul li {
-    position: relative;
-    list-style: none;
-}
-.terminal-menu ul li a {
-    padding: 0 1ch;
-}
-.terminal-menu a::before, .terminal-menu a::after {
-    color: transparent;
-    font-weight: normal;
-    transition: all 0.2s;
-}
-.terminal-menu a:hover::before, .terminal-menu a:hover::after {
-    color: var(--success-color);
-}
-.terminal-menu a.active::before, .terminal-menu a.active::after {
-    color: var(--font-color);
-}
-.terminal-menu a::before {
-    content: "[";
-}
-.terminal-menu a::after {
-    content: "]";
-}
-/*----- Navigation menu End -----*/
+@import "header";
+@import "footer";
 
 
 /*--- Terminal Prompt Start ---*/
@@ -316,19 +285,3 @@ section.post ol li, section.post ul li {
     display: none;
 }
 
-.footer {
-
-}
-.footer ul {
-    display: flex;
-    float: right;
-}
-.footer ul li {
-    position: relative;
-    list-style: none;
-}
-.footer svg {
-    height: 1em;
-    width: 2ch;
-    /*display: none; */
-}

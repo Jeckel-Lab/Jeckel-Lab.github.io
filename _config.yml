@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeckel-lab.github.io"
 twitter_username: jeckel4
 github_username:  jeckel
+rss: RSS
 highlighter: none
 author: Julien Mercier-Rojas
 lang: fr
@@ -47,6 +48,9 @@ defaults:
       type: tags
     values:
       layout: tag
+
+sass:
+  style: compressed
 
 exclude:
   - Makefile

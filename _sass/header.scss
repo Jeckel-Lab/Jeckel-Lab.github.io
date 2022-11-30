@@ -1,0 +1,36 @@
+/*----- Navigation menu Start -----*/
+.terminal-menu {
+  width: 100%;
+
+  ul {
+    display: flex;
+    float: right;
+    li {
+      position: relative;
+      list-style: none;
+      a {
+        padding: 0 1ch;
+      }
+    }
+  }
+
+  a {
+    ::before, ::after {
+      color: transparent;
+      font-weight: normal;
+      transition: all 0.2s;
+    }
+    :hover::before, :hover::after {
+      color: var(--success-color);
+    }
+    .active::before, .active::after {
+      color: var(--font-color);
+    }
+    ::before {
+      content: "[";
+    }
+    ::after {
+      content: "]";
+    }
+  }
+}
