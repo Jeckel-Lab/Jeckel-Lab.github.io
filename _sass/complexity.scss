@@ -1,0 +1,42 @@
+.complexity-bar {
+  @include box(var(--border-color));
+  width: 29ch;
+  float: right;
+  margin-right: 1.5ch;
+
+  .complexity-filled {
+    margin-left: 1ch;
+  }
+  &.complexity-1 .complexity-filled {
+    width: 4ch;
+    background-color: var(--green-color);
+  }
+  &.complexity-2 .complexity-filled {
+    width: 8ch;
+    background-color: var(--cyan-color);
+  }
+  &.complexity-3 .complexity-filled {
+    width: 12ch;
+    background-color: var(--purple-color);
+  }
+  &.complexity-4 .complexity-filled {
+    width: 16ch;
+    background-color: var(--yellow-color);
+  }
+  &.complexity-5 .complexity-filled {
+    width: 20ch;
+    background-color: var(--orange-color);
+  }
+
+  .complexity-label {
+    padding-left: 1ch;
+    margin-right: 1ch;
+    float: right;
+  }
+  .complexity-title {
+    //display: block;
+    //padding-left: 1ch;
+    //color: var(--green-color);
+    @include box-title(var(--green-color));
+  }
+}

@@ -1,0 +1,23 @@
+@mixin box($color: var(--border-color)) {
+  padding: calc(var(--global-line-height) * 0.5) 0.5ch;
+  margin: calc(var(--global-line-height) * 0.5) 0.5ch var(--global-line-height);
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color;
+  width: calc(100% - 1ch);
+  position: relative;
+}
+
+@mixin box-title($color: var(--border-color), $background-color: var(--background-color)) {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 1.5ch;
+  top: calc(var(--global-line-height) * -0.5);
+  padding-inline-start: 1ch;
+  padding-inline-end: 1ch;
+  display: table;
+  background-color: $background-color;
+  color: $color;
+}

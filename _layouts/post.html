@@ -20,6 +20,14 @@ menu_item: blog
     </div>
   {%- endif -%}
 
+  {% if page.complexity %}
+  <div class="complexity-bar complexity-{{ page.complexity }}">
+    <span class="complexity-title">Complexité&nbsp;: </span>
+    <span class="complexity-label">{{ page.complexity }}/5</span>
+    <div class="complexity-filled">&nbsp;</div>
+  </div>
+  {% endif %}
+
   <section class="post" itemprop="articleBody">
     {{ content }}
   </section>

@@ -3,13 +3,15 @@ layout: post
 title: Lire la saisie utilisateur sur un terminal en PHP
 tags: [php, console, terminal, cli]
 has_code: true
+category: php
+complexity: 2
 ---
 Dans de nombreux languages, demander à l’utilisateur, pendant l’execution du programme de saisir des informations est chose aisée. Le PHP étant un langage de script initialement développer exclusivement pour un usage Web, il n’est pas prévu de commande permettant de mettre en pause le programme le temps que l’utilisateur fournisse l’information qui nous manques.  
 Heureusement, si cette fonction n’existe pas, PHP fournis tous les outils pour le faire.
 
 La première chose à savoir c’est que PHP fourni des "ressources" correspondant aux entrées et sorties du système linux :
 
--   `php://stdin` correspondant à l’entrée standard
+-   `php://stdin` correspondant à l’entré[2017-12-20-grafana-docker-compose.markdown](2017-12-20-grafana-docker-compose.markdown)e standard
 -   `php://stdout` correspondant à la sortie standard
 -   `php://stderr` correspondant à la sortie d’erreur
 

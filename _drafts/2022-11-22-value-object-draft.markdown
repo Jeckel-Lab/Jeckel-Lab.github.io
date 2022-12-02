@@ -3,6 +3,7 @@ layout: post
 title: Value object en PHP
 tags: [value object, ddd, php]
 has_code: true
+complexity: 4
 ---
 
 Les dernières versions de php (8.0, 8.1 et maintenant 8.2) ont apporté pas mal d'amélioration qui nous permettent de faire des Values Object de plus simplement et plus pertinent.
@@ -16,7 +17,7 @@ Deux évolutions en particulier vont nous être utile :
 
 Pour commencer, rappelons rapidement qu'est-ce qu'un Value Object, et à quoi cela va nous servir.
 
-> @Todo : trouver une définition un peu officielle... Blue Book Arthur C Martin ?
+> @Todo : trouver une définit[2017-12-14-portainer-nginx-docker-compose.markdown](..%2F_posts%2F2017-12-14-portainer-nginx-docker-compose.markdown)ion un peu officielle... Blue Book Arthur C Martin ?
 
 - final
 - constructeur privé ==> privilégier les méthodes factory

@@ -3,6 +3,8 @@ layout: post
 title: Variables d'environnements et Nginx avec Docker
 tags: [docker, nginx, env]
 has_code: true
+category: devops
+complexity: 3
 ---
 Il existe une image docker Nginx officielle pour docker que l’on peut trouver sur [le docker hub](https://hub.docker.com/_/nginx/). C’est cool. Mais l’un des besoins courant avec docker est de pouvoir adapter légèrement la configuration de l’image par rapport à son environnement d’exécution (comment dialoguer avec les conteneurs voisins par exemple) en injectant des variables d’environnement.  
 Mais voilà, pour des raisons de performances (et aussi un peu de sécurité), les variables d’environnement ne sont pas accessible dans les fichiers de configurations nginx.

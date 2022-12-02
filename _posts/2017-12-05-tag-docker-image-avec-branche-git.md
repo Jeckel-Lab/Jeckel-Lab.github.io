@@ -3,6 +3,8 @@ layout: post
 title: Tagger une image docker avec le nom de la branche git
 tags: [docker, git]
 has_code: true
+category: devops
+complexity: 1
 ---
 Un petit tips en passant, il est souvent bien utile de pouvoir utiliser le nom de la branche git en cours pour builder une image docker.  
 Personnellement, je l’utilise dans deux cas :

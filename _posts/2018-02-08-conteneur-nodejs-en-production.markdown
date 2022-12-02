@@ -3,6 +3,8 @@ layout: post
 title: 8 Conseils pour faire votre conteneur docker NodeJs de production
 tags: [nodejs, docker]
 has_code: true
+category: devops
+complexity: 1
 ---
 Entre le développement et la production, on oublie trop souvent qu’il y a un gap à franchir. L’application sur laquelle on développe, même si l’on développe directement dans un conteneur docker ne peut être livrée telle quelle en production. Voici donc quelques conseils pour réussir un conteneur « production ready » en NodeJS.  
 
@@ -85,7 +87,7 @@ En **bonus** donc, Je vous partage un sample `Dockerfile` (et son fichier `
 
 -   Le fichier `Dockerfile` à adapter :
 
-```dockerfile
+```
 ###############################################################################
 # Step 1 : Builder image
 #
@@ -129,7 +131,7 @@ CMD npm start
 
 -   Le fichier `.dockeringore` :
 
-```config
+```
 # Ignore all .* files except the ones required for build
 
 .*

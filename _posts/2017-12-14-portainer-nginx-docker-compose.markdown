@@ -3,8 +3,10 @@ layout: post
 title: Portainer, Nginx et docker-compose
 tags: [portainer, docker, nginx, docker-compose]
 has_code: true
+category: devops
+complexity: 2
 ---
-[Dans un précédent article](https://www.jeckel-lab.fr/2017/12/installation-rapide-de-portainer/), je vous avais présenté une installation rapide de [Portainer](https://www.portainer.io/) en passant uniquement par docker. Cette installation est idéale en développement, mais lorsque l’on a besoin d’aller un peu plus loin (sur un serveur de test par exemple) on peut vouloir rajouter un minimum de sécurité : restreindre à certaines IP, restreindre à un domaine particulier, etc.  
+Lorsque l’on a besoin d’aller un peu plus loin (sur un serveur de test par exemple) on peut vouloir rajouter un minimum de sécurité : restreindre à certaines IP, restreindre à un domaine particulier, etc.  
 C’est que je vais vous montrer ici en ajoutant un serveur NGinx en front avec docker-compose.  
   
 Tout d’abord, nous allons devoir transcrire ce que nous avions fait dans le précédent article sous la forme d’un fichier de configuration `docker-compose.yml` :
