@@ -27,7 +27,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeckel-lab.github.io"
 twitter_username: jeckel4
 github_username:  jeckel
+linkedin_username: jeckel
 rss: RSS
+mastodon:
+  - username: jeckel
+    instance: phpc.social
+
 highlighter: none
 author: Julien Mercier-Rojas
 lang: fr

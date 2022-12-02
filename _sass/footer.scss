@@ -1,18 +1,18 @@
 .footer {
-  ul {
-    display: flex;
-    float: right;
-    li {
-      position: relative;
-      list-style: none;
-      a {
-        text-decoration: none;
-      }
+  .social-item {
+    a {
+      @include link-bracket;
+      text-decoration: none;
     }
   }
   svg {
     height: 1em;
     width: 2ch;
-    fill: var(--green-color);
+    fill: var(--color-social-icons);
+    transition: all 0.2s;
+    padding-top: 0.1em;
+  }
+  a:hover svg {
+    fill: var(--color-link-decoration-hover);
   }
 }

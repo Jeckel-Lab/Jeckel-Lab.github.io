@@ -21,3 +21,23 @@
   background-color: $background-color;
   color: $color;
 }
+
+@mixin link-bracket {
+  ::before, ::after {
+    color: transparent;
+    font-weight: normal;
+    transition: all 0.2s;
+  }
+  :hover::before, :hover::after {
+    color: var(--color-link-decoration-hover);
+  }
+  .active::before, .active::after {
+    color: var(--font-color);
+  }
+  ::before {
+    content: "[";
+  }
+  ::after {
+    content: "]";
+  }
+}

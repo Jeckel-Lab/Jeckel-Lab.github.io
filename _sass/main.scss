@@ -38,6 +38,8 @@ Icons:
     --code-border-color: var(--selection-color);
     --code-color: var(--cyan-color);
     --code-background-color: rgba(0, 0, 0, 0.4);
+    --color-social-icons: var(--selection-color);
+    --color-link-decoration-hover: var(--green-color);
 }
 
 @import "mixin";
