@@ -1,0 +1,51 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+menu_item: cv
+---
+<div class="card">
+    <h2 class="card-title">Compétences</h2>
+    <div class="card" style="--card-color: var(--comment-color); width: 38ch;">
+        <h3 class="card-title">Compétences techniques</h3>
+        {% for competence in site.data.cv.competences %}
+        <div class="competence" style="--competence-color: var(--comment-color); --size: {{ competence.level }}ch">
+            <span class="competence-name">{{ competence.label }}</span>
+            <div class="competence-bar">
+                <span></span>
+                <span class="competence-label">{{ competence.level }}/10</span>
+                <span class="competence-filled">&nbsp;</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="card">
+    <h2 class="card-title">Missions freelance (depuis 2018)</h2>
+
+    {% for mission in site.data.cv.missions_freelance %}
+    <div class="card" style="--card-color: var(--comment-color)">
+        <h3 class="card-title">{{ mission.client}}</h3>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="card">
+    <h2 class="card-title">Formations</h2>
+    <ul>
+        <li>MIAGe Sorbonne</li>
+        <li>Licence Informatique (Université de Versailles/St Quentin)</li>
+        <li>DUT Informatique (Velizy)</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2 class="card-title">Autres activités</h2>
+    <ul>
+        <li>Bricolage</li>
+        <li>Musique</li>
+        <li>Hackerspace <a href="https://www.tmplab.org/">/tmp/lab</a></li>
+        <li>Electronique connecté: IOT, Installation artistique lumineuse, etc.</li>
+    </ul>
+</div>

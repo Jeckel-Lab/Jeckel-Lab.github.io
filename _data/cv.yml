@@ -1,0 +1,19 @@
+competences:
+  - { label: PHP, level: 9 }
+  - { label: MySQL, level: 7 }
+  - { label: Docker, level: 8 }
+  - { label: Redis, level: 5 }
+  - { label: Symfony, level: 6 }
+  - { label: NodeJS, level: 4 }
+  - { label: GoLang, level: 3 }
+  - { label: C/C++, level: 3 }
+  - { label: Ansible, level: 7 }
+
+missions_freelance:
+  - client: Lamy-Liaisons (ex Wolters Kluwer)
+  - client: WeNow
+  - client: Epitech
+  - client: Fundshop
+  - client: Digital Value
+  - client: BAP / Bureau à Partager
+

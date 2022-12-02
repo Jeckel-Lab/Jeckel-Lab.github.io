@@ -1,0 +1,40 @@
+.competence {
+  padding-left: 1ch;
+}
+.competence-bar {
+  width: 12ch;
+  float: right;
+  margin-right: 1.5ch;
+  position: relative;
+
+  &::before {
+    content: '[';
+  }
+  span:first-child::after {
+    position: absolute;
+    bottom: 0;
+    padding-left: 1ch;
+    display: block;
+    content: '----------';
+  }
+
+  .competence-filled {
+    position: absolute;
+    //width: 7ch;
+    background-color: var(--competence-color);
+    bottom: calc(var(--global-line-height) * 0.15);
+    left: 1ch;
+    line-height: calc(var(--global-line-height) * 0.75);
+    display: block;
+    width: var(--size);
+  }
+
+  .competence-label {
+    float: right;
+    color: var(--background-color);
+    &::after {
+      color: var(--font-color);
+      content: ']';
+    }
+  }
+}
