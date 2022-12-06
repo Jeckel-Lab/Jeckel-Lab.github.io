@@ -115,7 +115,7 @@ header a {
     background-color: var(--background-color);
     color: var(--card-color);
 }
-code.hljs {
+code, code.hljs {
     border-color: var(--code-border-color);
     background-color: var(--code-background-color);
 }
