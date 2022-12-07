@@ -1,6 +1,6 @@
 <ul>
     {%- for post in include.posts -%}
-        <li>{% include date.liquid date=post.date %} <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+        <li>{% include date.liquid date=post.date %} <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>{% if post.draft %} [Draft]{% endif %}</li>
     {%- endfor -%}
 </ul>
 
