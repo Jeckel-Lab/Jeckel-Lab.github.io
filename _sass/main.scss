@@ -227,7 +227,7 @@ form input[type=email]:active, form input[type=email]:focus {
     /*border: 1px solid var(--font-color);*/
 }
 
-section.post h2, section.post h3 {
+h2:not(.card-title), h3:not(.card-title) {
     font-size: 1em;
     position: relative;
     display: table-cell;
@@ -238,18 +238,20 @@ section.post h2, section.post h3 {
     font-weight: 600;
     color: var(--title-color);
 }
-section.post h2::after, section.post h3::after {
-    content: "====================================================================================================";
+h2:not(.card-title)::after, h3:not(.card-title)::after {
     position: absolute;
-    bottom: 0.6em;
     left: 0;
-    padding-left: 3ch;
     display: block;
 }
-section.post h3 {
+h3:not(.card-title) {
     padding-left: 6ch;
 }
-section.post h3::after {
+h2:not(.card-title)::after {
+    content: "====================================================================================================";
+    bottom: 0.6em;
+    padding-left: 3ch;
+}
+h3:not(.card-title)::after {
     content: "____________________________________________________________________________________________________";
     bottom: 1.4em;
     padding-left: 6ch;
@@ -291,3 +293,10 @@ section.post ol li, section.post ul li {
     display: none;
 }
 
+b {
+    color: var(--purple-color);
+}
+
+a.button {
+    @include box(var(--border-color));
+}

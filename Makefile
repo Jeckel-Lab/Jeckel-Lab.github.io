@@ -1,4 +1,4 @@
-.PHONY: up
+.PHONY: up up-prod
 
 up:
 	@jekyll serve --draft --future
