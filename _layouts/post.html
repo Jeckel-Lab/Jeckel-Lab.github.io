@@ -8,7 +8,7 @@ menu_item: blog
 {% endcapture %}
 {% assign currentYear = site.time | date: "%Y" | to_integer | minus: 2 %}
 {% assign postYear = page.date | date: "%Y" | to_integer %}
-<article class="card" style="--card-color: var(--purple-color)" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="card p-l1 p-r1" style="--card-color: var(--purple-color)" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h1 class="card-title" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>

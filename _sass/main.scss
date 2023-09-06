@@ -115,6 +115,24 @@ header a {
     background-color: var(--background-color);
     color: var(--card-color);
 }
+
+.card.p-t1 {
+    padding-top: calc(var(--global-line-height) * 1.5);
+}
+.card.p-b1 {
+    padding-bottom: calc(var(--global-line-height) * 1.5);
+}
+.card.p-l1 {
+    padding-left: 1.5ch;
+}
+.card.p-r1 {
+    padding-right: 1.5ch;
+}
+.card.p-1 {
+    padding: calc(var(--global-line-height) * 1.5) 1.5ch;
+}
+
+
 code, code.hljs {
     border-color: var(--code-border-color);
     background-color: var(--code-background-color);
@@ -227,7 +245,7 @@ form input[type=email]:active, form input[type=email]:focus {
     /*border: 1px solid var(--font-color);*/
 }
 
-h2:not(.card-title), h3:not(.card-title) {
+h1:not(.card-title), h2:not(.card-title), h3:not(.card-title) {
     font-size: 1em;
     position: relative;
     display: table-cell;
