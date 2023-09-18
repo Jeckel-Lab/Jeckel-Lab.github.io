@@ -1,0 +1,71 @@
+.mauticform-label {
+  font-size: 1em;
+}
+
+.mauticform-row {
+  line-height: var(--global-line-height);
+  margin: calc(var(--global-line-height) * 0.5) 0.5ch var(--global-line-height);
+}
+
+form input[type=email], input[type=text] {
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  color: var(--form-color);
+  border: 0;
+  border-bottom: 1px solid var(--form-color);
+  font-size: 1em;
+  line-height: var(--global-line-height);
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding-bottom: 2px;
+  margin-bottom: -2px;
+}
+
+form input[type=email]:active, form input[type=email]:focus, input[type=text]:active, input[type=text]:focus {
+  outline: 0;
+  -webkit-appearance: none;
+  /*border: 1px solid var(--font-color);*/
+}
+
+textarea {
+  height: auto;
+  width: 100%;
+  resize: none;
+  //border: 1px var(--input-style) var(--font-color);
+  border: 1px solid var(--form-color);
+  background-color: var(--background-color);
+  color: var(--form-color);
+  padding: 0.5em;
+  font-size: 1em;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+textarea:focus, textarea:active {
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+.btn {
+  border: 1px solid var(--form-color);
+  background-color: var(--background-color);
+  color: var(--form-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: 0;
+  padding: 0.65em 2em;
+  font-size: 1em;
+  font-family: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+}
+.btn:hover {
+  border: 1px solid var(--form-color);
+  background-color: var(--form-color);
+  color: var(--background-color);
+}

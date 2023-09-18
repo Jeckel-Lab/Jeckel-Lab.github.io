@@ -34,6 +34,7 @@ Icons:
     --font-color: var(--foreground-color);
     --link-color: var(--comment-color);
     --border-color: var(--selection-color);
+    --form-color: var(--foreground-color);
 
     --code-border-color: var(--selection-color);
     --code-color: var(--cyan-color);
@@ -160,7 +161,7 @@ code, code.hljs {
 @import "footer";
 @import "complexity";
 @import "divers";
-
+@import "form";
 
 /*--- Terminal Prompt Start ---*/
 .terminal-prompt {
@@ -223,26 +224,6 @@ main ul li {
 .message:before {
     content: '[OK] ';
     font-weight: bold;
-}
-
-form input[type=email] {
-    box-sizing: border-box;
-    background-color: var(--background-color);
-    color: var(--form-color);
-    border: 0;
-    border-bottom: 1px solid var(--form-color);
-    font-size: 1em;
-    line-height: var(--global-line-height);
-    -webkit-appearance: none;
-    border-radius: 0;
-    padding-bottom: 2px;
-    margin-bottom: -2px;
-}
-
-form input[type=email]:active, form input[type=email]:focus {
-    outline: 0;
-    -webkit-appearance: none;
-    /*border: 1px solid var(--font-color);*/
 }
 
 h1:not(.card-title), h2:not(.card-title), h3:not(.card-title) {
