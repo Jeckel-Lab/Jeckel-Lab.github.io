@@ -1,5 +1,19 @@
-.mauticform-label {
-  font-size: 1em;
+form {
+  label, .mauticform-label {
+    font-size: 1em;
+    display: flex;
+    position: relative;
+    padding-right: 1em;
+    width: 23em;
+  }
+  .mauticform-required label::after {
+    content: "*";
+    color: var(--red-color);
+  }
+
+  .mauticform-errormsg {
+    color: var(--red-color);
+  }
 }
 
 .mauticform-row {
@@ -27,7 +41,7 @@ form input[type=email]:active, form input[type=email]:focus, input[type=text]:ac
   /*border: 1px solid var(--font-color);*/
 }
 
-textarea {
+textarea, .mauticform-textarea {
   height: auto;
   width: 100%;
   resize: none;
@@ -40,7 +54,7 @@ textarea {
   -webkit-appearance: none;
   border-radius: 0;
 }
-textarea:focus, textarea:active {
+textarea:focus, textarea:active, .mauticform-textarea:focus, .mauticform-textarea:active {
   outline: 0;
   -webkit-appearance: none;
 }
