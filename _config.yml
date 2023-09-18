@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Freelance : Expert PHP / Lead Developer / Software Architect
   J'accompagne les équipes IT dans l'industrialisation de leurs projets Web, à la fois sur l'architecture, la qualité et l'intégration continue, la gestion de projet et l'agilité.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jeckel-lab.github.io"
+url: "https://jeckel-lab.fr"
 twitter_username: jeckel4
 github_username:  jeckel
 linkedin_username: jeckel
