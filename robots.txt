@@ -1,0 +1,14 @@
+# Fichier robots.txt standard
+
+# Autoriser tous les robots à accéder à tout le site
+User-agent: *
+Disallow:
+
+# Exclure certains répertoires
+#Disallow: /cgi-bin/
+#Disallow: /admin/
+#Disallow: /private/
+#Disallow: /tmp/
+
+# Sitemap (si vous en avez un)
+#Sitemap: http://www.example.com/sitemap.xml
