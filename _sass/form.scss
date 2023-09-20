@@ -72,7 +72,7 @@ form {
   justify-content: center;
   cursor: pointer;
   outline: 0;
-  padding: 0.65em 2em;
+  padding: 0.65em 1em;
   font-size: 1em;
   font-family: inherit;
   -webkit-user-select: none;
@@ -82,6 +82,7 @@ form {
   position: relative;
   z-index: 1;
   text-decoration: none;
+  transition: all 0.3s;
 }
 .btn:hover {
   border: 1px solid var(--form-color);
