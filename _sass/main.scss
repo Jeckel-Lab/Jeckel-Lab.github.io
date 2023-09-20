@@ -117,19 +117,19 @@ header a {
     color: var(--card-color);
 }
 
-.card.p-t1 {
+.p-t1 {
     padding-top: calc(var(--global-line-height) * 1.5);
 }
-.card.p-b1 {
+.p-b1 {
     padding-bottom: calc(var(--global-line-height) * 1.5);
 }
-.card.p-l1 {
+.p-l1 {
     padding-left: 1.5ch;
 }
-.card.p-r1 {
+.p-r1 {
     padding-right: 1.5ch;
 }
-.card.p-1 {
+.p-1 {
     padding: calc(var(--global-line-height) * 1.5) 1.5ch;
 }
 
@@ -209,6 +209,10 @@ main p {
     margin: 0;
     text-indent: 3ch;
 }
+main p.no-indent {
+    text-indent: 0;
+}
+
 main ul li {
     list-style-type: '-';
     margin-left: 1ch;
@@ -298,4 +302,24 @@ b {
 
 a.button {
     @include box(var(--border-color));
+}
+/*
+.cta::before {
+    content: url('hand-point-right-regular.svg'); // Set the SVG path
+    display: inline-block;
+    width: 1em; // Set the width
+    height: 1em; // Set the height
+    margin-right: 1ch;
+    color: var(--font-color);
+}
+.btn.cta::before:hover {
+    color: var(--background-color);
+}*/
+
+.cta-container {
+    text-align: right;
+    .cta::before {
+        content: '->';
+        margin-right: 1ch;
+    }
 }

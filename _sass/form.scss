@@ -81,6 +81,7 @@ form {
   user-select: none;
   position: relative;
   z-index: 1;
+  text-decoration: none;
 }
 .btn:hover {
   border: 1px solid var(--form-color);

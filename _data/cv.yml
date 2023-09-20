@@ -2,13 +2,14 @@ competences:
   - { label: PHP, level: 10 }
   - { label: MySQL, level: 9 }
   - { label: Docker, level: 8 }
-  - { label: Redis, level: 5 }
+  - { label: Redis, level: 6 }
   - { label: Symfony, level: 8 }
   - { label: NodeJS, level: 4 }
   - { label: GoLang, level: 3 }
   - { label: C/C++, level: 3 }
   - { label: Ansible, level: 7 }
   - { label: MongoDB, level: 5 }
+  - { label: RabbitMQ, level: 6 }
 
 missions_freelance:
   - client: Lamy-Liaisons (ex Wolters Kluwer)
