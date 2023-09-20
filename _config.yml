@@ -41,6 +41,8 @@ lang: fr
 #theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-last-modified-at
+  - jekyll-sitemap
 
 collections:
   tags:
