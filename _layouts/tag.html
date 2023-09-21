@@ -13,7 +13,7 @@ menu_item: blog
 {% endcomment %}
 
 {%- if number_of_posts > 0 -%}
-<div class="card" style="--card-color: var(--purple-color)">
+<div class="card p-1" style="--card-color: var(--purple-color)">
     <h2 class="card-title">
         {% if number_of_posts == 1 %}
             Article avec le tag "{{ page.name }}"
