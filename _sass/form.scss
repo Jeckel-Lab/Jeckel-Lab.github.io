@@ -11,6 +11,10 @@ form {
     //padding-right: 1ch;
     width: 30ch;
   }
+  .mauticform-checkboxgrp-row label {
+    width: 100%;
+  }
+
   .mauticform-required label::after {
     content: "*";
     color: var(--red-color);

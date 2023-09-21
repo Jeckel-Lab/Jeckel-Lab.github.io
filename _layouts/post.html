@@ -45,4 +45,13 @@ menu_item: blog
       <p class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></p>
     {%- endif -%}
   </footer>
+
+  <div class="card p-1" style="--card-color: var(--yellow-color)">
+    <h2 class="card-title">Ajouter un commentaire</h2>
+    <script type="text/javascript" src="//mautic.jeckel-lab.dscloud.me/form/generate.js?id=3"></script>
+    <script type="text/javascript">
+      document.getElementById('mauticform_input_blogcommentaire_page_url').value = document.location.href;
+    </script>
+  </div>
+
 </article>
