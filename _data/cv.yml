@@ -13,9 +13,27 @@ competences:
 
 missions_freelance:
   - client: Lamy-Liaisons (ex Wolters Kluwer)
+    mission: >-
+      Technical expertise on content architecture and innovation
   - client: WeNow
+    mission: >-
+      - Audit de l’architecture legacy
+      - Définition d’une architecture cible basée sur le DDD/CQRS et d’un plan de migration
+      - Evolution de cette architecture pour suivre les besoins de montée en charge
+      - Mise en place de solutions tests automatisés et d’outils de contrôle qualité sur l’architecture cible
+      - Mise en place de process qualité
   - client: Epitech
+    mission: >-
+      Audit et accompagnement sur la migration d'une solution d'intranet
   - client: Fundshop
+    mission: >-
+      Accompagnement dans la mise en place de méthodes Agile, d'intégration continue et architecture micro-service.
   - client: Digital Value
+    mission: >-
+      Audit d'un outil existant (architecture, dette technique, capacité d'évolution) suite à une augmentation important des besoins.
+      Mise en place d'une solution d'intégration et de déploiement continue (CircleCI + Heroku)
+      Mise en place de l'architecture et du socle backend en NodeJS avec le framework Loopback 4 d'IBM et PostgreSQL
   - client: BAP / Bureau à Partager
+    mission: >-
+      Mise en place d’une stratégie de migration et d’évolution de l’architecture monolithique vers des micro-services hébergés en cloud.
 

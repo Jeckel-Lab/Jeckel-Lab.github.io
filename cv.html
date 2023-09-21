@@ -27,8 +27,9 @@ sitemap: false
     <h2 class="card-title">Missions freelance (depuis 2018)</h2>
 
     {% for mission in site.data.cv.missions_freelance %}
-    <div class="card" style="--card-color: var(--comment-color)">
+    <div class="card p-1" style="--card-color: var(--comment-color)">
         <h3 class="card-title">{{ mission.client}}</h3>
+        {{ mission.mission }}
     </div>
     {% endfor %}
 </div>
