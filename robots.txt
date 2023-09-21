@@ -9,6 +9,14 @@ Disallow:
 #Disallow: /admin/
 #Disallow: /private/
 #Disallow: /tmp/
+Disallow: /contact/
+Disallow: /contact-success/
+Disallow: /comment-success/
+
+# Not ready
+Disallow: /architecte-solution-web/
+Disallow: /expert-php/
+Disallow: /integration-continue/
 
 # Sitemap (si vous en avez un)
-#Sitemap: http://www.example.com/sitemap.xml
+Sitemap: https://jeckel-lab.fr/sitemap.xml
