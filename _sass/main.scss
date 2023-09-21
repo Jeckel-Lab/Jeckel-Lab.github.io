@@ -233,6 +233,7 @@ main ul li {
 h1:not(.card-title), h2:not(.card-title), h3:not(.card-title) {
     font-size: 1em;
     position: relative;
+    //display: block;
     display: table-cell;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -240,6 +241,7 @@ h1:not(.card-title), h2:not(.card-title), h3:not(.card-title) {
     overflow: hidden;
     font-weight: 600;
     color: var(--title-color);
+    //float: none;
 }
 h2:not(.card-title)::after, h3:not(.card-title)::after {
     position: absolute;
