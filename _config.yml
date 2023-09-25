@@ -23,6 +23,10 @@ email: contact@jeckel-lab.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Freelance : Expert PHP / Lead Developer / Software Architect
   J'accompagne les équipes IT dans l'industrialisation de leurs projets Web, à la fois sur l'architecture, la qualité et l'intégration continue, la gestion de projet et l'agilité.
+image:
+  path: /assets/images/Jeckel-Lab-rounded.png
+  height: 500
+  width: 500
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeckel-lab.fr"
 twitter_username: jeckel4
