@@ -117,6 +117,9 @@ header a {
     color: var(--card-color);
 }
 
+.p-t0 {
+    padding-top: 0;
+}
 .p-t1 {
     padding-top: calc(var(--global-line-height) * 1.5);
 }
@@ -132,7 +135,6 @@ header a {
 .p-1 {
     padding: calc(var(--global-line-height) * 1.5) 1.5ch;
 }
-
 
 code, code.hljs {
     border-color: var(--code-border-color);
@@ -213,10 +215,18 @@ main p.no-indent {
     text-indent: 0;
 }
 
-main ul li {
-    list-style-type: '-';
-    margin-left: 1ch;
-    padding-left: 1ch;
+main ul {
+    &.indent-1 {
+        margin-left: 3ch;
+    }
+    &.indent-2 {
+        margin-left: 6ch;
+    }
+    li {
+        list-style-type: '-';
+        margin-left: 1ch;
+        padding-left: 1ch;
+    }
 }
 
 .message {
@@ -260,6 +270,9 @@ h3:not(.card-title)::after {
     content: "____________________________________________________________________________________________________";
     bottom: 1.4em;
     padding-left: 6ch;
+}
+h2.p-t0 {
+    padding-top: 0;
 }
 
 /* Code */
