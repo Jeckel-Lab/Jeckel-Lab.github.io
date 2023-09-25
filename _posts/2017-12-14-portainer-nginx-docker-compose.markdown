@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Portainer, Nginx et docker-compose
-tags: [portainer, docker, nginx, docker-compose]
+tags: [portainer, docker, nginx, docker-compose, page-ci]
 has_code: true
 category: devops
 complexity: 2

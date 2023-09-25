@@ -3,7 +3,7 @@ layout: post
 title: Pourquoi ne jamais versionner les tokens dans un repository
 description: "Découvrez les risques de sécurité liés à la version des tokens, mots de passe et clés d'accès dans Git. Apprenez pourquoi cette pratique est à éviter et comment adopter de bonnes pratiques pour protéger vos informations sensibles."
 keywords: "Git, Tokens, Mots de passe, Clés d'accès, Sécurité, Violation de la sécurité, Exposition d'informations sensibles, Piratage, Compromission de la sécurité, Révocation, Conflit d'environnement, Bonnes pratiques, Variables d'environnement, Gestionnaire de secrets, HashiCorp Vault, AWS Secrets Manager, Configuration d'environnement, Développement, Recette, Production, Référencement, Sécurité des données, Gestion de versions, Développeurs"
-tags: [git, securité]
+tags: [git, securité, page-expert-php, page-architecture]
 category: devops
 complexity: 1
 ---

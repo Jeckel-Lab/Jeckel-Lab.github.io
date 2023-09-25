@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pré-configurer Grafana avec Docker-Compose
-tags: [docker-compose, docker, grafana]
+tags: [docker-compose, docker, grafana, page-ci]
 has_code: true
 category: devops
 complexity: 3

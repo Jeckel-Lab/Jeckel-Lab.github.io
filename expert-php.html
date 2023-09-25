@@ -6,15 +6,8 @@ title: "Jeckel-Lab, votre expert PHP"
 sitemap: false
 ---
 <div class="card p-1" style="--card-color: var(--purple-color)">
-<h2 class="card-title">
-    Articles sur le PHP
-</h2>
-<ul>
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- for post in site.posts -%}
-    {% if post.tags contains "php" %}
-    <li>{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-    {% endif %}
-    {%- endfor -%}
-</ul>
+    <h2 class="card-title">
+        Articles sur le PHP
+    </h2>
+    {% include post_list.liquid filter="page-expert-php" %}
 </div>

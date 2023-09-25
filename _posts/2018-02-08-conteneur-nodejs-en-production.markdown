@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 8 Conseils pour faire votre conteneur docker NodeJs de production
-tags: [nodejs, docker]
+tags: [nodejs, docker, page-ci]
 has_code: true
 category: devops
 complexity: 1

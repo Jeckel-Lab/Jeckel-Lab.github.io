@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configurer NGinx en "reverse-proxy" devant NodeJS
-tags: [nginx, nodejs]
+tags: [nginx, nodejs, page-architecture]
 has_code: true
 category: devops
 complexity: 2

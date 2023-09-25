@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lire la saisie utilisateur sur un terminal en PHP
-tags: [php, console, terminal, cli]
+tags: [php, console, terminal, cli, page-expert-php]
 has_code: true
 category: php
 complexity: 2

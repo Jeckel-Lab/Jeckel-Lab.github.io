@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tagger une image docker avec le nom de la branche git
-tags: [docker, git]
+tags: [docker, git, page-ci]
 has_code: true
 category: devops
 complexity: 1
