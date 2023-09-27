@@ -5,6 +5,11 @@ tags: [php, console, terminal, cli, page-expert-php]
 has_code: true
 category: php
 complexity: 2
+redirect_from:
+  - /2018/01/04/demotools-une-librairie-php-pour-linteraction-utilisateur-en-terminal/
+  - /2018/01/03/lire-la-saisie-utilisateur-sur-un-terminal-en-php/
+  - /2018/01/demotools-une-librairie-php-pour-linteraction-utilisateur-en-terminal/
+  - /2018/01/lire-la-saisie-utilisateur-sur-un-terminal-en-php/
 ---
 Dans de nombreux languages, demander à l’utilisateur, pendant l’execution du programme de saisir des informations est chose aisée. Le PHP étant un langage de script initialement développer exclusivement pour un usage Web, il n’est pas prévu de commande permettant de mettre en pause le programme le temps que l’utilisateur fournisse l’information qui nous manques.  
 Heureusement, si cette fonction n’existe pas, PHP fournis tous les outils pour le faire.

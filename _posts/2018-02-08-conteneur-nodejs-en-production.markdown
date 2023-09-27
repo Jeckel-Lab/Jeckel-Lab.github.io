@@ -5,6 +5,9 @@ tags: [nodejs, docker, page-ci]
 has_code: true
 category: devops
 complexity: 1
+redirect_from:
+  - /2018/02/08/8-conseils-pour-faire-votre-conteneur-docker-nodejs-de-production/
+  - /2018/02/8-conseils-pour-faire-votre-conteneur-docker-nodejs-de-production/
 ---
 Entre le développement et la production, on oublie trop souvent qu’il y a un gap à franchir. L’application sur laquelle on développe, même si l’on développe directement dans un conteneur docker ne peut être livrée telle quelle en production. Voici donc quelques conseils pour réussir un conteneur « production ready » en NodeJS.  
 

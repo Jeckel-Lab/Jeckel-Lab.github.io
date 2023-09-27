@@ -5,6 +5,10 @@ tags: [portainer, docker, nginx, docker-compose, page-ci]
 has_code: true
 category: devops
 complexity: 2
+redirect_from:
+  - /2017/12/14/portainer-nginx-et-docker-compose/
+  - /2017/12/06/installation-rapide-de-portainer/
+  - /2017/12/portainer-nginx-et-docker-compose/
 ---
 Lorsque l’on a besoin d’aller un peu plus loin (sur un serveur de test par exemple) on peut vouloir rajouter un minimum de sécurité : restreindre à certaines IP, restreindre à un domaine particulier, etc.  
 C’est que je vais vous montrer ici en ajoutant un serveur NGinx en front avec docker-compose.  
