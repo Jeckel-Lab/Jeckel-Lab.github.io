@@ -69,6 +69,13 @@ final class Event
     {
         return $this->date;
     }
+    
+    public function changeName($newName)
+    {
+        // On ne modifie pas l'objet, on retourne un nouvel objet avec 
+        // les nouvelles valeurs
+        return new Event($newName, $this->date);
+    }
 }
 ```
 
@@ -78,6 +85,62 @@ En juin 2013, PHP sort en version 5.5 et avec cette version apparait la premièr
 
 Cet objet dispose de la même signature que l'objet `DateTime` dont il parage l'interface `DateTimeInterface`.
 
+![Diagramme de classe montrant les objets DateTime et DateTimeiImmutable qui implémentent DateTimeInterface](/images/DateTimeInterface.png){: .center-image}
+
+Avec cette nouvelle implémentation, l'objet `DateTimeImmutable` peut remplacer l'objet `DateTime` historique par son équivalent immutable.
+
+Cette première approche résoult de nombreux bug courrant, comme le calcul d'une date de fin par rapport à une date de début.
+
+Avec l'objet `DateTime` :
+
+```php
+$start = new DateTime("now");
+echo $start->format('d/m/Y'); // ==> 01/10/2023
+
+$end = $start->modify('+1 day);
+
+echo $end->format('d/m/Y);    // ==> 02/10/2023
+echo $start->format('d/m/Y);  // ==> 02/10/2023 !!
+```
+L'appel à la fonction `modify` a modifié l'objet date en même temps qu'il en a retourné l'instance, `$end` et `$start` sont deux références vers le même objet.
+
+Avec l'objet `DateTimeImmutable` :
+```php
+$start = new DateTimeImmutable("now");
+echo $start->format('d/m/Y'); // ==> 01/10/2023
+
+$end = $start->modify('+1 day);
+
+echo $end->format('d/m/Y);    // ==> 02/10/2023
+echo $start->format('d/m/Y);  // ==> 01/10/2023
+```
+L'appel à la méthode `modify` a fait un clone de l'objet `$start` avant de le modifier. Ainsi, `$start` et `$end` sont bien deux variables différentes.
+
+
+### Décembre 2025, php 7, l'objet devient sérieux
+
+L'arrivée de php 7.0 en décembre 2015 et les versions suivantes ont apportés beaucoup d'ammélioration au support de la programmation objet. 
+
+On notera en particulier :
+- la déclaration du typage scalaire des paramètres de méthode
+- la déclaration du type de retour des méthodes
+- les types nullables
+- les classes anonymes
+- et de nombreuses améliorations de performance
+
+Le support de la programmation objet devient une préoccupation essentielle du language, ces évolutions apportent de nouveaux outils à la création d'objet immutable, mais concrètement, toujours aucune réelle implémentation concrète.
+
+### Novembre 2020, php 8.0 : rien de concrêt
+
+PHP 8.0 arrive en novembre 2020, il apporte de grand changement dans le language, dans son coeur principalement, mais dans le language aussi.
+
+Bien que cette version n'apporte rien de concret, elle définit les bases nécessaires.
+
+### Novembre 2021, php 8.1 : readonly et enum
+
+Pour ma part, je concidère cette version comme la vrai version 8 de php, car elle apporte beaucoup plus de choses utiles au language.
+
+Tout d'abord, on trouve la possibilité de déclarer des propriétés comme `readonly` dans une classe. Une propriété `readonly` ne peut être définie qu'une seule fois lors de la création de l'objet, elle devient ensuite non modifiable.
 
 ---
 

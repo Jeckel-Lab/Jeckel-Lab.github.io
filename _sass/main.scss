@@ -140,6 +140,18 @@ code, code.hljs {
     border-color: var(--code-border-color);
     background-color: var(--code-background-color);
 }
+code {
+    color: var(--code-color);
+    border-color: var(--code-border-color);
+    background-color: var(--code-background-color);
+}
+.center-image
+{
+    margin: 0 auto;
+    padding-top: 2ch;
+    padding-bottom: 2ch;
+    display: block;
+}
 
 .card .card {
     margin-top: 2em;

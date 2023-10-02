@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2023-10-01T15:32:19.822Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="LLvjyZk2kY14KAvC20ct" version="22.0.0" type="device">
+  <diagram name="Page-1" id="j2YSXe1vmfYMcGd7CCP2">
+    <mxGraphModel dx="606" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LpV-ZKl-n3UiBHtJ-OKk-1" value="&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;DateTimeInterface&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LpV-ZKl-n3UiBHtJ-OKk-2" value="DateTime" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LpV-ZKl-n3UiBHtJ-OKk-3" value="DateTimeImmutable" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LpV-ZKl-n3UiBHtJ-OKk-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="LpV-ZKl-n3UiBHtJ-OKk-2" target="LpV-ZKl-n3UiBHtJ-OKk-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="550" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpV-ZKl-n3UiBHtJ-OKk-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="LpV-ZKl-n3UiBHtJ-OKk-3" target="LpV-ZKl-n3UiBHtJ-OKk-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="260" as="sourcePoint" />
+            <mxPoint x="700" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
