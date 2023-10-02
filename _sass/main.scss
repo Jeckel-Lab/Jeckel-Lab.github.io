@@ -83,7 +83,16 @@ header a {
     text-decoration: none;
 }
 
-.card, code.hljs {
+//.card, code.hljs {
+//    padding: calc(var(--global-line-height) * 0.5) 0.5ch;
+//    margin: calc(var(--global-line-height) * 0.5) 0.5ch var(--global-line-height);
+//    border-width: 1px;
+//    border-style: solid;
+//    border-color: var(--card-color);
+//    width: calc(100% - 1ch);
+//    position: relative;
+//}
+.card {
     padding: calc(var(--global-line-height) * 0.5) 0.5ch;
     margin: calc(var(--global-line-height) * 0.5) 0.5ch var(--global-line-height);
     border-width: 1px;
@@ -176,6 +185,7 @@ code {
 @import "complexity";
 @import "divers";
 @import "form";
+@import "article";
 
 /*--- Terminal Prompt Start ---*/
 .terminal-prompt {
@@ -285,42 +295,6 @@ h3:not(.card-title)::after {
 }
 h2.p-t0 {
     padding-top: 0;
-}
-
-/* Code */
-code.language-plaintext {
-    background-color: var(--code-background-color);
-    color: var(--code-color);
-    font-style: italic;
-}
-pre code.hljs {
-    tab-size: 4;
-}
-
-section.post {
-    padding-top: 1em;
-}
-section.post ol, section.post ul {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 6ch;
-}
-section.post ol li, section.post ul li {
-    margin-left: 0ch;
-    padding-left: 1ch;
-}
-
-.post-meta {
-    text-align: right;
-}
-.post-tag:before {
-    content: '[';
-}
-.post-tag:after {
-    content: ']';
-}
-.post-author {
-    display: none;
 }
 
 b {

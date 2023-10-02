@@ -2,8 +2,11 @@
 layout: post
 title: Petite histoire de l'immutabilité en PHP
 tags: [php, page_expert_php]
+category: php
 has_code: true
-
+description: "Découvrez l'évolution de l'immutabilité en PHP, de ses débuts jusqu'aux dernières versions. Apprenez pourquoi et comment utiliser l'immutabilité dans vos projets PHP."
+keywords: "PHP, Immutabilité, Programmation, POO, PHP 8.1, PHP 8.2, PHP 7, PHP 5.5, DateTimeImmutable, readonly, Programmation Orientée Objet, Final, Classes, Méthodes, Types, PHPStan, Psalm, Développement Web, Sécurité, Performance, Typage, Constructeur, Propriétés, Héritage, Abstraction, Polymorphisme, Architecture, Conception, Bonnes Pratiques, Intégration Continue, Déploiement"
+complexity: 2
 ---
 L'immutabilité est un concept qui a gagné en popularité via la croissance de la programmation fonctionnelle, cependant PHP étant un langage initialement principalement utilisé pour le développement d'application Web, l'immutabilité n'a été intégré que tardivement et progressivement.
 
@@ -11,11 +14,11 @@ L'immutabilité est un concept qui a gagné en popularité via la croissance de 
 
 L'immutabilité en programmation signifie que quelque chose ne peut être modifié une fois qu'il a été créé, il ne peut pas **muter**.
 
-Dans le code, cela se traduit par l'utilisation de variables ou d'objets qui ne peuvent pas être modifié une fois qu'ils ont été initialisés ou instanciés. Si l'on doit faire une modification, on créera plutôt une autre objet à partir du premier avec les nouvelles propriétés.
+Dans le code, cela se traduit par l'utilisation de variables ou d'objets qui ne peuvent pas être modifiés une fois qu'ils ont été initialisés ou instanciés. Si l'on doit faire une modification, on créera plutôt une autre objet à partir du premier avec les nouvelles propriétés.
 
 ### Pourquoi utiliser l'immutabilité&nbsp;?
 
-1. **Sécurité**&nbsp;: Cela apporte la garantie que l'objet ne peut être modifié par une autre fonction/service par erreur
+1. **Sécurité**&nbsp;: Cela garantit que l’objet ne peut pas être modifié par une autre fonction ou un autre service par erreur
 2. **Facilité de débugging**&nbsp;: Il n'est pas nécessaire de suivre les modifications de cet objet
 3. **Prévisibilité**&nbsp;: Cela rend le comportement du programme plus prévisible
 4. **Performance**&nbsp;: Si le langage le permet, savoir qu'un objet est immutable va permettre au compilateur/interpréteur d'en optimiser le fonctionnement.
@@ -25,8 +28,8 @@ Dans le code, cela se traduit par l'utilisation de variables ou d'objets qui ne 
 On utilisera des objets immutable à chaque fois que l'on a besoin de garantir que les données ne sont pas modifiables, que la nature de cet objet et son utilisation en font un objet dont la modification a posteriori serait le signe d'un bug ou d'une erreur de conception.
 
 Par exemple&nbsp;:
-- **Evénement**&nbsp;: un objet décrivant un événement décris quelque chose qui est dans le passé, et comme on ne réécrit pas l'histoire, le passé est immutable, ce type d'objet devrait être immutable
-- **Commande**&nbsp;: il s'agit d'un objet décrivant un ordre, une fois l'ordre émis il devient immutable, en changer le contenu serait équivalent à modifier les instructions données par l'émetteur de cet ordre.
+- **Événement**&nbsp;: Un objet décrivant un événement décris quelque chose qui est dans le passé, et comme on ne réécrit pas l'histoire, le passé est immutable, ce type d'objet devrait être immutable
+- **Commande**&nbsp;: Il s'agit d'un objet décrivant une instruction. Une fois l'instruction émise, elle devient immuable
 - **DTO**&nbsp;: ou Data Transfert Object, l'objectif d'un DTO est d'encapsuler des données complexes lors de leur transfert d'une fonction à une autre, d'un contexte à un autre. Ce n'est pas obligatoire, mais il peut être intéressant de faire de ces DTO des objets immutables afin de garantir qu'aucune modification ne peut avoir lieu dans les échanges suivants.
 
 
@@ -44,7 +47,7 @@ La version 5.0 sortie en juillet 2004 introduit la programmation orienté objet 
 
 Il est alors déjà possible de créer un objet `final` avec toutes les propriétés privées.
 
-Il est donc déjà possible pour le développeur de concevoir des objets immutables, sans garantie autre que la qualité du développement.
+Il est donc déjà possible pour les développeurs de concevoir des objets immutables, la seule garantie étant la qualité du code.
 ```php
 /**
  * Immutable Event object in php 5.0
@@ -89,7 +92,7 @@ Cet objet dispose de la même signature que l'objet `DateTime` dont il partage l
 
 Avec cette nouvelle implémentation, l'objet `DateTimeImmutable` peut remplacer l'objet `DateTime` historique par son équivalent immutable.
 
-Cette première approche résout de nombreux bugs courants, comme le calcul d'une date de fin par rapport à une date de début.
+Cette première implémentation résout de nombreux problèmes courants, tels que le calcul d'une date de fin en fonction d'une date de début par exemple.
 
 Avec l'objet `DateTime` :
 
@@ -117,7 +120,7 @@ echo $start->format('d/m/Y);  // ==> 01/10/2023
 L'appel à la méthode `modify` a fait un clone de l'objet `$start` avant de le modifier. Ainsi, `$start` et `$end` sont bien deux variables différentes.
 
 
-### Décembre 2025, php 7, l'objet devient sérieux
+### Décembre 2015, php 7, l'objet devient sérieux
 
 L'arrivée de php 7.0 en décembre 2015 et les versions suivantes ont apporté beaucoup d'amélioration au support de la programmation objet. 
 
@@ -138,7 +141,7 @@ Bien que cette version n'apporte rien de concret, elle définit les bases néces
 
 ### Novembre 2021, php 8.1 : propriété readonly
 
-Pour ma part, je considère cette version comme la vraie version 8 de php, car elle apporte beaucoup plus de choses utiles au langage.
+Personnellement, je considère cette version comme la véritable version 8 de php, car elle apporte beaucoup plus de choses utiles au langage.
 
 Tout d'abord, on trouve la possibilité de déclarer des propriétés comme `readonly` dans une classe. Une propriété `readonly` ne peut être définie qu'une seule fois lors de la création de l'objet, elle devient ensuite non modifiable.
 
@@ -191,7 +194,7 @@ final readonly class Event
 
 [PHPStan](https://phpstan.org/) et [Psalm](https://psalm.dev/) sont deux outils d'analyse statique de code qui permettent de rajouter une passe de contrôle et qualité sur le code d'une application.
 
-Ces outils vont analyser le code de l'application et vérifier comment les différentes variables et objets sont construit et utilisé et détecter toute sorte de violation.
+Ces outils vont analyser le code de l'application et vérifier comment les différentes variables et objets sont construits et utilisés afin de détecter toute sorte de violation.
 
 Il est alors possible de préciser à l'outil qu'une classe doit être immutable, l'analyseur va vérifier dans l'application que cette règle est bien respectée, c'est dire que l'objet, une fois instancié n'est jamais modifié, ou que toute modification passe par l'instanciation d'un nouvel objet.
 
@@ -222,7 +225,7 @@ Ici, même en version 7.4 de php, l'immutabilité bien que n'étant pas prévue 
 
 ## Dans la pratique
 
-L'immutabilité (jusqu'à la dernière version de PHP) est surtout une question de discipline et de bonnes pratiques qu'une caractéristique intégrée au langage. Cependant, avec l’évolution du langage et des écosystèmes qui l’entourent, il est probable que l’immutabilité devienne de plus en plus courante dans le développement PHP.
+L'immutabilité, jusqu'à la dernière version de PHP, relève davantage de la discipline et de bonnes pratiques qu'une caractéristique intégrée au langage. Cependant, avec l’évolution du langage et des écosystèmes qui l’entourent, il est probable que l’immutabilité devienne de plus en plus courante dans le développement PHP.
 
 Au final, quelques conseils pour faire des objets immutables en PHP
 1. Passer en PHP 8.2 (Ok, pas toujours possible)
@@ -231,4 +234,4 @@ Au final, quelques conseils pour faire des objets immutables en PHP
 4. Utiliser le `final`
 5. Penser au "copy on write", c'est-à-dire de retourner une nouvelle instance de l'objet à chaque modification.
 
-Et voilà, vous êtes bon.
+Et voilà, vous êtes prêt.
