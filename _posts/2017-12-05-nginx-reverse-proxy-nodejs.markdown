@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Configurer NGinx en "reverse-proxy" devant NodeJS
+description: "Apprenez à configurer NGinx en tant que reverse proxy pour une application NodeJS."
+keywords: "NGinx, NodeJS, reverse proxy, configuration"
 tags: [nginx, nodejs, page-architecture]
 has_code: true
 category: devops
