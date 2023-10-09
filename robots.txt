@@ -15,7 +15,6 @@ Disallow: /comment-success/
 
 # Not ready
 Disallow: /architecte-solution-web/
-Disallow: /expert-php/
 Disallow: /integration-continue/
 
 # Sitemap (si vous en avez un)
