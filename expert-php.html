@@ -4,7 +4,7 @@ menu_item: home
 permalink: /expert-php/
 title: "Jeckel-Lab, votre expert PHP"
 description: "Découvrez mon expertise en PHP, avec plus de 20 ans d'expérience en développement. Je propose des services en audit et optimisation de code, conseil en architecture logicielle, et développement d'applications web en PHP."
-keywords: "PHP, Expertise, Développement Web, Symfony, Zend Framework, MySQL, Redis, MongoDB, Intégration Continue, Audit, Optimisation, Conseil, Architecture Logicielle, Architecture Hexagonale, DDD, CQRS, TDD, BDD"
+keywords: "PHP, Expertise, Développement Web, Symfony, Zend Framework, MySQL, Redis, MongoDB, Intégration Continue, Audit, Optimisation, Conseil, Architecture Logicielle, Architecture Hexagonale, DDD, CQRS, TDD, BDD, Slim Framework, PHP Framework, PHP Docker, Apache, Nginx, MySQL, MariaDB, AWS, Behat"
 ---
 <div class="card p-1">
     <h1 class="card-title">Expertise en PHP</h1>
@@ -14,7 +14,7 @@ keywords: "PHP, Expertise, Développement Web, Symfony, Zend Framework, MySQL, R
     <ul class="indent-1">
         <li><b>Frameworks</b>&nbsp;: Symfony, Zend Framework, Slim</li>
         <li><b>CMS / E-Commerce</b>&nbsp;: Wordpress, Magento</li>
-        <li><b>Base de données</b>&nbsp;: MySQL, Redis, MongoDB</li>
+        <li><b>Base de données</b>&nbsp;: MySQL/MariaDB, Redis, MongoDB</li>
         <li><b>Message Queue</b>&nbsp;: RabbitMQ, Kafka, SQS</li>
 <!--        <li><b>Outils de développement</b>&nbsp;: Git, Docker, Ansible</li>-->
 <!--        <li><b>Intégration Continue</b>&nbsp;: Travis CI, Github Action, Circle CI, Bitbucket Pipeline</li>-->
@@ -54,6 +54,16 @@ keywords: "PHP, Expertise, Développement Web, Symfony, Zend Framework, MySQL, R
     <div class="cta-container p-t1">
         <a href="/contact" class="btn cta">Besoin d'un expert en PHP ? Contactez-moi pour discuter de votre projet</a>
     </div>
+</div>
+<div class="card p-1" style="--card-color: var(--purple-color)">
+    <h2 class="card-title">
+        Dernières contributions Github
+    </h2>
+    <ul>
+        {% for contribution in site.data.github.recent_contributions %}
+        <li><a href="{{ contribution.url }}">{{ contribution.name }}</a> {{ contribution.description }}</li>
+        {% endfor %}
+    </ul>
 </div>
 <div class="card p-1" style="--card-color: var(--purple-color)">
     <h2 class="card-title">
