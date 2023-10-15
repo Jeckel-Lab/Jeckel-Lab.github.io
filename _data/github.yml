@@ -152,7 +152,7 @@ recent_stars:
     - name: Gioni06/terminal.css
       description: "Modern and minimalistic CSS framework for terminal enthusiasts"
       url: https://github.com/Gioni06/terminal.css
-      stars: 973
+      stars: 974
 
     - name: CuyZ/Valinor
       description: "PHP library that helps to map any input into a strongly-typed value object structure."
