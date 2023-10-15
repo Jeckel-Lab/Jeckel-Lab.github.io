@@ -55,12 +55,16 @@ keywords: "PHP, Expertise, Développement Web, Symfony, Zend Framework, MySQL, R
         <a href="/contact" class="btn cta">Besoin d'un expert en PHP ? Contactez-moi pour discuter de votre projet</a>
     </div>
 </div>
-<div class="card p-1" style="--card-color: var(--purple-color)">
+<div class="card p-1" style="--card-color: var(--pink-color)">
     <h2 class="card-title">
         Dernières contributions Github
     </h2>
+    <p class="p-b1">Voici les projets open-source auxquels j'ai pu contribués dernièrement&nbsp:</p>
     <ul>
         {% for contribution in site.data.github.recent_contributions %}
+            {% if contribution.name == "Jeckel-Lab/Jeckel-Lab.github.io" %}
+                {% continue %}
+            {% endif %}
         <li><a href="{{ contribution.url }}">{{ contribution.name }}</a> {{ contribution.description }}</li>
         {% endfor %}
     </ul>
@@ -69,5 +73,6 @@ keywords: "PHP, Expertise, Développement Web, Symfony, Zend Framework, MySQL, R
     <h2 class="card-title">
         Articles sur le PHP
     </h2>
+    <p class="p-b1">Derniers articles publiés sur le blog sur le PHP&nbsp:</p>
     {% include post_list.liquid filter="page-expert-php" %}
 </div>
