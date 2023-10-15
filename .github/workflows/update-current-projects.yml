@@ -16,8 +16,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         with:
-          template: "_templates/current_projects.md.tpl"
-          writeTo: "current_projects.html"
+          template: "_data/github.yml.tpl"
+          writeTo: "_data/github.yml"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         env:
