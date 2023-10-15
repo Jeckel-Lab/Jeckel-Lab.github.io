@@ -1,214 +1,213 @@
-github:
-    recent_contributions:
-    
-        - name: Jeckel-Lab/Jeckel-Lab.github.io
-          description: "Jeckel-Lab website"
-          url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
-          occurred: 2023-10-15 07:00:00 &#43;0000 UTC
-    
-        - name: Jeckel-Lab/etl
-          description: "ETL (Extract - Transform - Load) pattern implementation"
-          url: https://github.com/Jeckel-Lab/etl
-          occurred: 2023-10-13 07:00:00 &#43;0000 UTC
-    
+recent_contributions:
+
+    - name: Jeckel-Lab/Jeckel-Lab.github.io
+      description: "Jeckel-Lab website"
+      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
+      occurred: 2023-10-15 07:00:00 &#43;0000 UTC
+
+    - name: Jeckel-Lab/etl
+      description: "ETL (Extract - Transform - Load) pattern implementation"
+      url: https://github.com/Jeckel-Lab/etl
+      occurred: 2023-10-13 07:00:00 &#43;0000 UTC
+
+    - name: Jeckel-Lab/mautic-webhook-parser
+      description: "A library to parse Mautic&#39;s webhook payloads"
+      url: https://github.com/Jeckel-Lab/mautic-webhook-parser
+      occurred: 2023-10-13 07:00:00 &#43;0000 UTC
+
+recent_pull_requests:
+
+    - title: Feature/parse single json
+      url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/1
+      state: OPEN
+      createdAt: 2023-10-13 15:17:39 &#43;0000 UTC
+      repository:
         - name: Jeckel-Lab/mautic-webhook-parser
-          description: "A library to parse Mautic&#39;s webhook payloads"
-          url: https://github.com/Jeckel-Lab/mautic-webhook-parser
-          occurred: 2023-10-13 07:00:00 &#43;0000 UTC
-    
-    recent_pull_requests:
-    
-        - title: Feature/parse single json
-          url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/1
-          state: OPEN
-          createdAt: 2023-10-13 15:17:39 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/mautic-webhook-parser
-            - description: "A library to parse Mautic&#39;s webhook payloads"
-            - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
-    
-        - title: Add missing endraw
-          url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/13
-          state: MERGED
-          createdAt: 2023-10-13 14:23:45 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/cookiecutter-php
-            - description: "Cookiecutter template for new PHP projects."
-            - url: https://github.com/Jeckel-Lab/cookiecutter-php
-    
-        - title: Update generated readme
-          url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/12
-          state: MERGED
-          createdAt: 2023-10-13 14:18:20 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/cookiecutter-php
-            - description: "Cookiecutter template for new PHP projects."
-            - url: https://github.com/Jeckel-Lab/cookiecutter-php
-    
-        - title: Update phpmd rules
-          url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/11
-          state: MERGED
-          createdAt: 2023-10-13 14:15:30 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/cookiecutter-php
-            - description: "Cookiecutter template for new PHP projects."
-            - url: https://github.com/Jeckel-Lab/cookiecutter-php
-    
-        - title: Update actions
-          url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/10
-          state: MERGED
-          createdAt: 2023-10-13 14:09:32 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/cookiecutter-php
-            - description: "Cookiecutter template for new PHP projects."
-            - url: https://github.com/Jeckel-Lab/cookiecutter-php
-    
-        - title: Remove phpcs
-          url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/8
-          state: MERGED
-          createdAt: 2023-10-13 10:24:55 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/cookiecutter-php
-            - description: "Cookiecutter template for new PHP projects."
-            - url: https://github.com/Jeckel-Lab/cookiecutter-php
-    
-        - title: Start ETL pattern
-          url: https://github.com/Jeckel-Lab/etl/pull/2
-          state: MERGED
-          createdAt: 2023-10-13 10:20:40 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/etl
-            - description: "ETL (Extract - Transform - Load) pattern implementation"
-            - url: https://github.com/Jeckel-Lab/etl
-    
-        - title: Bugfix/fix dependapot
-          url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/3
-          state: MERGED
-          createdAt: 2023-10-13 08:33:43 &#43;0000 UTC
-          repository:
-            - name: Jeckel-Lab/cookiecutter-php
-            - description: "Cookiecutter template for new PHP projects."
-            - url: https://github.com/Jeckel-Lab/cookiecutter-php
-    
-        - title: Setup Dockerfile for Mautic 4.10
-          url: https://github.com/mautic/docker-mautic/pull/244
-          state: OPEN
-          createdAt: 2023-09-18 08:54:24 &#43;0000 UTC
-          repository:
-            - name: mautic/docker-mautic
-            - description: "Docker Image for Mautic"
-            - url: https://github.com/mautic/docker-mautic
-    
-        - title: Allow php 8.1
-          url: https://github.com/WenowFr/CommandSchedulerBundle/pull/2
-          state: MERGED
-          createdAt: 2023-07-12 12:55:56 &#43;0000 UTC
-          repository:
-            - name: WenowFr/CommandSchedulerBundle
-            - description: "Symfony bundle that will allow you to schedule all your commands just like unix crontab, with a nice admin panel"
-            - url: https://github.com/WenowFr/CommandSchedulerBundle
-    
-    recent_stars:
-    
-        - name: haidang666/awesome-tool-for-readme-profile
-          description: "List of thing you can add to your github readme profile"
-          url: https://github.com/haidang666/awesome-tool-for-readme-profile
-          stars: 255
-    
-        - name: jlondiche/job-board-php
-          description: ""
-          url: https://github.com/jlondiche/job-board-php
-          stars: 476
-    
-        - name: luizeof/awesome-mautic
-          description: "Curated List of Mautic Plugins, Blogs, Repositories and Themes"
-          url: https://github.com/luizeof/awesome-mautic
-          stars: 66
-    
-        - name: mautic/mautic
-          description: "Mautic: Open Source Marketing Automation Software."
-          url: https://github.com/mautic/mautic
-          stars: 6142
-    
-        - name: php-casbin/php-casbin
-          description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
-          url: https://github.com/php-casbin/php-casbin
-          stars: 1151
-    
-        - name: phpstan/phpstan
-          description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
-          url: https://github.com/phpstan/phpstan
-          stars: 12197
-    
-        - name: giuseppe998e/syringe
-          description: "Dependency injection library for PHP8"
-          url: https://github.com/giuseppe998e/syringe
-          stars: 11
-    
-        - name: some-natalie/github-tips-action
-          description: "Randomly posts a GitHub tip to a Slack channel"
-          url: https://github.com/some-natalie/github-tips-action
-          stars: 5
-    
-        - name: Gioni06/terminal.css
-          description: "Modern and minimalistic CSS framework for terminal enthusiasts"
-          url: https://github.com/Gioni06/terminal.css
-          stars: 973
-    
-        - name: CuyZ/Valinor
-          description: "PHP library that helps to map any input into a strongly-typed value object structure."
-          url: https://github.com/CuyZ/Valinor
-          stars: 1132
-    
-    recent_repos:
-    
-        - name: jeckel/docker-php-slim-vuejs
-          description: ""
-          url: https://github.com/jeckel/docker-php-slim-vuejs
-          stars: 0
-    
-        - name: jeckel/jeckel-lab-front
-          description: ""
-          url: https://github.com/jeckel/jeckel-lab-front
-          stars: 0
-    
-        - name: jeckel/framework-basics
-          description: "Demo basic principle of a framework in PHP 8"
-          url: https://github.com/jeckel/framework-basics
-          stars: 1
-    
-        - name: jeckel/ansible-demo
-          description: ""
-          url: https://github.com/jeckel/ansible-demo
-          stars: 0
-    
-        - name: jeckel/mp3-organizer
-          description: ""
-          url: https://github.com/jeckel/mp3-organizer
-          stars: 0
-    
-        - name: jeckel/ApiMocker
-          description: "Json PHP Server used to mock an external API when testing"
-          url: https://github.com/jeckel/ApiMocker
-          stars: 0
-    
-        - name: jeckel/AsyncP
-          description: "Async Module implementing RPC and Event Broadcast patterns"
-          url: https://github.com/jeckel/AsyncP
-          stars: 0
-    
-        - name: jeckel/codeception-gherkin-contexts
-          description: "Collection of codeception helpers to help Gherkin BDD tests"
-          url: https://github.com/jeckel/codeception-gherkin-contexts
-          stars: 3
-    
-        - name: jeckel/docker-php-test
-          description: "Collection of docker PHP image dedicated for tests and CI"
-          url: https://github.com/jeckel/docker-php-test
-          stars: 1
-    
-        - name: jeckel/circleci-sandbox
-          description: "Circle CI Sandbox"
-          url: https://github.com/jeckel/circleci-sandbox
-          stars: 1
-    
+        - description: "A library to parse Mautic&#39;s webhook payloads"
+        - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
+
+    - title: Add missing endraw
+      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/13
+      state: MERGED
+      createdAt: 2023-10-13 14:23:45 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/cookiecutter-php
+        - description: "Cookiecutter template for new PHP projects."
+        - url: https://github.com/Jeckel-Lab/cookiecutter-php
+
+    - title: Update generated readme
+      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/12
+      state: MERGED
+      createdAt: 2023-10-13 14:18:20 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/cookiecutter-php
+        - description: "Cookiecutter template for new PHP projects."
+        - url: https://github.com/Jeckel-Lab/cookiecutter-php
+
+    - title: Update phpmd rules
+      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/11
+      state: MERGED
+      createdAt: 2023-10-13 14:15:30 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/cookiecutter-php
+        - description: "Cookiecutter template for new PHP projects."
+        - url: https://github.com/Jeckel-Lab/cookiecutter-php
+
+    - title: Update actions
+      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/10
+      state: MERGED
+      createdAt: 2023-10-13 14:09:32 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/cookiecutter-php
+        - description: "Cookiecutter template for new PHP projects."
+        - url: https://github.com/Jeckel-Lab/cookiecutter-php
+
+    - title: Remove phpcs
+      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/8
+      state: MERGED
+      createdAt: 2023-10-13 10:24:55 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/cookiecutter-php
+        - description: "Cookiecutter template for new PHP projects."
+        - url: https://github.com/Jeckel-Lab/cookiecutter-php
+
+    - title: Start ETL pattern
+      url: https://github.com/Jeckel-Lab/etl/pull/2
+      state: MERGED
+      createdAt: 2023-10-13 10:20:40 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/etl
+        - description: "ETL (Extract - Transform - Load) pattern implementation"
+        - url: https://github.com/Jeckel-Lab/etl
+
+    - title: Bugfix/fix dependapot
+      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/3
+      state: MERGED
+      createdAt: 2023-10-13 08:33:43 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/cookiecutter-php
+        - description: "Cookiecutter template for new PHP projects."
+        - url: https://github.com/Jeckel-Lab/cookiecutter-php
+
+    - title: Setup Dockerfile for Mautic 4.10
+      url: https://github.com/mautic/docker-mautic/pull/244
+      state: OPEN
+      createdAt: 2023-09-18 08:54:24 &#43;0000 UTC
+      repository:
+        - name: mautic/docker-mautic
+        - description: "Docker Image for Mautic"
+        - url: https://github.com/mautic/docker-mautic
+
+    - title: Allow php 8.1
+      url: https://github.com/WenowFr/CommandSchedulerBundle/pull/2
+      state: MERGED
+      createdAt: 2023-07-12 12:55:56 &#43;0000 UTC
+      repository:
+        - name: WenowFr/CommandSchedulerBundle
+        - description: "Symfony bundle that will allow you to schedule all your commands just like unix crontab, with a nice admin panel"
+        - url: https://github.com/WenowFr/CommandSchedulerBundle
+
+recent_stars:
+
+    - name: haidang666/awesome-tool-for-readme-profile
+      description: "List of thing you can add to your github readme profile"
+      url: https://github.com/haidang666/awesome-tool-for-readme-profile
+      stars: 255
+
+    - name: jlondiche/job-board-php
+      description: ""
+      url: https://github.com/jlondiche/job-board-php
+      stars: 476
+
+    - name: luizeof/awesome-mautic
+      description: "Curated List of Mautic Plugins, Blogs, Repositories and Themes"
+      url: https://github.com/luizeof/awesome-mautic
+      stars: 66
+
+    - name: mautic/mautic
+      description: "Mautic: Open Source Marketing Automation Software."
+      url: https://github.com/mautic/mautic
+      stars: 6142
+
+    - name: php-casbin/php-casbin
+      description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
+      url: https://github.com/php-casbin/php-casbin
+      stars: 1151
+
+    - name: phpstan/phpstan
+      description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
+      url: https://github.com/phpstan/phpstan
+      stars: 12197
+
+    - name: giuseppe998e/syringe
+      description: "Dependency injection library for PHP8"
+      url: https://github.com/giuseppe998e/syringe
+      stars: 11
+
+    - name: some-natalie/github-tips-action
+      description: "Randomly posts a GitHub tip to a Slack channel"
+      url: https://github.com/some-natalie/github-tips-action
+      stars: 5
+
+    - name: Gioni06/terminal.css
+      description: "Modern and minimalistic CSS framework for terminal enthusiasts"
+      url: https://github.com/Gioni06/terminal.css
+      stars: 973
+
+    - name: CuyZ/Valinor
+      description: "PHP library that helps to map any input into a strongly-typed value object structure."
+      url: https://github.com/CuyZ/Valinor
+      stars: 1132
+
+recent_repos:
+
+    - name: jeckel/docker-php-slim-vuejs
+      description: ""
+      url: https://github.com/jeckel/docker-php-slim-vuejs
+      stars: 0
+
+    - name: jeckel/jeckel-lab-front
+      description: ""
+      url: https://github.com/jeckel/jeckel-lab-front
+      stars: 0
+
+    - name: jeckel/framework-basics
+      description: "Demo basic principle of a framework in PHP 8"
+      url: https://github.com/jeckel/framework-basics
+      stars: 1
+
+    - name: jeckel/ansible-demo
+      description: ""
+      url: https://github.com/jeckel/ansible-demo
+      stars: 0
+
+    - name: jeckel/mp3-organizer
+      description: ""
+      url: https://github.com/jeckel/mp3-organizer
+      stars: 0
+
+    - name: jeckel/ApiMocker
+      description: "Json PHP Server used to mock an external API when testing"
+      url: https://github.com/jeckel/ApiMocker
+      stars: 0
+
+    - name: jeckel/AsyncP
+      description: "Async Module implementing RPC and Event Broadcast patterns"
+      url: https://github.com/jeckel/AsyncP
+      stars: 0
+
+    - name: jeckel/codeception-gherkin-contexts
+      description: "Collection of codeception helpers to help Gherkin BDD tests"
+      url: https://github.com/jeckel/codeception-gherkin-contexts
+      stars: 3
+
+    - name: jeckel/docker-php-test
+      description: "Collection of docker PHP image dedicated for tests and CI"
+      url: https://github.com/jeckel/docker-php-test
+      stars: 1
+
+    - name: jeckel/circleci-sandbox
+      description: "Circle CI Sandbox"
+      url: https://github.com/jeckel/circleci-sandbox
+      stars: 1
+
