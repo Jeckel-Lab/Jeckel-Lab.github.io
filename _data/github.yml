@@ -17,6 +17,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Feature/update packages
+      url: https://github.com/Jeckel-Lab/identity-contract/pull/16
+      state: OPEN
+      createdAt: 2023-10-16 06:08:33 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/identity-contract
+        - description: "Propose basic abstract classes to manage Identities in Domain project"
+        - url: https://github.com/Jeckel-Lab/identity-contract
+
     - title: Feature/parse single json
       url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/1
       state: OPEN
@@ -97,15 +106,6 @@ recent_pull_requests:
         - name: mautic/docker-mautic
         - description: "Docker Image for Mautic"
         - url: https://github.com/mautic/docker-mautic
-
-    - title: Allow php 8.1
-      url: https://github.com/WenowFr/CommandSchedulerBundle/pull/2
-      state: MERGED
-      createdAt: 2023-07-12 12:55:56 &#43;0000 UTC
-      repository:
-        - name: WenowFr/CommandSchedulerBundle
-        - description: "Symfony bundle that will allow you to schedule all your commands just like unix crontab, with a nice admin panel"
-        - url: https://github.com/WenowFr/CommandSchedulerBundle
 
 recent_stars:
 
