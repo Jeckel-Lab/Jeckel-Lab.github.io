@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: Jeckel-Lab/identity-contract
+      description: "Propose basic abstract classes to manage Identities in Domain project"
+      url: https://github.com/Jeckel-Lab/identity-contract
+      occurred: 2023-10-16 07:00:00 &#43;0000 UTC
+
     - name: Jeckel-Lab/Jeckel-Lab.github.io
       description: "Jeckel-Lab website"
       url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
@@ -17,9 +22,9 @@ recent_contributions:
 
 recent_pull_requests:
 
-    - title: Feature/update packages
+    - title: Update package dependencies and CI
       url: https://github.com/Jeckel-Lab/identity-contract/pull/16
-      state: OPEN
+      state: MERGED
       createdAt: 2023-10-16 06:08:33 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/identity-contract
@@ -137,7 +142,7 @@ recent_stars:
     - name: phpstan/phpstan
       description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
       url: https://github.com/phpstan/phpstan
-      stars: 12199
+      stars: 12200
 
     - name: giuseppe998e/syringe
       description: "Dependency injection library for PHP8"
