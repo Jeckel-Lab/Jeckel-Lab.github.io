@@ -22,6 +22,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add missing readonly
+      url: https://github.com/Jeckel-Lab/identity-contract/pull/21
+      state: MERGED
+      createdAt: 2023-10-16 09:28:12 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/identity-contract
+        - description: "Propose basic abstract classes to manage Identities in Domain project"
+        - url: https://github.com/Jeckel-Lab/identity-contract
+
     - title: Update readme
       url: https://github.com/Jeckel-Lab/identity-contract/pull/19
       state: MERGED
@@ -98,15 +107,6 @@ recent_pull_requests:
       url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/10
       state: MERGED
       createdAt: 2023-10-13 14:09:32 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/cookiecutter-php
-        - description: "Cookiecutter template for new PHP projects."
-        - url: https://github.com/Jeckel-Lab/cookiecutter-php
-
-    - title: Remove phpcs
-      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/8
-      state: MERGED
-      createdAt: 2023-10-13 10:24:55 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/cookiecutter-php
         - description: "Cookiecutter template for new PHP projects."
