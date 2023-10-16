@@ -22,6 +22,33 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Update readme
+      url: https://github.com/Jeckel-Lab/identity-contract/pull/19
+      state: MERGED
+      createdAt: 2023-10-16 09:08:26 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/identity-contract
+        - description: "Propose basic abstract classes to manage Identities in Domain project"
+        - url: https://github.com/Jeckel-Lab/identity-contract
+
+    - title: Force identity to readonly
+      url: https://github.com/Jeckel-Lab/identity-contract/pull/18
+      state: MERGED
+      createdAt: 2023-10-16 08:50:51 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/identity-contract
+        - description: "Propose basic abstract classes to manage Identities in Domain project"
+        - url: https://github.com/Jeckel-Lab/identity-contract
+
+    - title: Add Identity repository
+      url: https://github.com/Jeckel-Lab/identity-contract/pull/17
+      state: MERGED
+      createdAt: 2023-10-16 08:43:52 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/identity-contract
+        - description: "Propose basic abstract classes to manage Identities in Domain project"
+        - url: https://github.com/Jeckel-Lab/identity-contract
+
     - title: Update package dependencies and CI
       url: https://github.com/Jeckel-Lab/identity-contract/pull/16
       state: MERGED
@@ -84,33 +111,6 @@ recent_pull_requests:
         - name: Jeckel-Lab/cookiecutter-php
         - description: "Cookiecutter template for new PHP projects."
         - url: https://github.com/Jeckel-Lab/cookiecutter-php
-
-    - title: Start ETL pattern
-      url: https://github.com/Jeckel-Lab/etl/pull/2
-      state: MERGED
-      createdAt: 2023-10-13 10:20:40 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/etl
-        - description: "ETL (Extract - Transform - Load) pattern implementation"
-        - url: https://github.com/Jeckel-Lab/etl
-
-    - title: Bugfix/fix dependapot
-      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/3
-      state: MERGED
-      createdAt: 2023-10-13 08:33:43 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/cookiecutter-php
-        - description: "Cookiecutter template for new PHP projects."
-        - url: https://github.com/Jeckel-Lab/cookiecutter-php
-
-    - title: Setup Dockerfile for Mautic 4.10
-      url: https://github.com/mautic/docker-mautic/pull/244
-      state: OPEN
-      createdAt: 2023-09-18 08:54:24 &#43;0000 UTC
-      repository:
-        - name: mautic/docker-mautic
-        - description: "Docker Image for Mautic"
-        - url: https://github.com/mautic/docker-mautic
 
 recent_stars:
 
