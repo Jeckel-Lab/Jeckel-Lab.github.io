@@ -114,6 +114,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: scraly/developers-conferences-agenda
+      description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
+      url: https://github.com/scraly/developers-conferences-agenda
+      stars: 1242
+
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
       url: https://github.com/haidang666/awesome-tool-for-readme-profile
@@ -158,11 +163,6 @@ recent_stars:
       description: "Modern and minimalistic CSS framework for terminal enthusiasts"
       url: https://github.com/Gioni06/terminal.css
       stars: 974
-
-    - name: CuyZ/Valinor
-      description: "PHP library that helps to map any input into a strongly-typed value object structure."
-      url: https://github.com/CuyZ/Valinor
-      stars: 1132
 
 recent_repos:
 
