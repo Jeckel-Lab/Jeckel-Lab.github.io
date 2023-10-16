@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Petite histoire de l'immutabilité en PHP
-tags: [php, page_expert_php]
+tags: [php, page-expert-php]
 category: php
 has_code: true
 description: "Découvrez l'évolution de l'immutabilité en PHP, de ses débuts jusqu'aux dernières versions. Apprenez pourquoi et comment utiliser l'immutabilité dans vos projets PHP."
-keywords: "PHP, Immutabilité, Programmation, POO, PHP 8.1, PHP 8.2, PHP 7, PHP 5.5, DateTimeImmutable, readonly, Programmation Orientée Objet, Final, Classes, Méthodes, Types, PHPStan, Psalm, Développement Web, Sécurité, Performance, Typage, Constructeur, Propriétés, Héritage, Abstraction, Polymorphisme, Architecture, Conception, Bonnes Pratiques, Intégration Continue, Déploiement"
+keywords: "PHP, Immutabilité, Programmation, POO, PHP 8.1, PHP 8.2, PHP 7, PHP 5.5, DateTimeImmutable, readonly, Programmation Orientée Objet, Final, Classes, Méthodes, Types, PHPStan, Psalm, Développement Web, Sécurité, Performance, Typage, Constructeur, Propriétés, Héritage, Abstraction, Polymorphisme, Architecture, Conception, Bonnes Pratiques, Intégration Continue, Déploiement, Test, DTO, Data Transfert Object"
 complexity: 2
 ---
 L'immutabilité est un concept qui a gagné en popularité via la croissance de la programmation fonctionnelle, cependant PHP étant un langage initialement principalement utilisé pour le développement d'application Web, l'immutabilité n'a été intégré que tardivement et progressivement.
