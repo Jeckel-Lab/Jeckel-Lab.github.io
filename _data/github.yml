@@ -142,7 +142,7 @@ recent_stars:
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
       url: https://github.com/php-casbin/php-casbin
-      stars: 1151
+      stars: 1152
 
     - name: phpstan/phpstan
       description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
