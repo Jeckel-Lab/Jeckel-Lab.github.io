@@ -137,7 +137,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6149
+      stars: 6148
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
@@ -147,7 +147,7 @@ recent_stars:
     - name: phpstan/phpstan
       description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
       url: https://github.com/phpstan/phpstan
-      stars: 12199
+      stars: 12198
 
     - name: giuseppe998e/syringe
       description: "Dependency injection library for PHP8"
