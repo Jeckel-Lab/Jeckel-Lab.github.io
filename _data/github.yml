@@ -114,10 +114,15 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: heiglandreas/holidayChecker
+      description: "Check for holidays - locale-aware"
+      url: https://github.com/heiglandreas/holidayChecker
+      stars: 80
+
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1246
+      stars: 1247
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
@@ -137,7 +142,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6149
+      stars: 6148
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
@@ -147,7 +152,7 @@ recent_stars:
     - name: phpstan/phpstan
       description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
       url: https://github.com/phpstan/phpstan
-      stars: 12199
+      stars: 12200
 
     - name: giuseppe998e/syringe
       description: "Dependency injection library for PHP8"
@@ -158,11 +163,6 @@ recent_stars:
       description: "Randomly posts a GitHub tip to a Slack channel"
       url: https://github.com/some-natalie/github-tips-action
       stars: 5
-
-    - name: Gioni06/terminal.css
-      description: "Modern and minimalistic CSS framework for terminal enthusiasts"
-      url: https://github.com/Gioni06/terminal.css
-      stars: 974
 
 recent_repos:
 
