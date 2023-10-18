@@ -22,6 +22,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Parse field value by provided type
+      url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/3
+      state: OPEN
+      createdAt: 2023-10-18 12:48:19 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/mautic-webhook-parser
+        - description: "A library to parse Mautic&#39;s webhook payloads"
+        - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
+
     - title: Add missing readonly
       url: https://github.com/Jeckel-Lab/identity-contract/pull/21
       state: MERGED
@@ -103,15 +112,6 @@ recent_pull_requests:
         - description: "Cookiecutter template for new PHP projects."
         - url: https://github.com/Jeckel-Lab/cookiecutter-php
 
-    - title: Update actions
-      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/10
-      state: MERGED
-      createdAt: 2023-10-13 14:09:32 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/cookiecutter-php
-        - description: "Cookiecutter template for new PHP projects."
-        - url: https://github.com/Jeckel-Lab/cookiecutter-php
-
 recent_stars:
 
     - name: scraly/developers-conferences-agenda
@@ -127,7 +127,7 @@ recent_stars:
     - name: jlondiche/job-board-php
       description: ""
       url: https://github.com/jlondiche/job-board-php
-      stars: 477
+      stars: 476
 
     - name: luizeof/awesome-mautic
       description: "Curated List of Mautic Plugins, Blogs, Repositories and Themes"
