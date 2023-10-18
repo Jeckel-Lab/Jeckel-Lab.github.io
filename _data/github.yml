@@ -117,7 +117,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1245
+      stars: 1246
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
@@ -137,7 +137,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6148
+      stars: 6149
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
@@ -147,7 +147,7 @@ recent_stars:
     - name: phpstan/phpstan
       description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
       url: https://github.com/phpstan/phpstan
-      stars: 12200
+      stars: 12199
 
     - name: giuseppe998e/syringe
       description: "Dependency injection library for PHP8"
