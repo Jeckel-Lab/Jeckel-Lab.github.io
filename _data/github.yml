@@ -147,7 +147,7 @@ recent_stars:
     - name: phpstan/phpstan
       description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
       url: https://github.com/phpstan/phpstan
-      stars: 12198
+      stars: 12199
 
     - name: giuseppe998e/syringe
       description: "Dependency injection library for PHP8"
