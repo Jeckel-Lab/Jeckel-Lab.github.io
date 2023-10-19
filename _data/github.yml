@@ -22,6 +22,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Parse fields into Field VO
+      url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/5
+      state: OPEN
+      createdAt: 2023-10-19 10:18:59 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/mautic-webhook-parser
+        - description: "A library to parse Mautic&#39;s webhook payloads"
+        - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
+
     - title: Parse field value by provided type
       url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/3
       state: MERGED
@@ -98,15 +107,6 @@ recent_pull_requests:
       url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/12
       state: MERGED
       createdAt: 2023-10-13 14:18:20 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/cookiecutter-php
-        - description: "Cookiecutter template for new PHP projects."
-        - url: https://github.com/Jeckel-Lab/cookiecutter-php
-
-    - title: Update phpmd rules
-      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/11
-      state: MERGED
-      createdAt: 2023-10-13 14:15:30 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/cookiecutter-php
         - description: "Cookiecutter template for new PHP projects."
