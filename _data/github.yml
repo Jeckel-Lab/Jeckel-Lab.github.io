@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jeckel/dotfiles
+      description: "My Dot files"
+      url: https://github.com/jeckel/dotfiles
+      occurred: 2023-10-20 07:00:00 &#43;0000 UTC
+
     - name: Jeckel-Lab/mautic-webhook-parser
       description: "A library to parse Mautic&#39;s webhook payloads"
       url: https://github.com/Jeckel-Lab/mautic-webhook-parser
@@ -24,7 +29,7 @@ recent_pull_requests:
 
     - title: Rework dot files
       url: https://github.com/jeckel/dotfiles/pull/1
-      state: OPEN
+      state: MERGED
       createdAt: 2023-10-20 06:54:42 &#43;0000 UTC
       repository:
         - name: jeckel/dotfiles
@@ -117,7 +122,7 @@ recent_stars:
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud"
       url: https://github.com/grafana/grafana-ansible-collection
-      stars: 46
+      stars: 47
 
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
@@ -132,7 +137,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1253
+      stars: 1254
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
