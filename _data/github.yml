@@ -27,6 +27,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Continue dotfile update
+      url: https://github.com/jeckel/dotfiles/pull/3
+      state: MERGED
+      createdAt: 2023-10-20 09:33:33 &#43;0000 UTC
+      repository:
+        - name: jeckel/dotfiles
+        - description: "My Dot files"
+        - url: https://github.com/jeckel/dotfiles
+
     - title: Rework dot files
       url: https://github.com/jeckel/dotfiles/pull/1
       state: MERGED
@@ -107,15 +116,6 @@ recent_pull_requests:
         - name: Jeckel-Lab/mautic-webhook-parser
         - description: "A library to parse Mautic&#39;s webhook payloads"
         - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
-
-    - title: Add missing endraw
-      url: https://github.com/Jeckel-Lab/cookiecutter-php/pull/13
-      state: MERGED
-      createdAt: 2023-10-13 14:23:45 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/cookiecutter-php
-        - description: "Cookiecutter template for new PHP projects."
-        - url: https://github.com/Jeckel-Lab/cookiecutter-php
 
 recent_stars:
 
