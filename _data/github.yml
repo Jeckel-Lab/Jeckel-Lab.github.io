@@ -152,7 +152,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6148
+      stars: 6149
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
