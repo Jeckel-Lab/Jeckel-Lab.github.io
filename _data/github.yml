@@ -119,6 +119,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: jeckel/dotfiles
+      description: "My Dot files"
+      url: https://github.com/jeckel/dotfiles
+      stars: 1
+
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud"
       url: https://github.com/grafana/grafana-ansible-collection
@@ -157,17 +162,12 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6154
+      stars: 6156
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
       url: https://github.com/php-casbin/php-casbin
       stars: 1153
-
-    - name: phpstan/phpstan
-      description: "PHP Static Analysis Tool - discover bugs in your code without running it!"
-      url: https://github.com/phpstan/phpstan
-      stars: 12205
 
 recent_repos:
 
