@@ -127,7 +127,7 @@ recent_stars:
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud"
       url: https://github.com/grafana/grafana-ansible-collection
-      stars: 47
+      stars: 48
 
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
