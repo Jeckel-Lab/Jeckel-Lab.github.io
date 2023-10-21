@@ -167,7 +167,7 @@ recent_stars:
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
       url: https://github.com/php-casbin/php-casbin
-      stars: 1154
+      stars: 1155
 
 recent_repos:
 
