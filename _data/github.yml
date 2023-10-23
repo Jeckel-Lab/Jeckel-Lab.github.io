@@ -132,7 +132,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 189
+      stars: 190
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
@@ -162,7 +162,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6186
+      stars: 6187
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
