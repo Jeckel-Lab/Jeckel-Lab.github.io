@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/dotfiles
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
-      occurred: 2023-10-20 07:00:00 &#43;0000 UTC
+      occurred: 2023-10-23 07:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/mautic-webhook-parser
       description: "A library to parse Mautic&#39;s webhook payloads"
@@ -26,6 +26,24 @@ recent_contributions:
       occurred: 2023-10-13 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Update readme
+      url: https://github.com/jeckel/dotfiles/pull/7
+      state: MERGED
+      createdAt: 2023-10-23 09:52:04 &#43;0000 UTC
+      repository:
+        - name: jeckel/dotfiles
+        - description: "My Dot files"
+        - url: https://github.com/jeckel/dotfiles
+
+    - title: Feature/rework dot files
+      url: https://github.com/jeckel/dotfiles/pull/6
+      state: MERGED
+      createdAt: 2023-10-23 09:48:12 &#43;0000 UTC
+      repository:
+        - name: jeckel/dotfiles
+        - description: "My Dot files"
+        - url: https://github.com/jeckel/dotfiles
 
     - title: Continue dotfile update
       url: https://github.com/jeckel/dotfiles/pull/3
@@ -99,30 +117,12 @@ recent_pull_requests:
         - description: "Propose basic abstract classes to manage Identities in Domain project"
         - url: https://github.com/Jeckel-Lab/identity-contract
 
-    - title: Update package dependencies and CI
-      url: https://github.com/Jeckel-Lab/identity-contract/pull/16
-      state: MERGED
-      createdAt: 2023-10-16 06:08:33 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/identity-contract
-        - description: "Propose basic abstract classes to manage Identities in Domain project"
-        - url: https://github.com/Jeckel-Lab/identity-contract
-
-    - title: Skeleton parsing single json Mautic event
-      url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/1
-      state: MERGED
-      createdAt: 2023-10-13 15:17:39 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/mautic-webhook-parser
-        - description: "A library to parse Mautic&#39;s webhook payloads"
-        - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
-
 recent_stars:
 
     - name: jeckel/dotfiles
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
-      stars: 1
+      stars: 2
 
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud"
@@ -162,7 +162,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6181
+      stars: 6182
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
