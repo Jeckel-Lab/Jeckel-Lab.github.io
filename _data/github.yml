@@ -1,5 +1,15 @@
 recent_contributions:
 
+    - name: Jeckel-Lab/ipc-shared-memory-demo
+      description: "A demo project on how to use the IPC-Shared-Memory package"
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
+      occurred: 2023-10-28 07:00:00 &#43;0000 UTC
+
+    - name: Jeckel-Lab/ipc-shared-memory
+      description: "A library to use shared memory for Inter-Process Communication without collision"
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory
+      occurred: 2023-10-28 07:00:00 &#43;0000 UTC
+
     - name: Jeckel-Lab/mautic-webhook-parser
       description: "A library to parse Mautic&#39;s webhook payloads"
       url: https://github.com/Jeckel-Lab/mautic-webhook-parser
@@ -10,14 +20,14 @@ recent_contributions:
       url: https://github.com/jeckel/dotfiles
       occurred: 2023-10-23 07:00:00 &#43;0000 UTC
 
-    - name: Jeckel-Lab/Jeckel-Lab.github.io
-      description: "Jeckel-Lab website"
-      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
-      occurred: 2023-10-16 07:00:00 &#43;0000 UTC
-
     - name: Jeckel-Lab/identity-contract
       description: "Propose basic abstract classes to manage Identities in Domain project"
       url: https://github.com/Jeckel-Lab/identity-contract
+      occurred: 2023-10-16 07:00:00 &#43;0000 UTC
+
+    - name: Jeckel-Lab/Jeckel-Lab.github.io
+      description: "Jeckel-Lab website"
+      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
       occurred: 2023-10-16 07:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/etl
@@ -26,6 +36,15 @@ recent_contributions:
       occurred: 2023-10-13 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Feature/configure containers
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/2
+      state: OPEN
+      createdAt: 2023-10-28 06:12:51 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/ipc-shared-memory-demo
+        - description: "A demo project on how to use the IPC-Shared-Memory package"
+        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
 
     - title: Make fields available from Contact entity
       url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/6
@@ -103,15 +122,6 @@ recent_pull_requests:
       url: https://github.com/Jeckel-Lab/identity-contract/pull/19
       state: MERGED
       createdAt: 2023-10-16 09:08:26 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/identity-contract
-        - description: "Propose basic abstract classes to manage Identities in Domain project"
-        - url: https://github.com/Jeckel-Lab/identity-contract
-
-    - title: Force identity to readonly
-      url: https://github.com/Jeckel-Lab/identity-contract/pull/18
-      state: MERGED
-      createdAt: 2023-10-16 08:50:51 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/identity-contract
         - description: "Propose basic abstract classes to manage Identities in Domain project"
