@@ -147,7 +147,7 @@ recent_stars:
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
       url: https://github.com/haidang666/awesome-tool-for-readme-profile
-      stars: 256
+      stars: 257
 
     - name: jlondiche/job-board-php
       description: ""
@@ -162,7 +162,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6208
+      stars: 6209
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
