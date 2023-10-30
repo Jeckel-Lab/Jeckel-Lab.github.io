@@ -3,7 +3,7 @@ recent_contributions:
     - name: Jeckel-Lab/ipc-shared-memory-demo
       description: "A demo project on how to use the IPC-Shared-Memory package"
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-      occurred: 2023-10-28 07:00:00 &#43;0000 UTC
+      occurred: 2023-10-30 07:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/ipc-shared-memory
       description: "A library to use shared memory for Inter-Process Communication without collision"
@@ -39,7 +39,7 @@ recent_pull_requests:
 
     - title: Feature/configure containers
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/2
-      state: OPEN
+      state: MERGED
       createdAt: 2023-10-28 06:12:51 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/ipc-shared-memory-demo
