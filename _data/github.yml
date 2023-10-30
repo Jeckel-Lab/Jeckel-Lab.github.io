@@ -37,6 +37,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Send millions of messages in RabbitMQ
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/3
+      state: OPEN
+      createdAt: 2023-10-30 15:19:50 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/ipc-shared-memory-demo
+        - description: "A demo project on how to use the IPC-Shared-Memory package"
+        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
+
     - title: Feature/configure containers
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/2
       state: MERGED
@@ -118,15 +127,6 @@ recent_pull_requests:
         - description: "Propose basic abstract classes to manage Identities in Domain project"
         - url: https://github.com/Jeckel-Lab/identity-contract
 
-    - title: Update readme
-      url: https://github.com/Jeckel-Lab/identity-contract/pull/19
-      state: MERGED
-      createdAt: 2023-10-16 09:08:26 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/identity-contract
-        - description: "Propose basic abstract classes to manage Identities in Domain project"
-        - url: https://github.com/Jeckel-Lab/identity-contract
-
 recent_stars:
 
     - name: jeckel/dotfiles
@@ -172,7 +172,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6220
+      stars: 6221
 
     - name: php-casbin/php-casbin
       description: "An authorization library that supports access control models like ACL, RBAC, ABAC in PHP ."
