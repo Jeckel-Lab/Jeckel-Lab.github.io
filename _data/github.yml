@@ -132,7 +132,7 @@ recent_stars:
     - name: Crell/AttributeUtils
       description: "Utilities to help ease parsing and manging of attributes"
       url: https://github.com/Crell/AttributeUtils
-      stars: 64
+      stars: 65
 
     - name: jeckel/dotfiles
       description: "My Dot files"
@@ -177,7 +177,7 @@ recent_stars:
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
       url: https://github.com/mautic/mautic
-      stars: 6222
+      stars: 6223
 
 recent_repos:
 
