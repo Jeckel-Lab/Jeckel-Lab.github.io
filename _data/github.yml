@@ -132,7 +132,7 @@ recent_stars:
     - name: Crell/AttributeUtils
       description: "Utilities to help ease parsing and manging of attributes"
       url: https://github.com/Crell/AttributeUtils
-      stars: 68
+      stars: 69
 
     - name: jeckel/dotfiles
       description: "My Dot files"
@@ -167,7 +167,7 @@ recent_stars:
     - name: jlondiche/job-board-php
       description: ""
       url: https://github.com/jlondiche/job-board-php
-      stars: 479
+      stars: 480
 
     - name: luizeof/awesome-mautic
       description: "Curated List of Mautic Plugins, Blogs, Repositories and Themes"
