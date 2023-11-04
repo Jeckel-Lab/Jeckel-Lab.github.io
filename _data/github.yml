@@ -172,7 +172,7 @@ recent_stars:
     - name: luizeof/awesome-mautic
       description: "Curated List of Mautic Plugins, Blogs, Repositories and Themes"
       url: https://github.com/luizeof/awesome-mautic
-      stars: 66
+      stars: 67
 
     - name: mautic/mautic
       description: "Mautic: Open Source Marketing Automation Software."
