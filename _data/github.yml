@@ -3,7 +3,7 @@ recent_contributions:
     - name: Jeckel-Lab/ipc-shared-memory-demo
       description: "A demo project on how to use the IPC-Shared-Memory package"
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-      occurred: 2023-10-30 07:00:00 &#43;0000 UTC
+      occurred: 2023-11-08 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/ipc-shared-memory
       description: "A library to use shared memory for Inter-Process Communication without collision"
@@ -36,6 +36,15 @@ recent_contributions:
       occurred: 2023-10-13 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Replace current Makefile recipes with Castor tasks
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/6
+      state: MERGED
+      createdAt: 2023-11-08 10:35:33 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/ipc-shared-memory-demo
+        - description: "A demo project on how to use the IPC-Shared-Memory package"
+        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
 
     - title: Send millions of messages in RabbitMQ
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/3
@@ -118,15 +127,6 @@ recent_pull_requests:
         - description: "A library to parse Mautic&#39;s webhook payloads"
         - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
 
-    - title: Add missing readonly
-      url: https://github.com/Jeckel-Lab/identity-contract/pull/21
-      state: MERGED
-      createdAt: 2023-10-16 09:28:12 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/identity-contract
-        - description: "Propose basic abstract classes to manage Identities in Domain project"
-        - url: https://github.com/Jeckel-Lab/identity-contract
-
 recent_stars:
 
     - name: Crell/AttributeUtils
@@ -157,7 +157,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1306
+      stars: 1307
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
