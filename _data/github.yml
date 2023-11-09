@@ -37,6 +37,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: #9 Basic worker
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/10
+      state: OPEN
+      createdAt: 2023-11-09 09:18:26 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/ipc-shared-memory-demo
+        - description: "A demo project on how to use the IPC-Shared-Memory package"
+        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
+
     - title: Add metric end point
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/8
       state: MERGED
@@ -117,15 +126,6 @@ recent_pull_requests:
         - name: jeckel/dotfiles
         - description: "My Dot files"
         - url: https://github.com/jeckel/dotfiles
-
-    - title: Parse fields into Field VO
-      url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/5
-      state: MERGED
-      createdAt: 2023-10-19 10:18:59 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/mautic-webhook-parser
-        - description: "A library to parse Mautic&#39;s webhook payloads"
-        - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
 
 recent_stars:
 
