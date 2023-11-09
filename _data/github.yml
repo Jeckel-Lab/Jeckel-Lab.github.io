@@ -1,14 +1,14 @@
 recent_contributions:
 
+    - name: Jeckel-Lab/ipc-shared-memory-demo
+      description: "A demo project on how to use the IPC-Shared-Memory package"
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
+      occurred: 2023-11-09 08:00:00 &#43;0000 UTC
+
     - name: jeckel/dotfiles
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
       occurred: 2023-11-09 08:00:00 &#43;0000 UTC
-
-    - name: Jeckel-Lab/ipc-shared-memory-demo
-      description: "A demo project on how to use the IPC-Shared-Memory package"
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-      occurred: 2023-11-08 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/ipc-shared-memory
       description: "A library to use shared memory for Inter-Process Communication without collision"
@@ -39,7 +39,7 @@ recent_pull_requests:
 
     - title: #9 Basic worker
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/10
-      state: OPEN
+      state: MERGED
       createdAt: 2023-11-09 09:18:26 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/ipc-shared-memory-demo
