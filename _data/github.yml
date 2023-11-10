@@ -129,6 +129,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: JosephLeedy/magento-module-xml-validator
+      description: "Adds a console command for validating Magento 2 XML files against their configured schema"
+      url: https://github.com/JosephLeedy/magento-module-xml-validator
+      stars: 6
+
     - name: Crell/AttributeUtils
       description: "Utilities to help ease parsing and manging of attributes"
       url: https://github.com/Crell/AttributeUtils
@@ -173,11 +178,6 @@ recent_stars:
       description: "Curated List of Mautic Plugins, Blogs, Repositories and Themes"
       url: https://github.com/luizeof/awesome-mautic
       stars: 67
-
-    - name: mautic/mautic
-      description: "Mautic: Open Source Marketing Automation Software."
-      url: https://github.com/mautic/mautic
-      stars: 6247
 
 recent_repos:
 
