@@ -137,7 +137,7 @@ recent_stars:
     - name: Crell/AttributeUtils
       description: "Utilities to help ease parsing and manging of attributes"
       url: https://github.com/Crell/AttributeUtils
-      stars: 75
+      stars: 76
 
     - name: jeckel/dotfiles
       description: "My Dot files"
