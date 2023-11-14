@@ -37,6 +37,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: WIP: Refactor docker-compose commands into Castor Helpers
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/14
+      state: OPEN
+      createdAt: 2023-11-14 18:16:06 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/ipc-shared-memory-demo
+        - description: "A demo project on how to use the IPC-Shared-Memory package"
+        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
+
     - title: Use php di
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/13
       state: MERGED
@@ -113,15 +122,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/dotfiles/pull/6
       state: MERGED
       createdAt: 2023-10-23 09:48:12 &#43;0000 UTC
-      repository:
-        - name: jeckel/dotfiles
-        - description: "My Dot files"
-        - url: https://github.com/jeckel/dotfiles
-
-    - title: Continue dotfile update
-      url: https://github.com/jeckel/dotfiles/pull/3
-      state: MERGED
-      createdAt: 2023-10-20 09:33:33 &#43;0000 UTC
       repository:
         - name: jeckel/dotfiles
         - description: "My Dot files"
