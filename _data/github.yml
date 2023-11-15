@@ -37,6 +37,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Monitor processed messages
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/15
+      state: OPEN
+      createdAt: 2023-11-15 10:25:11 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/ipc-shared-memory-demo
+        - description: "A demo project on how to use the IPC-Shared-Memory package"
+        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
+
     - title: WIP: Refactor docker-compose commands into Castor Helpers
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/14
       state: MERGED
@@ -118,15 +127,6 @@ recent_pull_requests:
         - description: "My Dot files"
         - url: https://github.com/jeckel/dotfiles
 
-    - title: Feature/rework dot files
-      url: https://github.com/jeckel/dotfiles/pull/6
-      state: MERGED
-      createdAt: 2023-10-23 09:48:12 &#43;0000 UTC
-      repository:
-        - name: jeckel/dotfiles
-        - description: "My Dot files"
-        - url: https://github.com/jeckel/dotfiles
-
 recent_stars:
 
     - name: JosephLeedy/magento-module-xml-validator
@@ -162,7 +162,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1319
+      stars: 1320
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
