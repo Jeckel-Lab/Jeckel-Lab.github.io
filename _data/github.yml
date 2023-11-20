@@ -129,6 +129,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: jolicode/castor
+      description: "🦫 DX oriented task runner and command launcher built with PHP."
+      url: https://github.com/jolicode/castor
+      stars: 267
+
     - name: JosephLeedy/magento-module-xml-validator
       description: "Adds a console command for validating Magento 2 XML files against their configured schema"
       url: https://github.com/JosephLeedy/magento-module-xml-validator
@@ -173,11 +178,6 @@ recent_stars:
       description: ""
       url: https://github.com/jlondiche/job-board-php
       stars: 485
-
-    - name: luizeof/awesome-mautic
-      description: "Curated List of Mautic Plugins, Blogs, Repositories and Themes"
-      url: https://github.com/luizeof/awesome-mautic
-      stars: 67
 
 recent_repos:
 
