@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jolicode/castor
+      description: "🦫 DX oriented task runner and command launcher built with PHP."
+      url: https://github.com/jolicode/castor
+      occurred: 2023-11-20 08:00:00 &#43;0000 UTC
+
     - name: Jeckel-Lab/ipc-shared-memory-demo
       description: "A demo project on how to use the IPC-Shared-Memory package"
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
@@ -36,6 +41,15 @@ recent_contributions:
       occurred: 2023-10-13 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Add missing `use function` statements
+      url: https://github.com/jolicode/castor/pull/203
+      state: MERGED
+      createdAt: 2023-11-20 09:42:27 &#43;0000 UTC
+      repository:
+        - name: jolicode/castor
+        - description: "🦫 DX oriented task runner and command launcher built with PHP."
+        - url: https://github.com/jolicode/castor
 
     - title: Monitor processed messages
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/15
@@ -117,15 +131,6 @@ recent_pull_requests:
         - name: Jeckel-Lab/mautic-webhook-parser
         - description: "A library to parse Mautic&#39;s webhook payloads"
         - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
-
-    - title: Update readme
-      url: https://github.com/jeckel/dotfiles/pull/7
-      state: MERGED
-      createdAt: 2023-10-23 09:52:04 &#43;0000 UTC
-      repository:
-        - name: jeckel/dotfiles
-        - description: "My Dot files"
-        - url: https://github.com/jeckel/dotfiles
 
 recent_stars:
 
