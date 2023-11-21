@@ -42,6 +42,24 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: [WIP] Customize download url
+      url: https://github.com/lamy-liaisons/filegator/pull/1
+      state: OPEN
+      createdAt: 2023-11-21 11:00:55 &#43;0000 UTC
+      repository:
+        - name: lamy-liaisons/filegator
+        - description: "Powerful Multi-User File Manager"
+        - url: https://github.com/lamy-liaisons/filegator
+
+    - title: [WIP] Customize download url
+      url: https://github.com/filegator/filegator/pull/430
+      state: CLOSED
+      createdAt: 2023-11-21 10:59:39 &#43;0000 UTC
+      repository:
+        - name: filegator/filegator
+        - description: "Powerful Multi-User File Manager"
+        - url: https://github.com/filegator/filegator
+
     - title: Add missing `use function` statements
       url: https://github.com/jolicode/castor/pull/203
       state: MERGED
@@ -113,24 +131,6 @@ recent_pull_requests:
         - name: Jeckel-Lab/ipc-shared-memory-demo
         - description: "A demo project on how to use the IPC-Shared-Memory package"
         - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
-    - title: Feature/configure containers
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/2
-      state: MERGED
-      createdAt: 2023-10-28 06:12:51 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/ipc-shared-memory-demo
-        - description: "A demo project on how to use the IPC-Shared-Memory package"
-        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
-    - title: Make fields available from Contact entity
-      url: https://github.com/Jeckel-Lab/mautic-webhook-parser/pull/6
-      state: MERGED
-      createdAt: 2023-10-26 14:40:20 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/mautic-webhook-parser
-        - description: "A library to parse Mautic&#39;s webhook payloads"
-        - url: https://github.com/Jeckel-Lab/mautic-webhook-parser
 
 recent_stars:
 
