@@ -42,6 +42,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Feature/export ignore
+      url: https://github.com/lamy-liaisons/filegator/pull/2
+      state: MERGED
+      createdAt: 2023-11-21 14:54:22 &#43;0000 UTC
+      repository:
+        - name: lamy-liaisons/filegator
+        - description: "Powerful Multi-User File Manager"
+        - url: https://github.com/lamy-liaisons/filegator
+
     - title: Customize download url
       url: https://github.com/lamy-liaisons/filegator/pull/1
       state: MERGED
@@ -123,15 +132,6 @@ recent_pull_requests:
         - description: "A demo project on how to use the IPC-Shared-Memory package"
         - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
 
-    - title: Send millions of messages in RabbitMQ
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/3
-      state: MERGED
-      createdAt: 2023-10-30 15:19:50 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/ipc-shared-memory-demo
-        - description: "A demo project on how to use the IPC-Shared-Memory package"
-        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
 recent_stars:
 
     - name: filegator/filegator
@@ -177,7 +177,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1322
+      stars: 1323
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
