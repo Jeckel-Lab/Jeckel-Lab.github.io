@@ -1,14 +1,14 @@
 recent_contributions:
 
+    - name: Jeckel-Lab/ipc-shared-memory-demo
+      description: "A demo project on how to use the IPC-Shared-Memory package"
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
+      occurred: 2023-11-22 08:00:00 &#43;0000 UTC
+
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
       url: https://github.com/jolicode/castor
       occurred: 2023-11-20 08:00:00 &#43;0000 UTC
-
-    - name: Jeckel-Lab/ipc-shared-memory-demo
-      description: "A demo project on how to use the IPC-Shared-Memory package"
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-      occurred: 2023-11-15 08:00:00 &#43;0000 UTC
 
     - name: jeckel/dotfiles
       description: "My Dot files"
@@ -41,6 +41,15 @@ recent_contributions:
       occurred: 2023-10-13 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Add queue reservation and clearing
+      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/16
+      state: MERGED
+      createdAt: 2023-11-22 11:02:45 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/ipc-shared-memory-demo
+        - description: "A demo project on how to use the IPC-Shared-Memory package"
+        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
 
     - title: Feature/export ignore
       url: https://github.com/lamy-liaisons/filegator/pull/2
@@ -118,15 +127,6 @@ recent_pull_requests:
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/8
       state: MERGED
       createdAt: 2023-11-08 11:35:41 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/ipc-shared-memory-demo
-        - description: "A demo project on how to use the IPC-Shared-Memory package"
-        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
-    - title: Replace current Makefile recipes with Castor tasks
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/6
-      state: MERGED
-      createdAt: 2023-11-08 10:35:33 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/ipc-shared-memory-demo
         - description: "A demo project on how to use the IPC-Shared-Memory package"
