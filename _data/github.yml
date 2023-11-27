@@ -42,6 +42,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Invert InputInterface and OutputInterface links
+      url: https://github.com/jolicode/castor/pull/206
+      state: OPEN
+      createdAt: 2023-11-27 14:16:57 &#43;0000 UTC
+      repository:
+        - name: jolicode/castor
+        - description: "🦫 DX oriented task runner and command launcher built with PHP."
+        - url: https://github.com/jolicode/castor
+
     - title: Add queue reservation and clearing
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/16
       state: MERGED
@@ -118,15 +127,6 @@ recent_pull_requests:
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/10
       state: MERGED
       createdAt: 2023-11-09 09:18:26 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/ipc-shared-memory-demo
-        - description: "A demo project on how to use the IPC-Shared-Memory package"
-        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
-    - title: Add metric end point
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/8
-      state: MERGED
-      createdAt: 2023-11-08 11:35:41 &#43;0000 UTC
       repository:
         - name: Jeckel-Lab/ipc-shared-memory-demo
         - description: "A demo project on how to use the IPC-Shared-Memory package"
