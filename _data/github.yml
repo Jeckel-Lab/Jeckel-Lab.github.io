@@ -42,6 +42,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add helper wait_for
+      url: https://github.com/jeckel/castor/pull/1
+      state: OPEN
+      createdAt: 2023-12-03 09:14:27 &#43;0000 UTC
+      repository:
+        - name: jeckel/castor
+        - description: "🦫 DX oriented task runner and command launcher built with PHP."
+        - url: https://github.com/jeckel/castor
+
     - title: Remove grafana
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/17
       state: MERGED
@@ -123,15 +132,6 @@ recent_pull_requests:
         - description: "A demo project on how to use the IPC-Shared-Memory package"
         - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
 
-    - title: Use php di
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/13
-      state: MERGED
-      createdAt: 2023-11-14 08:13:54 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/ipc-shared-memory-demo
-        - description: "A demo project on how to use the IPC-Shared-Memory package"
-        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
 recent_stars:
 
     - name: filegator/filegator
@@ -167,7 +167,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 211
+      stars: 212
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
@@ -177,7 +177,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1332
+      stars: 1333
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
