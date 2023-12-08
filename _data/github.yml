@@ -160,7 +160,7 @@ recent_stars:
       stars: 2
 
     - name: grafana/grafana-ansible-collection
-      description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud"
+      description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
       url: https://github.com/grafana/grafana-ansible-collection
       stars: 49
 
