@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jeckel/dotfiles
+      description: "My Dot files"
+      url: https://github.com/jeckel/dotfiles
+      occurred: 2023-12-18 08:00:00 &#43;0000 UTC
+
     - name: Jeckel-Lab/ipc-shared-memory-demo
       description: "A demo project on how to use the IPC-Shared-Memory package"
       url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
@@ -9,11 +14,6 @@ recent_contributions:
       description: "🦫 DX oriented task runner and command launcher built with PHP."
       url: https://github.com/jolicode/castor
       occurred: 2023-11-27 08:00:00 &#43;0000 UTC
-
-    - name: jeckel/dotfiles
-      description: "My Dot files"
-      url: https://github.com/jeckel/dotfiles
-      occurred: 2023-11-09 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/ipc-shared-memory
       description: "A library to use shared memory for Inter-Process Communication without collision"
