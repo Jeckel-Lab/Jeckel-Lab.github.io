@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jeckel/CRM-Bridge
+      description: ""
+      url: https://github.com/jeckel/CRM-Bridge
+      occurred: 2024-01-08 08:00:00 &#43;0000 UTC
+
     - name: jeckel/dotfiles
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
@@ -137,7 +142,7 @@ recent_stars:
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1731
+      stars: 1732
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
@@ -186,6 +191,11 @@ recent_stars:
 
 recent_repos:
 
+    - name: jeckel/CRM-Bridge
+      description: ""
+      url: https://github.com/jeckel/CRM-Bridge
+      stars: 0
+
     - name: jeckel/docker-php-slim-vuejs
       description: ""
       url: https://github.com/jeckel/docker-php-slim-vuejs
@@ -229,10 +239,5 @@ recent_repos:
     - name: jeckel/docker-php-test
       description: "Collection of docker PHP image dedicated for tests and CI"
       url: https://github.com/jeckel/docker-php-test
-      stars: 1
-
-    - name: jeckel/circleci-sandbox
-      description: "Circle CI Sandbox"
-      url: https://github.com/jeckel/circleci-sandbox
       stars: 1
 
