@@ -49,7 +49,7 @@ recent_pull_requests:
 
     - title: Feature/calendly webhook
       url: https://github.com/jeckel/CRM-Bridge/pull/6
-      state: OPEN
+      state: MERGED
       createdAt: 2024-01-08 17:15:48 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
