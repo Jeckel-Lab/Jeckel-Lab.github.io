@@ -47,6 +47,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Feature/init infrastructure
+      url: https://github.com/jeckel/CRM-Bridge/pull/2
+      state: OPEN
+      createdAt: 2024-01-08 10:18:44 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Add helper wait_for
       url: https://github.com/jeckel/castor/pull/1
       state: OPEN
@@ -128,15 +137,6 @@ recent_pull_requests:
         - description: "A demo project on how to use the IPC-Shared-Memory package"
         - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
 
-    - title: WIP: Refactor docker-compose commands into Castor Helpers
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo/pull/14
-      state: MERGED
-      createdAt: 2023-11-14 18:16:06 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/ipc-shared-memory-demo
-        - description: "A demo project on how to use the IPC-Shared-Memory package"
-        - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
 recent_stars:
 
     - name: filegator/filegator
@@ -182,7 +182,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1366
+      stars: 1367
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
