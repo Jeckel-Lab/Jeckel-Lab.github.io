@@ -47,6 +47,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Feature/authentication
+      url: https://github.com/jeckel/CRM-Bridge/pull/8
+      state: MERGED
+      createdAt: 2024-01-10 17:50:10 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Feature/generate env file
       url: https://github.com/jeckel/CRM-Bridge/pull/7
       state: MERGED
@@ -123,15 +132,6 @@ recent_pull_requests:
       url: https://github.com/lamy-liaisons/filegator/pull/2
       state: MERGED
       createdAt: 2023-11-21 14:54:22 &#43;0000 UTC
-      repository:
-        - name: lamy-liaisons/filegator
-        - description: "Powerful Multi-User File Manager"
-        - url: https://github.com/lamy-liaisons/filegator
-
-    - title: Customize download url
-      url: https://github.com/lamy-liaisons/filegator/pull/1
-      state: MERGED
-      createdAt: 2023-11-21 11:00:55 &#43;0000 UTC
       repository:
         - name: lamy-liaisons/filegator
         - description: "Powerful Multi-User File Manager"
