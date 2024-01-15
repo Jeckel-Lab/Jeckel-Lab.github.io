@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Retrieve contact from EspoCRM
+      url: https://github.com/jeckel/CRM-Bridge/pull/11
+      state: OPEN
+      createdAt: 2024-01-15 15:04:28 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Feature/cal dot com
       url: https://github.com/jeckel/CRM-Bridge/pull/10
       state: MERGED
@@ -132,15 +141,6 @@ recent_pull_requests:
         - name: Jeckel-Lab/ipc-shared-memory-demo
         - description: "A demo project on how to use the IPC-Shared-Memory package"
         - url: https://github.com/Jeckel-Lab/ipc-shared-memory-demo
-
-    - title: Invert InputInterface and OutputInterface links
-      url: https://github.com/jolicode/castor/pull/206
-      state: MERGED
-      createdAt: 2023-11-27 14:16:57 &#43;0000 UTC
-      repository:
-        - name: jolicode/castor
-        - description: "🦫 DX oriented task runner and command launcher built with PHP."
-        - url: https://github.com/jolicode/castor
 
 recent_stars:
 
