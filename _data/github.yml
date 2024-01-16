@@ -35,14 +35,14 @@ recent_contributions:
       url: https://github.com/Jeckel-Lab/mautic-webhook-parser
       occurred: 2023-10-26 07:00:00 &#43;0000 UTC
 
-    - name: Jeckel-Lab/Jeckel-Lab.github.io
-      description: "Jeckel-Lab website"
-      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
-      occurred: 2023-10-16 07:00:00 &#43;0000 UTC
-
     - name: Jeckel-Lab/identity-contract
       description: "Propose basic abstract classes to manage Identities in Domain project"
       url: https://github.com/Jeckel-Lab/identity-contract
+      occurred: 2023-10-16 07:00:00 &#43;0000 UTC
+
+    - name: Jeckel-Lab/Jeckel-Lab.github.io
+      description: "Jeckel-Lab website"
+      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
       occurred: 2023-10-16 07:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/etl
