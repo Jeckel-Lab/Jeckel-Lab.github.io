@@ -147,7 +147,7 @@ recent_stars:
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1741
+      stars: 1742
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
@@ -177,7 +177,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 233
+      stars: 234
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
