@@ -172,7 +172,7 @@ recent_stars:
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
       url: https://github.com/grafana/grafana-ansible-collection
-      stars: 53
+      stars: 54
 
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
@@ -187,7 +187,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1383
+      stars: 1385
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
