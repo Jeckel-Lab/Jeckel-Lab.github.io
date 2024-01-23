@@ -172,12 +172,12 @@ recent_stars:
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
       url: https://github.com/grafana/grafana-ansible-collection
-      stars: 55
+      stars: 56
 
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 234
+      stars: 235
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
