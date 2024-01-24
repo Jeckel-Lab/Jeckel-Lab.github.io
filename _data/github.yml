@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Replay incoming webhook
+      url: https://github.com/jeckel/CRM-Bridge/pull/16
+      state: OPEN
+      createdAt: 2024-01-24 18:54:32 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Building production images
       url: https://github.com/jeckel/CRM-Bridge/pull/15
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/3
       state: MERGED
       createdAt: 2024-01-08 10:53:22 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Feature/init infrastructure
-      url: https://github.com/jeckel/CRM-Bridge/pull/2
-      state: MERGED
-      createdAt: 2024-01-08 10:18:44 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
