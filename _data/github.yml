@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: List address books
+      url: https://github.com/jeckel/CRM-Bridge/pull/21
+      state: OPEN
+      createdAt: 2024-02-03 16:28:41 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Use registry images
       url: https://github.com/jeckel/CRM-Bridge/pull/20
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/8
       state: MERGED
       createdAt: 2024-01-10 17:50:10 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Feature/generate env file
-      url: https://github.com/jeckel/CRM-Bridge/pull/7
-      state: MERGED
-      createdAt: 2024-01-09 18:30:32 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
