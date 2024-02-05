@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Feature/imap
+      url: https://github.com/jeckel/CRM-Bridge/pull/27
+      state: OPEN
+      createdAt: 2024-02-05 17:34:51 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: List address books
       url: https://github.com/jeckel/CRM-Bridge/pull/21
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/9
       state: MERGED
       createdAt: 2024-01-11 17:55:37 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Feature/authentication
-      url: https://github.com/jeckel/CRM-Bridge/pull/8
-      state: MERGED
-      createdAt: 2024-01-10 17:50:10 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
