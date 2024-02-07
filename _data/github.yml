@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/CRM-Bridge
       description: ""
       url: https://github.com/jeckel/CRM-Bridge
-      occurred: 2024-02-06 08:00:00 &#43;0000 UTC
+      occurred: 2024-02-07 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/castor-helper
       description: "Castor helper tools"
@@ -51,6 +51,15 @@ recent_contributions:
       occurred: 2023-10-13 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Feature/link mail contact
+      url: https://github.com/jeckel/CRM-Bridge/pull/30
+      state: MERGED
+      createdAt: 2024-02-07 11:34:44 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
 
     - title: Feature/imap
       url: https://github.com/jeckel/CRM-Bridge/pull/27
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/10
       state: MERGED
       createdAt: 2024-01-15 13:40:50 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Feature/linkedin
-      url: https://github.com/jeckel/CRM-Bridge/pull/9
-      state: MERGED
-      createdAt: 2024-01-11 17:55:37 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
