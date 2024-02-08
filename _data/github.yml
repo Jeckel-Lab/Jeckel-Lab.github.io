@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add Company doctrine entity linked to Contact
+      url: https://github.com/jeckel/CRM-Bridge/pull/34
+      state: OPEN
+      createdAt: 2024-02-08 07:45:19 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Feature/refactoring
       url: https://github.com/jeckel/CRM-Bridge/pull/33
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/13
       state: MERGED
       createdAt: 2024-01-20 20:04:29 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Retrieve contact from EspoCRM
-      url: https://github.com/jeckel/CRM-Bridge/pull/11
-      state: MERGED
-      createdAt: 2024-01-15 15:04:28 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
