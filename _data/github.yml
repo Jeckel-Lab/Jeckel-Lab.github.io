@@ -152,7 +152,7 @@ recent_stars:
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
       url: https://github.com/jolicode/castor
-      stars: 288
+      stars: 289
 
     - name: JosephLeedy/magento-module-xml-validator
       description: "Adds a console command for validating Magento 2 XML files against their configured schema"
@@ -187,7 +187,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1424
+      stars: 1425
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
