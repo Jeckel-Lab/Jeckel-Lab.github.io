@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/CRM-Bridge
       description: ""
       url: https://github.com/jeckel/CRM-Bridge
-      occurred: 2024-02-07 08:00:00 &#43;0000 UTC
+      occurred: 2024-02-08 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/castor-helper
       description: "Castor helper tools"
@@ -54,7 +54,7 @@ recent_pull_requests:
 
     - title: Add Company doctrine entity linked to Contact
       url: https://github.com/jeckel/CRM-Bridge/pull/34
-      state: OPEN
+      state: MERGED
       createdAt: 2024-02-08 07:45:19 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
