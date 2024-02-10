@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Create Account as base table
+      url: https://github.com/jeckel/CRM-Bridge/pull/35
+      state: OPEN
+      createdAt: 2024-02-10 09:23:59 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Add Company doctrine entity linked to Contact
       url: https://github.com/jeckel/CRM-Bridge/pull/34
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/15
       state: MERGED
       createdAt: 2024-01-22 15:01:29 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Replace nginx/fpm with apache
-      url: https://github.com/jeckel/CRM-Bridge/pull/13
-      state: MERGED
-      createdAt: 2024-01-20 20:04:29 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
