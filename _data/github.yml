@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: Jeckel-Lab/Jeckel-Lab.github.io
+      description: "Jeckel-Lab website"
+      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
+      occurred: 2024-02-15 08:00:00 &#43;0000 UTC
+
     - name: jeckel/CRM-Bridge
       description: ""
       url: https://github.com/jeckel/CRM-Bridge
@@ -34,11 +39,6 @@ recent_contributions:
       description: "A library to parse Mautic&#39;s webhook payloads"
       url: https://github.com/Jeckel-Lab/mautic-webhook-parser
       occurred: 2023-10-26 07:00:00 &#43;0000 UTC
-
-    - name: Jeckel-Lab/Jeckel-Lab.github.io
-      description: "Jeckel-Lab website"
-      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
-      occurred: 2023-10-16 07:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/identity-contract
       description: "Propose basic abstract classes to manage Identities in Domain project"
@@ -187,7 +187,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1434
+      stars: 1436
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
