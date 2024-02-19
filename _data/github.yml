@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add/Update contact on Cal.com webhook
+      url: https://github.com/jeckel/CRM-Bridge/pull/43
+      state: OPEN
+      createdAt: 2024-02-19 14:14:03 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Feature/dead letter
       url: https://github.com/jeckel/CRM-Bridge/pull/40
       state: MERGED
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Replay incoming webhook
-      url: https://github.com/jeckel/CRM-Bridge/pull/16
-      state: MERGED
-      createdAt: 2024-01-24 18:54:32 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: filegator/filegator
@@ -152,7 +152,7 @@ recent_stars:
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
       url: https://github.com/jolicode/castor
-      stars: 297
+      stars: 296
 
     - name: JosephLeedy/magento-module-xml-validator
       description: "Adds a console command for validating Magento 2 XML files against their configured schema"
