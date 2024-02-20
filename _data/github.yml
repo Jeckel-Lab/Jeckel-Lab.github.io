@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Update UI
+      url: https://github.com/jeckel/CRM-Bridge/pull/44
+      state: OPEN
+      createdAt: 2024-02-20 10:49:31 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Add/Update contact on Cal.com webhook
       url: https://github.com/jeckel/CRM-Bridge/pull/43
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/20
       state: MERGED
       createdAt: 2024-02-03 15:47:09 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Create Contact Domain
-      url: https://github.com/jeckel/CRM-Bridge/pull/17
-      state: MERGED
-      createdAt: 2024-01-26 15:15:40 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
