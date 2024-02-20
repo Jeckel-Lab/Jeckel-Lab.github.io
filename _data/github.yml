@@ -1,14 +1,14 @@
 recent_contributions:
 
+    - name: jeckel/CRM-Bridge
+      description: ""
+      url: https://github.com/jeckel/CRM-Bridge
+      occurred: 2024-02-20 08:00:00 &#43;0000 UTC
+
     - name: jeckel/CRM-Bridge-Docker
       description: "Docker images for CRM-Bridge"
       url: https://github.com/jeckel/CRM-Bridge-Docker
       occurred: 2024-02-19 08:00:00 &#43;0000 UTC
-
-    - name: jeckel/CRM-Bridge
-      description: ""
-      url: https://github.com/jeckel/CRM-Bridge
-      occurred: 2024-02-15 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/Jeckel-Lab.github.io
       description: "Jeckel-Lab website"
@@ -54,7 +54,7 @@ recent_pull_requests:
 
     - title: Add/Update contact on Cal.com webhook
       url: https://github.com/jeckel/CRM-Bridge/pull/43
-      state: OPEN
+      state: MERGED
       createdAt: 2024-02-19 14:14:03 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
@@ -147,7 +147,7 @@ recent_stars:
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1783
+      stars: 1784
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
