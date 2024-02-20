@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Use enum with doctrine
+      url: https://github.com/jeckel/CRM-Bridge/pull/47
+      state: MERGED
+      createdAt: 2024-02-20 18:30:56 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Update UI
       url: https://github.com/jeckel/CRM-Bridge/pull/44
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/21
       state: MERGED
       createdAt: 2024-02-03 16:28:41 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Use registry images
-      url: https://github.com/jeckel/CRM-Bridge/pull/20
-      state: MERGED
-      createdAt: 2024-02-03 15:47:09 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
