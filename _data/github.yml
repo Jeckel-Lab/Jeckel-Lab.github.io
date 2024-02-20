@@ -54,7 +54,7 @@ recent_pull_requests:
 
     - title: Update UI
       url: https://github.com/jeckel/CRM-Bridge/pull/44
-      state: OPEN
+      state: MERGED
       createdAt: 2024-02-20 10:49:31 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
@@ -147,7 +147,7 @@ recent_stars:
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1784
+      stars: 1783
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
