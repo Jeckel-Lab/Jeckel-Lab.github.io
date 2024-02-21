@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Update structure with email in a dedicated table
+      url: https://github.com/jeckel/CRM-Bridge/pull/51
+      state: OPEN
+      createdAt: 2024-02-21 15:06:47 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Fix #49 contact creation with company
       url: https://github.com/jeckel/CRM-Bridge/pull/50
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/33
       state: MERGED
       createdAt: 2024-02-07 19:13:39 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Feature/link mail contact
-      url: https://github.com/jeckel/CRM-Bridge/pull/30
-      state: MERGED
-      createdAt: 2024-02-07 11:34:44 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
