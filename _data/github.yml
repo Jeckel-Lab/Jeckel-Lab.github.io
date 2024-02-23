@@ -147,7 +147,7 @@ recent_stars:
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1786
+      stars: 1787
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
