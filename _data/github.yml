@@ -177,7 +177,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 243
+      stars: 244
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
