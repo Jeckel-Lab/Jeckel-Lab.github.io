@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/CRM-Bridge
       description: ""
       url: https://github.com/jeckel/CRM-Bridge
-      occurred: 2024-02-21 08:00:00 &#43;0000 UTC
+      occurred: 2024-02-26 08:00:00 &#43;0000 UTC
 
     - name: jeckel/CRM-Bridge-Docker
       description: "Docker images for CRM-Bridge"
@@ -51,6 +51,15 @@ recent_contributions:
       occurred: 2023-10-16 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: #58 cache imap mail content
+      url: https://github.com/jeckel/CRM-Bridge/pull/64
+      state: MERGED
+      createdAt: 2024-02-26 16:53:00 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
 
     - title: Initiate recipes
       url: https://github.com/jeckel/CRM-Bridge-Docker/pull/2
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/43
       state: MERGED
       createdAt: 2024-02-19 14:14:03 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Feature/dead letter
-      url: https://github.com/jeckel/CRM-Bridge/pull/40
-      state: MERGED
-      createdAt: 2024-02-15 22:08:13 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
