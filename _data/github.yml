@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Dashboard
+      url: https://github.com/jeckel/CRM-Bridge/pull/65
+      state: OPEN
+      createdAt: 2024-02-27 07:32:57 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: #58 cache imap mail content
       url: https://github.com/jeckel/CRM-Bridge/pull/64
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/44
       state: MERGED
       createdAt: 2024-02-20 10:49:31 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Add/Update contact on Cal.com webhook
-      url: https://github.com/jeckel/CRM-Bridge/pull/43
-      state: MERGED
-      createdAt: 2024-02-19 14:14:03 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
