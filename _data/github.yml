@@ -152,7 +152,7 @@ recent_stars:
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
       url: https://github.com/jolicode/castor
-      stars: 302
+      stars: 303
 
     - name: JosephLeedy/magento-module-xml-validator
       description: "Adds a console command for validating Magento 2 XML files against their configured schema"
@@ -177,7 +177,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 248
+      stars: 249
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
