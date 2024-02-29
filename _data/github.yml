@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/CRM-Bridge
       description: ""
       url: https://github.com/jeckel/CRM-Bridge
-      occurred: 2024-02-26 08:00:00 &#43;0000 UTC
+      occurred: 2024-02-29 08:00:00 &#43;0000 UTC
 
     - name: jeckel/CRM-Bridge-Docker
       description: "Docker images for CRM-Bridge"
@@ -54,7 +54,7 @@ recent_pull_requests:
 
     - title: Dashboard
       url: https://github.com/jeckel/CRM-Bridge/pull/65
-      state: OPEN
+      state: MERGED
       createdAt: 2024-02-27 07:32:57 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
