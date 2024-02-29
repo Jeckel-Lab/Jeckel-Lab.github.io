@@ -162,7 +162,7 @@ recent_stars:
     - name: Crell/AttributeUtils
       description: "Utilities to help ease parsing and manging of attributes"
       url: https://github.com/Crell/AttributeUtils
-      stars: 81
+      stars: 82
 
     - name: jeckel/dotfiles
       description: "My Dot files"
@@ -177,7 +177,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 250
+      stars: 249
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
