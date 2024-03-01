@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/CRM-Bridge
       description: ""
       url: https://github.com/jeckel/CRM-Bridge
-      occurred: 2024-02-29 08:00:00 &#43;0000 UTC
+      occurred: 2024-03-01 08:00:00 &#43;0000 UTC
 
     - name: jeckel/CRM-Bridge-Docker
       description: "Docker images for CRM-Bridge"
@@ -51,6 +51,15 @@ recent_contributions:
       occurred: 2023-10-16 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Refactor worker with new UI
+      url: https://github.com/jeckel/CRM-Bridge/pull/68
+      state: MERGED
+      createdAt: 2024-03-01 20:28:51 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
 
     - title: Treat messages
       url: https://github.com/jeckel/CRM-Bridge/pull/67
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/48
       state: MERGED
       createdAt: 2024-02-21 09:20:53 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Use enum with doctrine
-      url: https://github.com/jeckel/CRM-Bridge/pull/47
-      state: MERGED
-      createdAt: 2024-02-20 18:30:56 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
