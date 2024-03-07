@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Imap fix sync issues
+      url: https://github.com/jeckel/CRM-Bridge/pull/78
+      state: OPEN
+      createdAt: 2024-03-07 10:44:19 &#43;0000 UTC
+      repository:
+        - name: jeckel/CRM-Bridge
+        - description: ""
+        - url: https://github.com/jeckel/CRM-Bridge
+
     - title: Feature/retrieve spam status
       url: https://github.com/jeckel/CRM-Bridge/pull/71
       state: MERGED
@@ -128,15 +137,6 @@ recent_pull_requests:
       url: https://github.com/jeckel/CRM-Bridge/pull/51
       state: MERGED
       createdAt: 2024-02-21 15:06:47 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
-    - title: Fix #49 contact creation with company
-      url: https://github.com/jeckel/CRM-Bridge/pull/50
-      state: MERGED
-      createdAt: 2024-02-21 09:39:06 &#43;0000 UTC
       repository:
         - name: jeckel/CRM-Bridge
         - description: ""
