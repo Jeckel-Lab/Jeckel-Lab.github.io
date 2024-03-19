@@ -147,7 +147,7 @@ recent_stars:
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1814
+      stars: 1815
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
@@ -187,7 +187,7 @@ recent_stars:
     - name: scraly/developers-conferences-agenda
       description: "This repository list a maximum of tech conferences&#39;s date and CFP in order to help conferences organizers, speakers &amp; attendees"
       url: https://github.com/scraly/developers-conferences-agenda
-      stars: 1467
+      stars: 1466
 
     - name: haidang666/awesome-tool-for-readme-profile
       description: "List of thing you can add to your github readme profile"
