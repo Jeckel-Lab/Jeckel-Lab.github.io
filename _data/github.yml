@@ -204,7 +204,7 @@ recent_repos:
     - name: jeckel/CRM-Bridge
       description: ""
       url: https://github.com/jeckel/CRM-Bridge
-      stars: 1
+      stars: 2
 
     - name: jeckel/docker-php-slim-vuejs
       description: ""
