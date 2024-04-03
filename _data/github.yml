@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jeckel/dotfiles
+      description: "My Dot files"
+      url: https://github.com/jeckel/dotfiles
+      occurred: 2024-04-03 07:00:00 &#43;0000 UTC
+
     - name: Jeckel-Lab/contract
       description: "A set of contracts and interfaces to use in different packages"
       url: https://github.com/Jeckel-Lab/contract
@@ -24,11 +29,6 @@ recent_contributions:
       description: "Castor helper tools"
       url: https://github.com/Jeckel-Lab/castor-helper
       occurred: 2024-01-22 08:00:00 &#43;0000 UTC
-
-    - name: jeckel/dotfiles
-      description: "My Dot files"
-      url: https://github.com/jeckel/dotfiles
-      occurred: 2023-12-18 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/ipc-shared-memory-demo
       description: "A demo project on how to use the IPC-Shared-Memory package"
@@ -147,7 +147,7 @@ recent_stars:
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 7273
+      stars: 7276
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
