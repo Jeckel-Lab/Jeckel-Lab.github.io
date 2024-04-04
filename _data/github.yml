@@ -147,7 +147,7 @@ recent_stars:
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 7300
+      stars: 7301
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
@@ -157,7 +157,7 @@ recent_stars:
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
       url: https://github.com/jolicode/castor
-      stars: 340
+      stars: 341
 
     - name: JosephLeedy/magento-module-xml-validator
       description: "Adds a console command for validating Magento 2 XML files against their configured schema"
