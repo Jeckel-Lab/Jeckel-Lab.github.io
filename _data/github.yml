@@ -147,12 +147,12 @@ recent_stars:
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 7405
+      stars: 7407
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1831
+      stars: 1832
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
@@ -182,7 +182,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 265
+      stars: 266
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
