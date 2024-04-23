@@ -147,12 +147,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 5579
+      stars: 5582
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 8162
+      stars: 8164
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
@@ -187,7 +187,7 @@ recent_stars:
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
       url: https://github.com/prometheus-community/ansible
-      stars: 272
+      stars: 273
 
     - name: heiglandreas/holidayChecker
       description: "Check for holidays - locale-aware"
