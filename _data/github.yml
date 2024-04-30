@@ -152,7 +152,7 @@ recent_stars:
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 8382
+      stars: 8383
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
@@ -182,7 +182,7 @@ recent_stars:
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules and roles for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
       url: https://github.com/grafana/grafana-ansible-collection
-      stars: 81
+      stars: 82
 
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
