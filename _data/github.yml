@@ -152,17 +152,17 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 7821
+      stars: 7828
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 9012
+      stars: 9016
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1925
+      stars: 1927
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
@@ -187,7 +187,7 @@ recent_stars:
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules and roles for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
       url: https://github.com/grafana/grafana-ansible-collection
-      stars: 85
+      stars: 86
 
     - name: prometheus-community/ansible
       description: "Ansible Collection for Prometheus"
