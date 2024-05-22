@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Browser fingerprint
+      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io/pull/2
+      state: MERGED
+      createdAt: 2024-05-22 09:34:41 &#43;0000 UTC
+      repository:
+        - name: Jeckel-Lab/Jeckel-Lab.github.io
+        - description: "Jeckel-Lab website"
+        - url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
+
     - title: Allow Stringable type
       url: https://github.com/Jeckel-Lab/contract/pull/35
       state: MERGED
@@ -133,16 +142,12 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Initiate recipes
-      url: https://github.com/jeckel/CRM-Bridge-Docker/pull/2
-      state: OPEN
-      createdAt: 2024-02-22 08:55:19 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge-Docker
-        - description: "Docker images for CRM-Bridge"
-        - url: https://github.com/jeckel/CRM-Bridge-Docker
-
 recent_stars:
+
+    - name: amtzespinosa/fingerprinter
+      description: "Fingerprinter is a simple Browser Fingerprinter built using HTML, CSS and JavaScript.  I have based this project on FingerprintJS but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website."
+      url: https://github.com/amtzespinosa/fingerprinter
+      stars: 2
 
     - name: bflorat/modele-da
       description: "Modèle de Dossier d&#39;Architecture"
@@ -152,7 +157,7 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 7903
+      stars: 7904
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
@@ -162,7 +167,7 @@ recent_stars:
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 1933
+      stars: 1934
 
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
@@ -188,11 +193,6 @@ recent_stars:
       description: "grafana.grafana Ansible collection provides modules and roles for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
       url: https://github.com/grafana/grafana-ansible-collection
       stars: 86
-
-    - name: prometheus-community/ansible
-      description: "Ansible Collection for Prometheus"
-      url: https://github.com/prometheus-community/ansible
-      stars: 295
 
 recent_repos:
 
