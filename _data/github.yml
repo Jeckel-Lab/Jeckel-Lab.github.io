@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: Jeckel-Lab/Jeckel-Lab.github.io
+      description: "Jeckel-Lab website"
+      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
+      occurred: 2024-05-22 07:00:00 &#43;0000 UTC
+
     - name: jeckel/dotfiles
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
@@ -19,11 +24,6 @@ recent_contributions:
       description: "Docker images for CRM-Bridge"
       url: https://github.com/jeckel/CRM-Bridge-Docker
       occurred: 2024-02-19 08:00:00 &#43;0000 UTC
-
-    - name: Jeckel-Lab/Jeckel-Lab.github.io
-      description: "Jeckel-Lab website"
-      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
-      occurred: 2024-02-15 08:00:00 &#43;0000 UTC
 
     - name: Jeckel-Lab/castor-helper
       description: "Castor helper tools"
@@ -152,12 +152,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 7887
+      stars: 7893
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 9031
+      stars: 9033
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
@@ -167,7 +167,7 @@ recent_stars:
     - name: jolicode/castor
       description: "🦫 DX oriented task runner and command launcher built with PHP."
       url: https://github.com/jolicode/castor
-      stars: 365
+      stars: 366
 
     - name: JosephLeedy/magento-module-xml-validator
       description: "Adds a console command for validating Magento 2 XML files against their configured schema"
