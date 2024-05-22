@@ -22,4 +22,5 @@ const option = {
     body: JSON.stringify(payload),
 };
 
-fetch('http://localhost:3000/traffic', { ...option });
+fetch('https://octopus-app-zzeuv.ondigitalocean.app/traffic', { ...option });
+// fetch('http://localhost:3000/traffic', { ...option });
