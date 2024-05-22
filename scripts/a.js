@@ -12,4 +12,4 @@ const option = {
     }),
 };
 
-fetch('http://localhost:3000/traffic', { ...option });
+fetch('https://octopus-app-zzeuv.ondigitalocean.app/traffic', { ...option });
