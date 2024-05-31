@@ -157,7 +157,7 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 8486
+      stars: 8493
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
@@ -192,7 +192,7 @@ recent_stars:
     - name: grafana/grafana-ansible-collection
       description: "grafana.grafana Ansible collection provides modules and roles for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
       url: https://github.com/grafana/grafana-ansible-collection
-      stars: 87
+      stars: 88
 
 recent_repos:
 
