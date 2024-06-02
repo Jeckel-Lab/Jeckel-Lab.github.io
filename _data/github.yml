@@ -162,7 +162,7 @@ recent_stars:
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 9419
+      stars: 9418
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
