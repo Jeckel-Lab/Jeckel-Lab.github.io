@@ -144,6 +144,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: davatorium/rofi
+      description: "Rofi: A window switcher, application launcher and dmenu replacement"
+      url: https://github.com/davatorium/rofi
+      stars: 12622
+
     - name: amtzespinosa/fingerprinter
       description: "Fingerprinter is a simple Browser Fingerprinter built using HTML, CSS and JavaScript.  I have based this project on FingerprintJS but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website."
       url: https://github.com/amtzespinosa/fingerprinter
@@ -157,12 +162,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 9000
+      stars: 9001
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 9576
+      stars: 9577
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
@@ -188,11 +193,6 @@ recent_stars:
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
       stars: 2
-
-    - name: grafana/grafana-ansible-collection
-      description: "grafana.grafana Ansible collection provides modules and roles for managing various resources on Grafana Cloud and roles to manage and deploy Grafana Agent and Grafana"
-      url: https://github.com/grafana/grafana-ansible-collection
-      stars: 89
 
 recent_repos:
 
