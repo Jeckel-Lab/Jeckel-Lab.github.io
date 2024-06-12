@@ -157,7 +157,7 @@ recent_stars:
     - name: bflorat/modele-da
       description: "Modèle de Dossier d&#39;Architecture"
       url: https://github.com/bflorat/modele-da
-      stars: 211
+      stars: 212
 
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
