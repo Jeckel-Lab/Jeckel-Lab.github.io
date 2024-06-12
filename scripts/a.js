@@ -10,7 +10,8 @@ const payload = {
     r: window.location.href,
     f: document.referrer || null,
     w: window.innerWidth,
-    h: hash
+    h: hash,
+    c: 'JLAB-JEKYLL-PRD'
 }
 
 const option = {
