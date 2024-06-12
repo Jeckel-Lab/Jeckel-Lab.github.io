@@ -3,7 +3,7 @@ recent_contributions:
     - name: Jeckel-Lab/Jeckel-Lab.github.io
       description: "Jeckel-Lab website"
       url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
-      occurred: 2024-05-22 07:00:00 &#43;0000 UTC
+      occurred: 2024-06-12 07:00:00 &#43;0000 UTC
 
     - name: jeckel/dotfiles
       description: "My Dot files"
@@ -162,12 +162,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 9151
+      stars: 9152
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 9646
+      stars: 9647
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
