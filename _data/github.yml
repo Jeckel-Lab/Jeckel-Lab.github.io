@@ -157,17 +157,17 @@ recent_stars:
     - name: bflorat/modele-da
       description: "Modèle de Dossier d&#39;Architecture"
       url: https://github.com/bflorat/modele-da
-      stars: 215
+      stars: 216
 
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 10642
+      stars: 10649
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100&#43; LLMs)"
       url: https://github.com/BerriAI/litellm
-      stars: 10179
+      stars: 10181
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
