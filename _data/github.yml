@@ -167,7 +167,7 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 12792
+      stars: 12793
 
     - name: BerriAI/litellm
       description: "Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate, Groq (100&#43; LLMs)"
@@ -192,7 +192,7 @@ recent_stars:
     - name: Crell/AttributeUtils
       description: "Utilities to help ease parsing and manging of attributes"
       url: https://github.com/Crell/AttributeUtils
-      stars: 92
+      stars: 93
 
 recent_repos:
 
