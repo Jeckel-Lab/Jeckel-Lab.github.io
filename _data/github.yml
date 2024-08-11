@@ -152,7 +152,7 @@ recent_stars:
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
       url: https://github.com/davatorium/rofi
-      stars: 12896
+      stars: 12897
 
     - name: amtzespinosa/fingerprinter
       description: "Fingerprinter is a simple Browser Fingerprinter built using HTML, CSS and JavaScript.  I have based this project on FingerprintJS but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website."
@@ -172,7 +172,7 @@ recent_stars:
     - name: BerriAI/litellm
       description: "LLM Proxy to call 100&#43; LLM APIs using the OpenAI format - Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq"
       url: https://github.com/BerriAI/litellm
-      stars: 11138
+      stars: 11141
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
