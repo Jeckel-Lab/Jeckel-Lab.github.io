@@ -144,6 +144,21 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: polybar/polybar
+      description: "A fast and easy-to-use status bar"
+      url: https://github.com/polybar/polybar
+      stars: 13867
+
+    - name: adi1090x/polybar-themes
+      description: "A huge collection of polybar themes with different styles, colors and variants."
+      url: https://github.com/adi1090x/polybar-themes
+      stars: 5637
+
+    - name: TiagoDanin/Awesome-Polybar
+      description: "Curated list of Polybar "
+      url: https://github.com/TiagoDanin/Awesome-Polybar
+      stars: 458
+
     - name: charles-001/dolphie
       description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
       url: https://github.com/charles-001/dolphie
@@ -167,32 +182,17 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 14353
+      stars: 14362
 
     - name: BerriAI/litellm
       description: "LLM Proxy to call 100&#43; LLM APIs using the OpenAI format - Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq"
       url: https://github.com/BerriAI/litellm
-      stars: 11436
+      stars: 11437
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
       stars: 2075
-
-    - name: jolicode/castor
-      description: "🦫 DX oriented task runner and command launcher built with PHP."
-      url: https://github.com/jolicode/castor
-      stars: 383
-
-    - name: JosephLeedy/magento-module-xml-validator
-      description: "Adds a console command for validating Magento 2 XML files against their configured schema"
-      url: https://github.com/JosephLeedy/magento-module-xml-validator
-      stars: 6
-
-    - name: Crell/AttributeUtils
-      description: "Utilities to help ease parsing and manging of attributes"
-      url: https://github.com/Crell/AttributeUtils
-      stars: 93
 
 recent_repos:
 
