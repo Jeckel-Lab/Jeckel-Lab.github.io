@@ -147,12 +147,12 @@ recent_stars:
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 13962
+      stars: 13967
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 5657
+      stars: 5658
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
@@ -162,7 +162,7 @@ recent_stars:
     - name: charles-001/dolphie
       description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
       url: https://github.com/charles-001/dolphie
-      stars: 573
+      stars: 574
 
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
@@ -182,12 +182,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 15906
+      stars: 15912
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server to call 100&#43; LLM APIs using the OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 11732
+      stars: 11733
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
