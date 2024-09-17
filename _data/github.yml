@@ -162,7 +162,7 @@ recent_stars:
     - name: charles-001/dolphie
       description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
       url: https://github.com/charles-001/dolphie
-      stars: 588
+      stars: 589
 
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
@@ -182,17 +182,17 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 17272
+      stars: 17274
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server to call 100&#43; LLM APIs using the OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 12251
+      stars: 12255
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 2112
+      stars: 2113
 
 recent_repos:
 
