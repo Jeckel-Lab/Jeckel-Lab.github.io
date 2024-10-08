@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add textual-datepicker
+      url: https://github.com/Textualize/transcendent-textual/pull/8
+      state: OPEN
+      createdAt: 2024-10-08 14:01:59 &#43;0000 UTC
+      repository:
+        - name: Textualize/transcendent-textual
+        - description: "Textual apps and libraries"
+        - url: https://github.com/Textualize/transcendent-textual
+
     - title: Browser fingerprint
       url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io/pull/2
       state: MERGED
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: #58 cache imap mail content
-      url: https://github.com/jeckel/CRM-Bridge/pull/64
-      state: MERGED
-      createdAt: 2024-02-26 16:53:00 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: polybar/polybar
@@ -182,7 +182,7 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 18759
+      stars: 18762
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
