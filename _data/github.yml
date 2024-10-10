@@ -54,7 +54,7 @@ recent_pull_requests:
 
     - title: Add textual-datepicker
       url: https://github.com/Textualize/transcendent-textual/pull/8
-      state: OPEN
+      state: MERGED
       createdAt: 2024-10-08 14:01:59 &#43;0000 UTC
       repository:
         - name: Textualize/transcendent-textual
@@ -182,12 +182,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 18956
+      stars: 18958
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 12765
+      stars: 12766
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
