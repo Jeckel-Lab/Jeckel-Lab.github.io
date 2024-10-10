@@ -187,7 +187,7 @@ recent_stars:
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 12767
+      stars: 12768
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
