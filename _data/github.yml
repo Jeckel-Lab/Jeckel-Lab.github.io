@@ -182,17 +182,17 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 19634
+      stars: 19637
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 12915
+      stars: 12917
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 2149
+      stars: 2150
 
 recent_repos:
 
