@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jeckel/DxCompanion
+      description: ""
+      url: https://github.com/jeckel/DxCompanion
+      occurred: 2024-10-19 07:00:00 &#43;0000 UTC
+
     - name: jeckel/dotfiles
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
@@ -45,12 +50,16 @@ recent_contributions:
       url: https://github.com/Jeckel-Lab/ipc-shared-memory
       occurred: 2023-10-28 07:00:00 &#43;0000 UTC
 
-    - name: Jeckel-Lab/mautic-webhook-parser
-      description: "A library to parse Mautic&#39;s webhook payloads"
-      url: https://github.com/Jeckel-Lab/mautic-webhook-parser
-      occurred: 2023-10-26 07:00:00 &#43;0000 UTC
-
 recent_pull_requests:
+
+    - title: Feature/basic composer parsing
+      url: https://github.com/jeckel/DxCompanion/pull/1
+      state: MERGED
+      createdAt: 2024-10-16 07:16:19 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
 
     - title: Add textual-datepicker
       url: https://github.com/Textualize/transcendent-textual/pull/8
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Dashboard
-      url: https://github.com/jeckel/CRM-Bridge/pull/65
-      state: MERGED
-      createdAt: 2024-02-27 07:32:57 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: polybar/polybar
@@ -187,7 +187,7 @@ recent_stars:
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13002
+      stars: 13004
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
@@ -195,6 +195,11 @@ recent_stars:
       stars: 2150
 
 recent_repos:
+
+    - name: jeckel/DxCompanion
+      description: ""
+      url: https://github.com/jeckel/DxCompanion
+      stars: 0
 
     - name: jeckel/CRM-Bridge-Docker
       description: "Docker images for CRM-Bridge"
@@ -240,9 +245,4 @@ recent_repos:
       description: "Async Module implementing RPC and Event Broadcast patterns"
       url: https://github.com/jeckel/AsyncP
       stars: 0
-
-    - name: jeckel/codeception-gherkin-contexts
-      description: "Collection of codeception helpers to help Gherkin BDD tests"
-      url: https://github.com/jeckel/codeception-gherkin-contexts
-      stars: 3
 
