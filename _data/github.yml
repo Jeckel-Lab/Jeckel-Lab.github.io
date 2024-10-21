@@ -147,7 +147,7 @@ recent_stars:
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 14144
+      stars: 14145
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
@@ -167,7 +167,7 @@ recent_stars:
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
       url: https://github.com/davatorium/rofi
-      stars: 13200
+      stars: 13201
 
     - name: amtzespinosa/fingerprinter
       description: "Fingerprinter is a simple Browser Fingerprinter built using HTML, CSS and JavaScript.  I have based this project on FingerprintJS but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website."
@@ -182,12 +182,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 19966
+      stars: 19974
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13041
+      stars: 13042
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
