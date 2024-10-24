@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/DxCompanion
       description: ""
       url: https://github.com/jeckel/DxCompanion
-      occurred: 2024-10-19 07:00:00 &#43;0000 UTC
+      occurred: 2024-10-24 07:00:00 &#43;0000 UTC
 
     - name: jeckel/dotfiles
       description: "My Dot files"
@@ -51,6 +51,15 @@ recent_contributions:
       occurred: 2023-10-28 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Update composer package and see docker container&#39;s logs
+      url: https://github.com/jeckel/DxCompanion/pull/2
+      state: MERGED
+      createdAt: 2024-10-24 09:23:52 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
 
     - title: Feature/basic composer parsing
       url: https://github.com/jeckel/DxCompanion/pull/1
@@ -133,21 +142,12 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Treat messages
-      url: https://github.com/jeckel/CRM-Bridge/pull/67
-      state: MERGED
-      createdAt: 2024-02-29 14:51:22 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 14150
+      stars: 14151
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
@@ -182,17 +182,17 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 20401
+      stars: 20408
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13198
+      stars: 13201
 
     - name: filegator/filegator
       description: "Powerful Multi-User File Manager"
       url: https://github.com/filegator/filegator
-      stars: 2158
+      stars: 2159
 
 recent_repos:
 
