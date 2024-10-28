@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add october 2024
+      url: https://github.com/afup-paris/slides-intro/pull/7
+      state: OPEN
+      createdAt: 2024-10-28 20:46:08 &#43;0000 UTC
+      repository:
+        - name: afup-paris/slides-intro
+        - description: "Slides afup-paris des meetups"
+        - url: https://github.com/afup-paris/slides-intro
+
     - title: Update composer package and see docker container&#39;s logs
       url: https://github.com/jeckel/DxCompanion/pull/2
       state: MERGED
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Refactor worker with new UI
-      url: https://github.com/jeckel/CRM-Bridge/pull/68
-      state: MERGED
-      createdAt: 2024-03-01 20:28:51 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: tconbeer/harlequin
@@ -157,7 +157,7 @@ recent_stars:
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 5734
+      stars: 5735
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
@@ -187,12 +187,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 21110
+      stars: 21115
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13324
+      stars: 13325
 
 recent_repos:
 
