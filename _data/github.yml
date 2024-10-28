@@ -45,11 +45,6 @@ recent_contributions:
       url: https://github.com/jolicode/castor
       occurred: 2023-11-27 08:00:00 &#43;0000 UTC
 
-    - name: Jeckel-Lab/ipc-shared-memory
-      description: "A library to use shared memory for Inter-Process Communication without collision"
-      url: https://github.com/Jeckel-Lab/ipc-shared-memory
-      occurred: 2023-10-28 07:00:00 &#43;0000 UTC
-
 recent_pull_requests:
 
     - title: Add october 2024
@@ -187,12 +182,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 21120
+      stars: 21123
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13327
+      stars: 13328
 
 recent_repos:
 
