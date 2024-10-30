@@ -1,14 +1,14 @@
 recent_contributions:
 
+    - name: jeckel/DxCompanion
+      description: ""
+      url: https://github.com/jeckel/DxCompanion
+      occurred: 2024-10-30 07:00:00 &#43;0000 UTC
+
     - name: afup-paris/slides-intro
       description: "Slides afup-paris des meetups"
       url: https://github.com/afup-paris/slides-intro
       occurred: 2024-10-28 07:00:00 &#43;0000 UTC
-
-    - name: jeckel/DxCompanion
-      description: ""
-      url: https://github.com/jeckel/DxCompanion
-      occurred: 2024-10-24 07:00:00 &#43;0000 UTC
 
     - name: jeckel/dotfiles
       description: "My Dot files"
@@ -51,6 +51,15 @@ recent_contributions:
       occurred: 2023-11-27 08:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Project configuration and upgrade Terminal widget
+      url: https://github.com/jeckel/DxCompanion/pull/6
+      state: MERGED
+      createdAt: 2024-10-30 10:38:17 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
 
     - title: Add october 2024
       url: https://github.com/afup-paris/slides-intro/pull/7
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Feature/retrieve spam status
-      url: https://github.com/jeckel/CRM-Bridge/pull/71
-      state: MERGED
-      createdAt: 2024-03-02 00:18:05 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: tconbeer/harlequin
@@ -187,12 +187,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 21324
+      stars: 21327
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13372
+      stars: 13377
 
 recent_repos:
 
