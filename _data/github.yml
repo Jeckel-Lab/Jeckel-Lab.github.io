@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/DxCompanion
       description: ""
       url: https://github.com/jeckel/DxCompanion
-      occurred: 2024-10-30 07:00:00 &#43;0000 UTC
+      occurred: 2024-10-31 07:00:00 &#43;0000 UTC
 
     - name: afup-paris/slides-intro
       description: "Slides afup-paris des meetups"
@@ -51,6 +51,15 @@ recent_contributions:
       occurred: 2023-11-27 08:00:00 &#43;0000 UTC
 
 recent_pull_requests:
+
+    - title: Project custom commands
+      url: https://github.com/jeckel/DxCompanion/pull/7
+      state: MERGED
+      createdAt: 2024-10-31 17:04:44 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
 
     - title: Project configuration and upgrade Terminal widget
       url: https://github.com/jeckel/DxCompanion/pull/6
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Imap fix sync issues
-      url: https://github.com/jeckel/CRM-Bridge/pull/78
-      state: MERGED
-      createdAt: 2024-03-07 10:44:19 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: tconbeer/harlequin
@@ -187,12 +187,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 21467
+      stars: 21469
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13404
+      stars: 13405
 
 recent_repos:
 
