@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Update composer service with internal cache
+      url: https://github.com/jeckel/DxCompanion/pull/8
+      state: OPEN
+      createdAt: 2024-11-04 12:50:30 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
+
     - title: Project custom commands
       url: https://github.com/jeckel/DxCompanion/pull/7
       state: MERGED
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: ""
         - url: https://github.com/jeckel/CRM-Bridge
 
-    - title: Upgrade to tabler
-      url: https://github.com/jeckel/CRM-Bridge/pull/81
-      state: MERGED
-      createdAt: 2024-03-13 10:13:30 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: tconbeer/harlequin
@@ -187,12 +187,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 21763
+      stars: 21765
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13513
+      stars: 13514
 
 recent_repos:
 
