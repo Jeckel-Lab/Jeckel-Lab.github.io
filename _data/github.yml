@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/DxCompanion
       description: ""
       url: https://github.com/jeckel/DxCompanion
-      occurred: 2024-11-04 08:00:00 &#43;0000 UTC
+      occurred: 2024-11-05 08:00:00 &#43;0000 UTC
 
     - name: afup-paris/slides-intro
       description: "Slides afup-paris des meetups"
@@ -187,12 +187,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 21833
+      stars: 21842
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13546
+      stars: 13552
 
 recent_repos:
 
