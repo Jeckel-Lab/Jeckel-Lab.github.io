@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add generics package manager service
+      url: https://github.com/jeckel/DxCompanion/pull/10
+      state: OPEN
+      createdAt: 2024-11-09 11:41:45 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
+
     - title: Add docker panel on project summary
       url: https://github.com/jeckel/DxCompanion/pull/9
       state: MERGED
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: "Jeckel-Lab website"
         - url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
 
-    - title: Allow Stringable type
-      url: https://github.com/Jeckel-Lab/contract/pull/35
-      state: MERGED
-      createdAt: 2024-03-25 15:04:47 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/contract
-        - description: "A set of contracts and interfaces to use in different packages"
-        - url: https://github.com/Jeckel-Lab/contract
-
 recent_stars:
 
     - name: tconbeer/harlequin
@@ -187,12 +187,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 22249
+      stars: 22250
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13674
+      stars: 13677
 
 recent_repos:
 
