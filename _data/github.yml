@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add docker panel on project summary
+      url: https://github.com/jeckel/DxCompanion/pull/9
+      state: OPEN
+      createdAt: 2024-11-09 08:55:00 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
+
     - title: Add composer panel on project summary, and add an application context manager
       url: https://github.com/jeckel/DxCompanion/pull/8
       state: MERGED
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: "A set of contracts and interfaces to use in different packages"
         - url: https://github.com/Jeckel-Lab/contract
 
-    - title: Feature/update contacts
-      url: https://github.com/jeckel/CRM-Bridge/pull/82
-      state: MERGED
-      createdAt: 2024-03-15 12:17:05 &#43;0000 UTC
-      repository:
-        - name: jeckel/CRM-Bridge
-        - description: ""
-        - url: https://github.com/jeckel/CRM-Bridge
-
 recent_stars:
 
     - name: tconbeer/harlequin
@@ -157,7 +157,7 @@ recent_stars:
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 5748
+      stars: 5749
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
@@ -187,12 +187,12 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 22236
+      stars: 22242
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13671
+      stars: 13673
 
 recent_repos:
 
