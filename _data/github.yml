@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/DxCompanion
       description: ""
       url: https://github.com/jeckel/DxCompanion
-      occurred: 2024-11-05 08:00:00 &#43;0000 UTC
+      occurred: 2024-11-09 08:00:00 &#43;0000 UTC
 
     - name: afup-paris/slides-intro
       description: "Slides afup-paris des meetups"
@@ -54,7 +54,7 @@ recent_pull_requests:
 
     - title: Add docker panel on project summary
       url: https://github.com/jeckel/DxCompanion/pull/9
-      state: OPEN
+      state: MERGED
       createdAt: 2024-11-09 08:55:00 &#43;0000 UTC
       repository:
         - name: jeckel/DxCompanion
@@ -187,7 +187,7 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 22242
+      stars: 22245
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
