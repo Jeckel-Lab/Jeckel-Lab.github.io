@@ -52,6 +52,15 @@ recent_contributions:
 
 recent_pull_requests:
 
+    - title: Add support for uv package manager
+      url: https://github.com/jeckel/DxCompanion/pull/11
+      state: OPEN
+      createdAt: 2024-11-12 08:59:03 &#43;0000 UTC
+      repository:
+        - name: jeckel/DxCompanion
+        - description: ""
+        - url: https://github.com/jeckel/DxCompanion
+
     - title: Add generics package manager service
       url: https://github.com/jeckel/DxCompanion/pull/10
       state: MERGED
@@ -133,15 +142,6 @@ recent_pull_requests:
         - description: "Textual apps and libraries"
         - url: https://github.com/Textualize/transcendent-textual
 
-    - title: Browser fingerprint
-      url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io/pull/2
-      state: MERGED
-      createdAt: 2024-05-22 09:34:41 &#43;0000 UTC
-      repository:
-        - name: Jeckel-Lab/Jeckel-Lab.github.io
-        - description: "Jeckel-Lab website"
-        - url: https://github.com/Jeckel-Lab/Jeckel-Lab.github.io
-
 recent_stars:
 
     - name: tconbeer/harlequin
@@ -172,7 +172,7 @@ recent_stars:
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
       url: https://github.com/davatorium/rofi
-      stars: 13290
+      stars: 13291
 
     - name: amtzespinosa/fingerprinter
       description: "Fingerprinter is a simple Browser Fingerprinter built using HTML, CSS and JavaScript.  I have based this project on FingerprintJS but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website."
@@ -182,17 +182,17 @@ recent_stars:
     - name: bflorat/modele-da
       description: "Modèle de Dossier d&#39;Architecture"
       url: https://github.com/bflorat/modele-da
-      stars: 230
+      stars: 231
 
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 22486
+      stars: 22491
 
     - name: BerriAI/litellm
       description: "Python SDK, Proxy Server (LLM Gateway) to call 100&#43; LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]"
       url: https://github.com/BerriAI/litellm
-      stars: 13769
+      stars: 13771
 
 recent_repos:
 
