@@ -3,7 +3,7 @@ recent_contributions:
     - name: jeckel/DxCompanion
       description: ""
       url: https://github.com/jeckel/DxCompanion
-      occurred: 2024-11-11 08:00:00 &#43;0000 UTC
+      occurred: 2024-11-12 08:00:00 &#43;0000 UTC
 
     - name: afup-paris/slides-intro
       description: "Slides afup-paris des meetups"
@@ -54,7 +54,7 @@ recent_pull_requests:
 
     - title: Add support for uv package manager
       url: https://github.com/jeckel/DxCompanion/pull/11
-      state: OPEN
+      state: MERGED
       createdAt: 2024-11-12 08:59:03 &#43;0000 UTC
       repository:
         - name: jeckel/DxCompanion
