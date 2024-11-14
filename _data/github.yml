@@ -152,7 +152,7 @@ recent_stars:
     - name: tconbeer/harlequin
       description: "The SQL IDE for Your Terminal."
       url: https://github.com/tconbeer/harlequin
-      stars: 3737
+      stars: 3738
 
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
@@ -192,7 +192,7 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 22661
+      stars: 22673
 
 recent_repos:
 
