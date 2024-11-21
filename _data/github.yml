@@ -162,7 +162,7 @@ recent_stars:
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 5759
+      stars: 5760
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
@@ -172,7 +172,7 @@ recent_stars:
     - name: charles-001/dolphie
       description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
       url: https://github.com/charles-001/dolphie
-      stars: 666
+      stars: 667
 
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
