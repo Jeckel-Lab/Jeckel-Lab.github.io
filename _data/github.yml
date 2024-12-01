@@ -157,7 +157,7 @@ recent_stars:
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 14229
+      stars: 14230
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
@@ -192,7 +192,7 @@ recent_stars:
     - name: infiniflow/ragflow
       description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
       url: https://github.com/infiniflow/ragflow
-      stars: 24220
+      stars: 24224
 
 recent_repos:
 
