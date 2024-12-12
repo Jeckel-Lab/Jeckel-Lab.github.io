@@ -134,6 +134,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: algolia/my-first-learning-to-rank
+      description: "Workshop for learning to rank"
+      url: https://github.com/algolia/my-first-learning-to-rank
+      stars: 3
+
     - name: jeckel/DxCompanion
       description: ""
       url: https://github.com/jeckel/DxCompanion
@@ -167,7 +172,7 @@ recent_stars:
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
       url: https://github.com/davatorium/rofi
-      stars: 13412
+      stars: 13413
 
     - name: amtzespinosa/fingerprinter
       description: "Fingerprinter is a simple Browser Fingerprinter built using HTML, CSS and JavaScript.  I have based this project on FingerprintJS but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website."
@@ -178,11 +183,6 @@ recent_stars:
       description: "Modèle de Dossier d&#39;Architecture"
       url: https://github.com/bflorat/modele-da
       stars: 235
-
-    - name: infiniflow/ragflow
-      description: "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding."
-      url: https://github.com/infiniflow/ragflow
-      stars: 25231
 
 recent_repos:
 
