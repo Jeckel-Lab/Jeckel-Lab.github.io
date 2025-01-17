@@ -134,6 +134,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: EvidenceB/athena-content-tools
+      description: "Monorepo hosting tools for Athena Content (learning_builder, etc.)"
+      url: https://github.com/EvidenceB/athena-content-tools
+      stars: 1
+
     - name: pmartinolli/MyThesaurus
       description: "Design and manage your own personal thesaurus to index and retrieve informations from your reference management software"
       url: https://github.com/pmartinolli/MyThesaurus
@@ -152,7 +157,7 @@ recent_stars:
     - name: tconbeer/harlequin
       description: "The SQL IDE for Your Terminal."
       url: https://github.com/tconbeer/harlequin
-      stars: 3974
+      stars: 3975
 
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
@@ -172,17 +177,12 @@ recent_stars:
     - name: charles-001/dolphie
       description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
       url: https://github.com/charles-001/dolphie
-      stars: 708
+      stars: 709
 
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
       url: https://github.com/davatorium/rofi
       stars: 13551
-
-    - name: amtzespinosa/fingerprinter
-      description: "Fingerprinter is a simple Browser Fingerprinter built using HTML, CSS and JavaScript.  I have based this project on FingerprintJS but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website."
-      url: https://github.com/amtzespinosa/fingerprinter
-      stars: 2
 
 recent_repos:
 
