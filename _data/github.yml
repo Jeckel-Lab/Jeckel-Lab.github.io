@@ -157,7 +157,7 @@ recent_stars:
     - name: tconbeer/harlequin
       description: "The SQL IDE for Your Terminal."
       url: https://github.com/tconbeer/harlequin
-      stars: 4033
+      stars: 4034
 
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
@@ -182,7 +182,7 @@ recent_stars:
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
       url: https://github.com/davatorium/rofi
-      stars: 13588
+      stars: 13589
 
 recent_repos:
 
