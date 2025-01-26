@@ -177,12 +177,12 @@ recent_stars:
     - name: charles-001/dolphie
       description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
       url: https://github.com/charles-001/dolphie
-      stars: 711
+      stars: 712
 
     - name: davatorium/rofi
       description: "Rofi: A window switcher, application launcher and dmenu replacement"
       url: https://github.com/davatorium/rofi
-      stars: 13596
+      stars: 13597
 
 recent_repos:
 
