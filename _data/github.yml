@@ -134,6 +134,11 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: faif/python-patterns
+      description: "A collection of design patterns/idioms in Python"
+      url: https://github.com/faif/python-patterns
+      stars: 40822
+
     - name: EvidenceB/athena-content-tools
       description: "Monorepo hosting tools for Athena Content (learning_builder, etc.)"
       url: https://github.com/EvidenceB/athena-content-tools
@@ -157,12 +162,12 @@ recent_stars:
     - name: tconbeer/harlequin
       description: "The SQL IDE for Your Terminal."
       url: https://github.com/tconbeer/harlequin
-      stars: 4051
+      stars: 4052
 
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 14327
+      stars: 14326
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
@@ -178,11 +183,6 @@ recent_stars:
       description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
       url: https://github.com/charles-001/dolphie
       stars: 713
-
-    - name: davatorium/rofi
-      description: "Rofi: A window switcher, application launcher and dmenu replacement"
-      url: https://github.com/davatorium/rofi
-      stars: 13604
 
 recent_repos:
 
