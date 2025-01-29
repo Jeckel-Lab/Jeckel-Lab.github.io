@@ -129,10 +129,15 @@ recent_pull_requests:
 
 recent_stars:
 
+    - name: EvidenceB/athena-docs
+      description: ""
+      url: https://github.com/EvidenceB/athena-docs
+      stars: 1
+
     - name: faif/python-patterns
       description: "A collection of design patterns/idioms in Python"
       url: https://github.com/faif/python-patterns
-      stars: 40831
+      stars: 40832
 
     - name: EvidenceB/athena-content-tools
       description: "Monorepo hosting tools for Athena Content (learning_builder, etc.)"
@@ -173,11 +178,6 @@ recent_stars:
       description: "Curated list of Polybar "
       url: https://github.com/TiagoDanin/Awesome-Polybar
       stars: 473
-
-    - name: charles-001/dolphie
-      description: "Your single pane of glass for real-time analytics into MySQL/MariaDB &amp; ProxySQL"
-      url: https://github.com/charles-001/dolphie
-      stars: 716
 
 recent_repos:
 
