@@ -152,17 +152,17 @@ recent_stars:
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 14488
+      stars: 14487
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 5878
+      stars: 5877
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
       url: https://github.com/TiagoDanin/Awesome-Polybar
-      stars: 477
+      stars: 476
 
 recent_repos:
 
