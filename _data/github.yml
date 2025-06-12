@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jeckel/prefect-workflow
+      description: ""
+      url: https://github.com/jeckel/prefect-workflow
+      occurred: 2025-06-12 07:00:00 &#43;0000 UTC
+
     - name: jeckel/DxCompanion
       description: ""
       url: https://github.com/jeckel/DxCompanion
@@ -152,7 +157,7 @@ recent_stars:
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 14672
+      stars: 14673
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
@@ -165,6 +170,11 @@ recent_stars:
       stars: 475
 
 recent_repos:
+
+    - name: jeckel/prefect-workflow
+      description: ""
+      url: https://github.com/jeckel/prefect-workflow
+      stars: 0
 
     - name: jeckel/DxCompanion
       description: ""
@@ -209,10 +219,5 @@ recent_repos:
     - name: jeckel/ApiMocker
       description: "Json PHP Server used to mock an external API when testing"
       url: https://github.com/jeckel/ApiMocker
-      stars: 0
-
-    - name: jeckel/AsyncP
-      description: "Async Module implementing RPC and Event Broadcast patterns"
-      url: https://github.com/jeckel/AsyncP
       stars: 0
 
