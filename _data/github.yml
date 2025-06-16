@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: jeckel/dotfiles
+      description: "My Dot files"
+      url: https://github.com/jeckel/dotfiles
+      occurred: 2025-06-16 07:00:00 &#43;0000 UTC
+
     - name: jeckel/prefect-workflow
       description: ""
       url: https://github.com/jeckel/prefect-workflow
@@ -14,11 +19,6 @@ recent_contributions:
       description: "Slides afup-paris des meetups"
       url: https://github.com/afup-paris/slides-intro
       occurred: 2024-10-28 07:00:00 &#43;0000 UTC
-
-    - name: jeckel/dotfiles
-      description: "My Dot files"
-      url: https://github.com/jeckel/dotfiles
-      occurred: 2024-09-08 07:00:00 &#43;0000 UTC
 
 recent_pull_requests:
 
