@@ -15,11 +15,6 @@ recent_contributions:
       url: https://github.com/jeckel/DxCompanion
       occurred: 2024-11-12 08:00:00 &#43;0000 UTC
 
-    - name: afup-paris/slides-intro
-      description: "Slides afup-paris des meetups"
-      url: https://github.com/afup-paris/slides-intro
-      occurred: 2024-10-28 07:00:00 &#43;0000 UTC
-
 recent_pull_requests:
 
     - title: Add support for uv package manager
@@ -152,12 +147,12 @@ recent_stars:
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 15000
+      stars: 15001
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 6086
+      stars: 6087
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
