@@ -142,7 +142,7 @@ recent_stars:
     - name: tconbeer/harlequin
       description: "The SQL IDE for Your Terminal."
       url: https://github.com/tconbeer/harlequin
-      stars: 5179
+      stars: 5180
 
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
