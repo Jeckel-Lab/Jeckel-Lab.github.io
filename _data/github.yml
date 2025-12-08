@@ -112,7 +112,7 @@ recent_stars:
     - name: faif/python-patterns
       description: "A collection of design patterns/idioms in Python"
       url: https://github.com/faif/python-patterns
-      stars: 42515
+      stars: 42514
 
     - name: EvidenceB/athena-content-tools
       description: "Monorepo hosting tools for Athena Content (learning_builder, etc.)"
@@ -142,17 +142,17 @@ recent_stars:
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
       url: https://github.com/polybar/polybar
-      stars: 15070
+      stars: 15069
 
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 6123
+      stars: 6122
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
       url: https://github.com/TiagoDanin/Awesome-Polybar
-      stars: 483
+      stars: 484
 
 recent_repos:
 
