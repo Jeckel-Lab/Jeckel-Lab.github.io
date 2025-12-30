@@ -122,7 +122,7 @@ recent_stars:
     - name: pmartinolli/MyThesaurus
       description: "Design and manage your own personal thesaurus to index and retrieve informations from your reference management software"
       url: https://github.com/pmartinolli/MyThesaurus
-      stars: 6
+      stars: 7
 
     - name: algolia/my-first-learning-to-rank
       description: "Workshop for learning to rank"
