@@ -147,7 +147,7 @@ recent_stars:
     - name: adi1090x/polybar-themes
       description: "A huge collection of polybar themes with different styles, colors and variants."
       url: https://github.com/adi1090x/polybar-themes
-      stars: 6136
+      stars: 6137
 
     - name: TiagoDanin/Awesome-Polybar
       description: "Curated list of Polybar "
