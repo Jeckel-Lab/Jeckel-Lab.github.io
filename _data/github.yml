@@ -112,7 +112,7 @@ recent_stars:
     - name: faif/python-patterns
       description: "A collection of design patterns/idioms in Python"
       url: https://github.com/faif/python-patterns
-      stars: 42773
+      stars: 42774
 
     - name: EvidenceB/athena-content-tools
       description: "Monorepo hosting tools for Athena Content (learning_builder, etc.)"
