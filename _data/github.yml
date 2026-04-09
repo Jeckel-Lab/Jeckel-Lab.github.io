@@ -1,5 +1,10 @@
 recent_contributions:
 
+    - name: EvidenceB/.github
+      description: "Public EvidenceB Repository"
+      url: https://github.com/EvidenceB/.github
+      occurred: 2026-04-09 07:00:00 &#43;0000 UTC
+
     - name: jeckel/dotfiles
       description: "My Dot files"
       url: https://github.com/jeckel/dotfiles
@@ -112,7 +117,7 @@ recent_stars:
     - name: faif/python-patterns
       description: "A collection of design patterns/idioms in Python"
       url: https://github.com/faif/python-patterns
-      stars: 42753
+      stars: 42743
 
     - name: EvidenceB/athena-content-tools
       description: "Monorepo hosting tools for Athena Content (learning_builder, etc.)"
@@ -137,7 +142,7 @@ recent_stars:
     - name: tconbeer/harlequin
       description: "The SQL IDE for Your Terminal."
       url: https://github.com/tconbeer/harlequin
-      stars: 5953
+      stars: 5954
 
     - name: polybar/polybar
       description: "A fast and easy-to-use status bar"
